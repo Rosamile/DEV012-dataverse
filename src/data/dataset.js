@@ -1,5 +1,497 @@
 export default [
   {
+    "Id": "Nike001",
+    "name": "Air Max 1",
+    "shortDescription": "El inicio de la revolución Air Max.",
+    "description": "El Nike Air Max 1 sentó las bases para el auge de las zapatillas con tecnología Air Max. Su diseño icónico y la unidad visible de aire en el talón hicieron que se convirtiera en un clásico instantáneo en 1987.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.05t3Jm5HE_bAs_w7PUGd?pid=ImgGn",
+    "facts": {
+      "model year": "1987",
+      "material": "Leather and Mesh",
+      "gender": "Unisex",
+      "colors": ["White", "Red", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Nike002",
+    "name": "Air Force 1",
+    "shortDescription": "Un ícono del baloncesto y la cultura.",
+    "description": "Lanzado originalmente en 1982, el Nike Air Force 1 ha sido un pilar en la cultura de las zapatillas, siendo adorado tanto en las canchas como en las calles.",
+    "imageUrl": "https://th.bing.com/th/id/OIG._eXLvUFm36dVBnqnHHY_?pid=ImgGn",
+    "facts": {
+      "model year": "1982",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Black"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Nike003",
+    "name": "Nike SB Dunk",
+    "shortDescription": "Del baloncesto al skate.",
+    "description": "Originalmente lanzado como una zapatilla de baloncesto, el Nike SB Dunk se reinventó para el skateboarding. Es adorado por skaters y coleccionistas por igual.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.lUJX.Ex.3EhCR6xSsxJk?pid=ImgGn",
+    "facts": {
+      "model year": "2002",
+      "material": "Leather and Suede",
+      "gender": "Unisex",
+      "colors": ["Green", "Brown", "Yellow"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Nike004",
+    "name": "Nike React Element",
+    "shortDescription": "Confort y estilo moderno.",
+    "description": "El Nike React Element combina una estética futurista con la tecnología React de Nike para un confort inigualable.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.1EMC47gmrODKRgDr64er?pid=ImgGn",
+    "facts": {
+      "model year": "2018",
+      "material": "Synthetic and Mesh",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Blue", "Pink"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Nike005",
+    "name": "Nike Air VaporMax",
+    "shortDescription": "Revolución Air al máximo.",
+    "description": "El Nike Air VaporMax lleva la tecnología Air Max al siguiente nivel, ofreciendo una amortiguación que se siente como si estuvieras caminando sobre el aire.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.H8Z1HiXR820f7kWZR.QH?pid=ImgGn",
+    "facts": {
+      "model year": "2017",
+      "material": "Flyknit",
+      "gender": "Unisex",
+      "colors": ["Black", "Grey", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Adidas001",
+    "name": "Superstar",
+    "shortDescription": "El ícono del estilo urbano.",
+    "description": "Desde su debut en las canchas de baloncesto en los años 70, el Adidas Superstar ha sido un referente en la moda urbana, caracterizado por su puntera de goma y las tres rayas laterales.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.JzuIYBy0wD0h6CO9_ZHZ?pid=ImgGn",
+    "facts": {
+      "model year": "1969",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Black", "Gold"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Adidas002",
+    "name": "Ultraboost",
+    "shortDescription": "Innovación y confort en el running.",
+    "description": "Adidas Ultraboost combina la última tecnología en amortiguación con un diseño estilizado, ofreciendo una experiencia de running sin igual.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.lKRrSTM3C0i1SW8S4lI3?pid=ImgGn",
+    "facts": {
+      "model year": "2015",
+      "material": "Primeknit",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Blue", "Grey"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Adidas003",
+    "name": "NMD",
+    "shortDescription": "Diseño urbano futurista.",
+    "description": "Inspirado en la herencia de Adidas, el NMD combina estilo y confort con un diseño minimalista y tecnología de punta.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.iydZa_zBDUwLPPG.yaGa?pid=ImgGn",
+    "facts": {
+      "model year": "2015",
+      "material": "Mesh and Primeknit",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red", "Green"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Adidas004",
+    "name": "Stan Smith",
+    "shortDescription": "El clásico tenis de Adidas.",
+    "description": "Nombrado en honor al tenista Stan Smith, este modelo se ha convertido en un ícono de la moda y el diseño, con su estética simple y su distintiva silueta.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.IC4pImZ0qKCWB2xQRyfD?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+    "facts": {
+      "model year": "1963",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Green", "Navy"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Adidas005",
+    "name": "Gazelle",
+    "shortDescription": "El toque retro del fútbol de los 60.",
+    "description": "El Adidas Gazelle captura la esencia del fútbol de los años 60 con una silueta sencilla y una variedad de colores vibrantes.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.mHc2KlAu5JeXj2dXf74t?pid=ImgGn",
+    "facts": {
+      "model year": "1966",
+      "material": "Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "Red", "Blue", "Yellow"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Skechers001",
+    "name": "D'Lites",
+    "shortDescription": "Comodidad clásica y estilo retro.",
+    "description": "D'Lites de Skechers ofrece una silueta chunky con una plantilla Memory Foam para un confort superior. Se ha convertido en un favorito tanto para el uso diario como para el estilo athleisure.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.3ECGvFd0Nls0IyPNksY2?pid=ImgGn",
+    "facts": {
+      "model year": "2000",
+      "material": "Leather and Mesh",
+      "gender": "Unisex",
+      "colors": ["White", "Black", "Grey"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Skechers002",
+    "name": "Go Walk",
+    "shortDescription": "Innovación en el caminar.",
+    "description": "La serie Go Walk de Skechers ha sido diseñada para proporcionar la máxima comodidad en tus caminatas diarias, con tecnologías avanzadas y materiales de alta calidad.",
+    "imageUrl": "https://th.bing.com/th/id/OIG._Cz82o_q8a2UDByuSOwW?pid=ImgGn",
+    "facts": {
+      "model year": "2012",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Black", "Blue", "Grey", "Pink"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Skechers003",
+    "name": "Bobs",
+    "shortDescription": "Estilo casual con causa.",
+    "description": "La línea Bobs de Skechers no solo ofrece comodidad y estilo, sino que también contribuye a causas benéficas con cada compra, enfocándose en el bienestar animal y en niños necesitados.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.AskXjNbC182bDrPAL7EO?pid=ImgGn",
+    "facts": {
+      "model year": "2010",
+      "material": "Canvas",
+      "gender": "Women",
+      "colors": ["Black", "Navy", "Taupe"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Skechers004",
+    "name": "Work Relaxed Fit",
+    "shortDescription": "Protección y comodidad en el trabajo.",
+    "description": "Los zapatos Work Relaxed Fit de Skechers proporcionan la combinación perfecta de seguridad y confort para el ámbito laboral, con características como suelas antideslizantes y punteras de acero.",
+    "imageUrl": "https://th.bing.com/th/id/OIG..KFhHV_CFVnD_fzBupIZ?pid=ImgGn",
+    "facts": {
+      "model year": "2014",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["Black", "Brown"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Skechers005",
+    "name": "Streetwear",
+    "shortDescription": "Tendencia urbana con confort.",
+    "description": "La colección Streetwear de Skechers ofrece diseños vanguardistas sin sacrificar la comodidad, ideal para aquellos que buscan un look contemporáneo en su día a día.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.x5a0FHfDFpsuZXXOoQ98?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+    "facts": {
+      "model year": "2018",
+      "material": "Leather and Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Gold"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "NewBalance001",
+    "name": "990v5",
+    "shortDescription": "Heritage design meets modern comfort.",
+    "description": "New Balance's 990v5 is a classic model that has become a staple for both sneakerheads and those looking for daily comfort. With its perfect blend of cushioning and style, it represents decades of innovation.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.NK0TfbqcRgMK3MWcALSU?pid=ImgGn",
+    "facts": {
+      "model year": "1982",
+      "material": "Suede and Mesh",
+      "gender": "Unisex",
+      "colors": ["Grey", "Navy", "Black"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "NewBalance002",
+    "name": "574",
+    "shortDescription": "Iconic and versatile.",
+    "description": "The 574 model by New Balance is one of the brand's most recognizable and timeless designs, offering versatility for everyday wear with a blend of classic style and innovative materials.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.cSB8JsDYo.frHXNIRPX0?pid=ImgGn",
+    "facts": {
+      "model year": "1988",
+      "material": "Suede and Mesh",
+      "gender": "Unisex",
+      "colors": ["Grey", "Navy", "Red", "Black"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "NewBalance003",
+    "name": "Fresh Foam 1080v11",
+    "shortDescription": "Engineered for precision comfort.",
+    "description": "The Fresh Foam 1080v11 offers luxurious cushioning and a soft ride, making it perfect for both runners and casual wearers. Its modern design and advanced cushioning technology make it stand out.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.aC2acTjd6XGuDlpilaYh?pid=ImgGn",
+    "facts": {
+      "model year": "2021",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Black", "Silver", "Blue", "White"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "NewBalance004",
+    "name": "FuelCell Echo",
+    "shortDescription": "Energized speed for the fast.",
+    "description": "New Balance's FuelCell Echo is built for speed, featuring the new and improved FuelCell foam, delivering a propulsive feel to help drive you forward with each step.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.fiqIszCstPZokEng6DFN?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+    "facts": {
+      "model year": "2020",
+      "material": "Knit",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "NewBalance005",
+    "name": "X-90 Reconstructed",
+    "shortDescription": "Inspired by the 90s, built for today.",
+    "description": "The X-90 Reconstructed draws inspiration from the 90s New Balance series, providing a retro look combined with modern features and comfort.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.GcP3e1_yGs2wlXG1F8SY?pid=ImgGn",
+    "facts": {
+      "model year": "2019",
+      "material": "Suede and Mesh",
+      "gender": "Unisex",
+      "colors": ["Grey", "White", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  //Revisar
+  {
+    "Id": "ASICS001",
+    "name": "GEL-Kayano 27",
+    "shortDescription": "Estabilidad y confort en cada paso.",
+    "description": "El GEL-Kayano 27 es uno de los modelos insignia de ASICS, diseñado para ofrecer la máxima estabilidad y confort en carreras largas, gracias a su tecnología GEL para una amortiguación superior.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.QsJJFhTlr9yObX_S3_Et?pid=ImgGn",
+    "facts": {
+      "model year": "2020",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Black", "Blue", "White"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "ASICS002",
+    "name": "GEL-Nimbus 23",
+    "shortDescription": "Amortiguación premium para corredores.",
+    "description": "El GEL-Nimbus 23 ofrece un rendimiento duradero y un confort excepcional para los corredores de larga distancia, haciendo uso de la tecnología GEL para una mejor absorción de impactos.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.5jwYun5A2ax_fdBCjulE?pid=ImgGn",
+    "facts": {
+      "model year": "2021",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Red", "Grey", "Green"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "ASICS003",
+    "name": "GEL-Cumulus 22",
+    "shortDescription": "Para corredores neutros.",
+    "description": "El GEL-Cumulus 22 es perfecto para corredores neutros, ofreciendo un ajuste suave y una transición flexible, con la conocida amortiguación GEL de ASICS.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.oPRiQOAlDlXObCJF23on?pid=ImgGn",
+    "facts": {
+      "model year": "2020",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Blue", "White", "Black"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "ASICS004",
+    "name": "GT-2000 9",
+    "shortDescription": "Estabilidad y sujeción en la carrera.",
+    "description": "El GT-2000 9 de ASICS es ideal para aquellos que necesitan estabilidad adicional cuando corren. Su diseño y tecnología ofrecen un apoyo superior sin sacrificar la comodidad.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.TwRDyWkWcmhKKN5n8r7F?pid=ImgGn",
+    "facts": {
+      "model year": "2020",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Grey", "Green", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "ASICS005",
+    "name": "GEL-Quantum 360 6",
+    "shortDescription": "Innovación en amortiguación.",
+    "description": "El GEL-Quantum 360 6 integra la tecnología GEL en toda la entresuela, ofreciendo una amortiguación 360 grados para una experiencia de carrera suave y resistente.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.Xt3AbSVHt7MCmyVo705T?pid=ImgGn",
+    "facts": {
+      "model year": "2021",
+      "material": "Mesh and Synthetic",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "PUMA001",
+    "name": "Clyde",
+    "shortDescription": "Clásico del baloncesto de los 70.",
+    "description": "El PUMA Clyde, nombrado en honor al jugador de baloncesto Walt 'Clyde' Frazier, combina un estilo vintage con comodidad moderna, siendo un clásico adorado tanto en las canchas como en las calles.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.vXdgGM8Vs3KkJjlBfAAx?pid=ImgGn",
+    "facts": {
+      "model year": "1973",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "PUMA002",
+    "name": "RS-X³",
+    "shortDescription": "Redefiniendo el estilo retro.",
+    "description": "El RS-X³ toma elementos de los archivos de running de PUMA y los combina con un diseño futurista, creando un modelo que es a la vez nostálgico y moderno.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.4itLMHcYZhVSdgZ3GjOv?pid=ImgGn",
+    "facts": {
+      "model year": "2019",
+      "material": "Mesh and Leather",
+      "gender": "Unisex",
+      "colors": ["Blue", "White", "Pink"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "PUMA003",
+    "name": "Future Rider",
+    "shortDescription": "Herencia de running con toque moderno.",
+    "description": "El Future Rider de PUMA combina un diseño inspirado en los 80 con tecnologías actuales, ofreciendo un look y sensación únicos, ideales para la moda urbana de hoy.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.zoBNmJ2tr_fPEOIUarUn?pid=ImgGn",
+    "facts": {
+      "model year": "2020",
+      "material": "Nylon and Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Yellow"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "PUMA004",
+    "name": "Thunder Spectra",
+    "shortDescription": "Silueta chunky y audaz.",
+    "description": "El Thunder Spectra toma inspiración de los archivos de running y lo lleva al límite con su diseño chunky y audaz, destacándose en cualquier multitud.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.6xRJBUNq6hPwnrPd3m2w?pid=ImgGn",
+    "facts": {
+      "model year": "2018",
+      "material": "Mesh and Leather",
+      "gender": "Unisex",
+      "colors": ["Grey", "Black", "Multicolor"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "PUMA005",
+    "name": "Suede Classic",
+    "shortDescription": "El icono de PUMA.",
+    "description": "El Suede Classic ha sido un pilar en la cultura de las zapatillas desde los años 60. Su diseño sencillo y su construcción de gamuza de alta calidad lo han convertido en un favorito a lo largo de las décadas.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.xy0EpUxgdKF6ep4z7rwQ?pid=ImgGn",
+    "facts": {
+      "model year": "1968",
+      "material": "Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "Red", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Reebok001",
+    "name": "Classic Leather",
+    "shortDescription": "El eterno clásico de Reebok.",
+    "description": "El Classic Leather de Reebok ha sido un ícono desde su lanzamiento en los años 80, ofreciendo un diseño atemporal y confort duradero. Su versatilidad lo ha hecho popular tanto en las calles como en el gimnasio.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.0ZVpEiI_mFpnTIRkn14A?pid=ImgGn",
+    "facts": {
+      "model year": "1983",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Black", "Grey"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Reebok002",
+    "name": "InstaPump Fury",
+    "shortDescription": "Tecnología y estilo audaz.",
+    "description": "El InstaPump Fury se destaca por su diseño único y su sistema de inflado personalizable, ofreciendo un ajuste perfecto y una estética inconfundible.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.MkzFKSOtUnAAF1oG3.IH?pid=ImgGn",
+    "facts": {
+      "model year": "1994",
+      "material": "Synthetic",
+      "gender": "Unisex",
+      "colors": ["Black", "Yellow", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Reebok003",
+    "name": "Club C 85",
+    "shortDescription": "Simplicidad y elegancia en una zapatilla.",
+    "description": "El Club C 85 es un clásico atemporal de Reebok, conocido por su diseño minimalista y su confort. Ideal tanto para el deporte como para el uso diario.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.OB3yFq2novssEvztlYok?pid=ImgGn",
+    "facts": {
+      "model year": "1985",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Navy", "Green"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Reebok004",
+    "name": "Zig Kinetica",
+    "shortDescription": "Innovación en amortiguación y estilo.",
+    "description": "El Zig Kinetica presenta una suela con diseño ZigTech, brindando una combinación de energía y estilo. Su diseño moderno y funcionalidades avanzadas lo hacen ideal para un rendimiento óptimo.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.laC_C7.qR0KPjPbj98GN?pid=ImgGn",
+    "facts": {
+      "model year": "2020",
+      "material": "Mesh and Synthetic",
+      "gender": "Unisex",
+      "colors": ["Black", "Red", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "Id": "Reebok005",
+    "name": "Question Mid",
+    "shortDescription": "El legado de Allen Iverson.",
+    "description": "El Question Mid es uno de los modelos más icónicos de baloncesto de Reebok, asociado con la leyenda de la NBA, Allen Iverson. Su diseño distintivo y su rendimiento en la cancha lo han hecho un favorito entre muchos.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.3wTpdoWiIHAn6C5yIuJ5?pid=ImgGn",
+    "facts": {
+      "model year": "1996",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Red", "Black"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  //ejemplo
+/*  {
     "id": "ada-lovelace",
     "name": "Ada Lovelace",
     "shortDescription": "Pionera en la programación, primera programadora de la historia.",
@@ -31,348 +523,6 @@ export default [
       "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
     }
   },
-  {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
-  },
-  {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
-  },
-  {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
-  },
-  {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
-  },
-  {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
-  },
-  {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
-  },
-  {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
-  },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
-  },
-  {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
-  },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
-  },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
-  },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
-  },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
-  },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
-    }
-  }
+ 
+*/
 ];

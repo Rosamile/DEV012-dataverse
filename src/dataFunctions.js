@@ -4,6 +4,7 @@ export const example = () => {
   return 'example';
 };
 
-export const anotherExample = () => {
-  return [];
+
+export const sortData = (data, sortBy, sortOrder) => {
+  return [undefined, OptionValue, Model];
 };
