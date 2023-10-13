@@ -6,11 +6,11 @@ export default [
     "description": "El Nike Air Max 1 sentó las bases para el auge de las zapatillas con tecnología Air Max. Su diseño icónico y la unidad visible de aire en el talón hicieron que se convirtiera en un clásico instantáneo en 1987.",
     "imageUrl": "https://th.bing.com/th/id/OIG.05t3Jm5HE_bAs_w7PUGd?pid=ImgGn",
     "facts": {
-      "model year": "1987",
+      "modelyear": "1987",
       "material": "Leather and Mesh",
       "gender": "Unisex",
-      "colors": ["White", "Red", "Blue"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "colors": ["White","Red","Blue"],
+      "sizes": ["6","7","8","9","10","11"]
     }
   },
   {
@@ -20,7 +20,7 @@ export default [
     "description": "Lanzado originalmente en 1982, el Nike Air Force 1 ha sido un pilar en la cultura de las zapatillas, siendo adorado tanto en las canchas como en las calles.",
     "imageUrl": "https://th.bing.com/th/id/OIG._eXLvUFm36dVBnqnHHY_?pid=ImgGn",
     "facts": {
-      "model year": "1982",
+      "modelyear": "1982",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["White", "Black"],
@@ -34,7 +34,7 @@ export default [
     "description": "Originalmente lanzado como una zapatilla de baloncesto, el Nike SB Dunk se reinventó para el skateboarding. Es adorado por skaters y coleccionistas por igual.",
     "imageUrl": "https://th.bing.com/th/id/OIG.lUJX.Ex.3EhCR6xSsxJk?pid=ImgGn",
     "facts": {
-      "model year": "2002",
+      "modelyear": "2002",
       "material": "Leather and Suede",
       "gender": "Unisex",
       "colors": ["Green", "Brown", "Yellow"],
@@ -48,7 +48,7 @@ export default [
     "description": "El Nike React Element combina una estética futurista con la tecnología React de Nike para un confort inigualable.",
     "imageUrl": "https://th.bing.com/th/id/OIG.1EMC47gmrODKRgDr64er?pid=ImgGn",
     "facts": {
-      "model year": "2018",
+      "modelyear": "2018",
       "material": "Synthetic and Mesh",
       "gender": "Unisex",
       "colors": ["Black", "White", "Blue", "Pink"],
@@ -62,7 +62,7 @@ export default [
     "description": "El Nike Air VaporMax lleva la tecnología Air Max al siguiente nivel, ofreciendo una amortiguación que se siente como si estuvieras caminando sobre el aire.",
     "imageUrl": "https://th.bing.com/th/id/OIG.H8Z1HiXR820f7kWZR.QH?pid=ImgGn",
     "facts": {
-      "model year": "2017",
+      "modelyear": "2017",
       "material": "Flyknit",
       "gender": "Unisex",
       "colors": ["Black", "Grey", "Red"],
@@ -76,7 +76,7 @@ export default [
     "description": "Desde su debut en las canchas de baloncesto en los años 70, el Adidas Superstar ha sido un referente en la moda urbana, caracterizado por su puntera de goma y las tres rayas laterales.",
     "imageUrl": "https://th.bing.com/th/id/OIG.JzuIYBy0wD0h6CO9_ZHZ?pid=ImgGn",
     "facts": {
-      "model year": "1969",
+      "modelyear": "1969",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["White", "Black", "Gold"],
@@ -90,7 +90,7 @@ export default [
     "description": "Adidas Ultraboost combina la última tecnología en amortiguación con un diseño estilizado, ofreciendo una experiencia de running sin igual.",
     "imageUrl": "https://th.bing.com/th/id/OIG.lKRrSTM3C0i1SW8S4lI3?pid=ImgGn",
     "facts": {
-      "model year": "2015",
+      "modelyear": "2015",
       "material": "Primeknit",
       "gender": "Unisex",
       "colors": ["Black", "White", "Blue", "Grey"],
@@ -104,7 +104,7 @@ export default [
     "description": "Inspirado en la herencia de Adidas, el NMD combina estilo y confort con un diseño minimalista y tecnología de punta.",
     "imageUrl": "https://th.bing.com/th/id/OIG.iydZa_zBDUwLPPG.yaGa?pid=ImgGn",
     "facts": {
-      "model year": "2015",
+      "modelyear": "2015",
       "material": "Mesh and Primeknit",
       "gender": "Unisex",
       "colors": ["Black", "White", "Red", "Green"],
@@ -118,7 +118,7 @@ export default [
     "description": "Nombrado en honor al tenista Stan Smith, este modelo se ha convertido en un ícono de la moda y el diseño, con su estética simple y su distintiva silueta.",
     "imageUrl": "https://th.bing.com/th/id/OIG.IC4pImZ0qKCWB2xQRyfD?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     "facts": {
-      "model year": "1963",
+      "modelyear": "1963",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["White", "Green", "Navy"],
@@ -132,7 +132,7 @@ export default [
     "description": "El Adidas Gazelle captura la esencia del fútbol de los años 60 con una silueta sencilla y una variedad de colores vibrantes.",
     "imageUrl": "https://th.bing.com/th/id/OIG.mHc2KlAu5JeXj2dXf74t?pid=ImgGn",
     "facts": {
-      "model year": "1966",
+      "modelyear": "1966",
       "material": "Suede",
       "gender": "Unisex",
       "colors": ["Black", "Red", "Blue", "Yellow"],
@@ -146,7 +146,7 @@ export default [
     "description": "D'Lites de Skechers ofrece una silueta chunky con una plantilla Memory Foam para un confort superior. Se ha convertido en un favorito tanto para el uso diario como para el estilo athleisure.",
     "imageUrl": "https://th.bing.com/th/id/OIG.3ECGvFd0Nls0IyPNksY2?pid=ImgGn",
     "facts": {
-      "model year": "2000",
+      "modelyear": "2000",
       "material": "Leather and Mesh",
       "gender": "Unisex",
       "colors": ["White", "Black", "Grey"],
@@ -160,7 +160,7 @@ export default [
     "description": "La serie Go Walk de Skechers ha sido diseñada para proporcionar la máxima comodidad en tus caminatas diarias, con tecnologías avanzadas y materiales de alta calidad.",
     "imageUrl": "https://th.bing.com/th/id/OIG._Cz82o_q8a2UDByuSOwW?pid=ImgGn",
     "facts": {
-      "model year": "2012",
+      "modelyear": "2012",
       "material": "Mesh",
       "gender": "Unisex",
       "colors": ["Black", "Blue", "Grey", "Pink"],
@@ -174,7 +174,7 @@ export default [
     "description": "La línea Bobs de Skechers no solo ofrece comodidad y estilo, sino que también contribuye a causas benéficas con cada compra, enfocándose en el bienestar animal y en niños necesitados.",
     "imageUrl": "https://th.bing.com/th/id/OIG.AskXjNbC182bDrPAL7EO?pid=ImgGn",
     "facts": {
-      "model year": "2010",
+      "modelyear": "2010",
       "material": "Canvas",
       "gender": "Women",
       "colors": ["Black", "Navy", "Taupe"],
@@ -188,7 +188,7 @@ export default [
     "description": "Los zapatos Work Relaxed Fit de Skechers proporcionan la combinación perfecta de seguridad y confort para el ámbito laboral, con características como suelas antideslizantes y punteras de acero.",
     "imageUrl": "https://th.bing.com/th/id/OIG..KFhHV_CFVnD_fzBupIZ?pid=ImgGn",
     "facts": {
-      "model year": "2014",
+      "modelyear": "2014",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["Black", "Brown"],
@@ -202,7 +202,7 @@ export default [
     "description": "La colección Streetwear de Skechers ofrece diseños vanguardistas sin sacrificar la comodidad, ideal para aquellos que buscan un look contemporáneo en su día a día.",
     "imageUrl": "https://th.bing.com/th/id/OIG.x5a0FHfDFpsuZXXOoQ98?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     "facts": {
-      "model year": "2018",
+      "modelyear": "2018",
       "material": "Leather and Suede",
       "gender": "Unisex",
       "colors": ["Black", "White", "Gold"],
@@ -216,7 +216,7 @@ export default [
     "description": "New Balance's 990v5 is a classic model that has become a staple for both sneakerheads and those looking for daily comfort. With its perfect blend of cushioning and style, it represents decades of innovation.",
     "imageUrl": "https://th.bing.com/th/id/OIG.NK0TfbqcRgMK3MWcALSU?pid=ImgGn",
     "facts": {
-      "model year": "1982",
+      "modelyear": "1982",
       "material": "Suede and Mesh",
       "gender": "Unisex",
       "colors": ["Grey", "Navy", "Black"],
@@ -230,7 +230,7 @@ export default [
     "description": "The 574 model by New Balance is one of the brand's most recognizable and timeless designs, offering versatility for everyday wear with a blend of classic style and innovative materials.",
     "imageUrl": "https://th.bing.com/th/id/OIG.cSB8JsDYo.frHXNIRPX0?pid=ImgGn",
     "facts": {
-      "model year": "1988",
+      "modelyear": "1988",
       "material": "Suede and Mesh",
       "gender": "Unisex",
       "colors": ["Grey", "Navy", "Red", "Black"],
@@ -244,7 +244,7 @@ export default [
     "description": "The Fresh Foam 1080v11 offers luxurious cushioning and a soft ride, making it perfect for both runners and casual wearers. Its modern design and advanced cushioning technology make it stand out.",
     "imageUrl": "https://th.bing.com/th/id/OIG.aC2acTjd6XGuDlpilaYh?pid=ImgGn",
     "facts": {
-      "model year": "2021",
+      "modelyear": "2021",
       "material": "Mesh",
       "gender": "Unisex",
       "colors": ["Black", "Silver", "Blue", "White"],
@@ -258,7 +258,7 @@ export default [
     "description": "New Balance's FuelCell Echo is built for speed, featuring the new and improved FuelCell foam, delivering a propulsive feel to help drive you forward with each step.",
     "imageUrl": "https://th.bing.com/th/id/OIG.fiqIszCstPZokEng6DFN?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Knit",
       "gender": "Unisex",
       "colors": ["Black", "White", "Red"],
@@ -272,7 +272,7 @@ export default [
     "description": "The X-90 Reconstructed draws inspiration from the 90s New Balance series, providing a retro look combined with modern features and comfort.",
     "imageUrl": "https://th.bing.com/th/id/OIG.GcP3e1_yGs2wlXG1F8SY?pid=ImgGn",
     "facts": {
-      "model year": "2019",
+      "modelyear": "2019",
       "material": "Suede and Mesh",
       "gender": "Unisex",
       "colors": ["Grey", "White", "Blue"],
@@ -287,7 +287,7 @@ export default [
     "description": "El GEL-Kayano 27 es uno de los modelos insignia de ASICS, diseñado para ofrecer la máxima estabilidad y confort en carreras largas, gracias a su tecnología GEL para una amortiguación superior.",
     "imageUrl": "https://th.bing.com/th/id/OIG.QsJJFhTlr9yObX_S3_Et?pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Mesh",
       "gender": "Unisex",
       "colors": ["Black", "Blue", "White"],
@@ -301,7 +301,7 @@ export default [
     "description": "El GEL-Nimbus 23 ofrece un rendimiento duradero y un confort excepcional para los corredores de larga distancia, haciendo uso de la tecnología GEL para una mejor absorción de impactos.",
     "imageUrl": "https://th.bing.com/th/id/OIG.5jwYun5A2ax_fdBCjulE?pid=ImgGn",
     "facts": {
-      "model year": "2021",
+      "modelyear": "2021",
       "material": "Mesh",
       "gender": "Unisex",
       "colors": ["Red", "Grey", "Green"],
@@ -315,7 +315,7 @@ export default [
     "description": "El GEL-Cumulus 22 es perfecto para corredores neutros, ofreciendo un ajuste suave y una transición flexible, con la conocida amortiguación GEL de ASICS.",
     "imageUrl": "https://th.bing.com/th/id/OIG.oPRiQOAlDlXObCJF23on?pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Mesh",
       "gender": "Unisex",
       "colors": ["Blue", "White", "Black"],
@@ -329,7 +329,7 @@ export default [
     "description": "El GT-2000 9 de ASICS es ideal para aquellos que necesitan estabilidad adicional cuando corren. Su diseño y tecnología ofrecen un apoyo superior sin sacrificar la comodidad.",
     "imageUrl": "https://th.bing.com/th/id/OIG.TwRDyWkWcmhKKN5n8r7F?pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Mesh",
       "gender": "Unisex",
       "colors": ["Grey", "Green", "Blue"],
@@ -343,7 +343,7 @@ export default [
     "description": "El GEL-Quantum 360 6 integra la tecnología GEL en toda la entresuela, ofreciendo una amortiguación 360 grados para una experiencia de carrera suave y resistente.",
     "imageUrl": "https://th.bing.com/th/id/OIG.Xt3AbSVHt7MCmyVo705T?pid=ImgGn",
     "facts": {
-      "model year": "2021",
+      "modelyear": "2021",
       "material": "Mesh and Synthetic",
       "gender": "Unisex",
       "colors": ["Black", "White", "Red"],
@@ -357,7 +357,7 @@ export default [
     "description": "El PUMA Clyde, nombrado en honor al jugador de baloncesto Walt 'Clyde' Frazier, combina un estilo vintage con comodidad moderna, siendo un clásico adorado tanto en las canchas como en las calles.",
     "imageUrl": "https://th.bing.com/th/id/OIG.vXdgGM8Vs3KkJjlBfAAx?pid=ImgGn",
     "facts": {
-      "model year": "1973",
+      "modelyear": "1973",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["Black", "White", "Red"],
@@ -371,7 +371,7 @@ export default [
     "description": "El RS-X³ toma elementos de los archivos de running de PUMA y los combina con un diseño futurista, creando un modelo que es a la vez nostálgico y moderno.",
     "imageUrl": "https://th.bing.com/th/id/OIG.4itLMHcYZhVSdgZ3GjOv?pid=ImgGn",
     "facts": {
-      "model year": "2019",
+      "modelyear": "2019",
       "material": "Mesh and Leather",
       "gender": "Unisex",
       "colors": ["Blue", "White", "Pink"],
@@ -385,7 +385,7 @@ export default [
     "description": "El Future Rider de PUMA combina un diseño inspirado en los 80 con tecnologías actuales, ofreciendo un look y sensación únicos, ideales para la moda urbana de hoy.",
     "imageUrl": "https://th.bing.com/th/id/OIG.zoBNmJ2tr_fPEOIUarUn?pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Nylon and Suede",
       "gender": "Unisex",
       "colors": ["Black", "White", "Yellow"],
@@ -399,7 +399,7 @@ export default [
     "description": "El Thunder Spectra toma inspiración de los archivos de running y lo lleva al límite con su diseño chunky y audaz, destacándose en cualquier multitud.",
     "imageUrl": "https://th.bing.com/th/id/OIG.6xRJBUNq6hPwnrPd3m2w?pid=ImgGn",
     "facts": {
-      "model year": "2018",
+      "modelyear": "2018",
       "material": "Mesh and Leather",
       "gender": "Unisex",
       "colors": ["Grey", "Black", "Multicolor"],
@@ -413,7 +413,7 @@ export default [
     "description": "El Suede Classic ha sido un pilar en la cultura de las zapatillas desde los años 60. Su diseño sencillo y su construcción de gamuza de alta calidad lo han convertido en un favorito a lo largo de las décadas.",
     "imageUrl": "https://th.bing.com/th/id/OIG.xy0EpUxgdKF6ep4z7rwQ?pid=ImgGn",
     "facts": {
-      "model year": "1968",
+      "modelyear": "1968",
       "material": "Suede",
       "gender": "Unisex",
       "colors": ["Black", "Red", "Blue"],
@@ -427,7 +427,7 @@ export default [
     "description": "El Classic Leather de Reebok ha sido un ícono desde su lanzamiento en los años 80, ofreciendo un diseño atemporal y confort duradero. Su versatilidad lo ha hecho popular tanto en las calles como en el gimnasio.",
     "imageUrl": "https://th.bing.com/th/id/OIG.0ZVpEiI_mFpnTIRkn14A?pid=ImgGn",
     "facts": {
-      "model year": "1983",
+      "modelyear": "1983",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["White", "Black", "Grey"],
@@ -441,7 +441,7 @@ export default [
     "description": "El InstaPump Fury se destaca por su diseño único y su sistema de inflado personalizable, ofreciendo un ajuste perfecto y una estética inconfundible.",
     "imageUrl": "https://th.bing.com/th/id/OIG.MkzFKSOtUnAAF1oG3.IH?pid=ImgGn",
     "facts": {
-      "model year": "1994",
+      "modelyear": "1994",
       "material": "Synthetic",
       "gender": "Unisex",
       "colors": ["Black", "Yellow", "Red"],
@@ -455,7 +455,7 @@ export default [
     "description": "El Club C 85 es un clásico atemporal de Reebok, conocido por su diseño minimalista y su confort. Ideal tanto para el deporte como para el uso diario.",
     "imageUrl": "https://th.bing.com/th/id/OIG.OB3yFq2novssEvztlYok?pid=ImgGn",
     "facts": {
-      "model year": "1985",
+      "modelyear": "1985",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["White", "Navy", "Green"],
@@ -469,7 +469,7 @@ export default [
     "description": "El Zig Kinetica presenta una suela con diseño ZigTech, brindando una combinación de energía y estilo. Su diseño moderno y funcionalidades avanzadas lo hacen ideal para un rendimiento óptimo.",
     "imageUrl": "https://th.bing.com/th/id/OIG.laC_C7.qR0KPjPbj98GN?pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Mesh and Synthetic",
       "gender": "Unisex",
       "colors": ["Black", "Red", "Blue"],
@@ -483,7 +483,7 @@ export default [
     "description": "El Question Mid es uno de los modelos más icónicos de baloncesto de Reebok, asociado con la leyenda de la NBA, Allen Iverson. Su diseño distintivo y su rendimiento en la cancha lo han hecho un favorito entre muchos.",
     "imageUrl": "https://th.bing.com/th/id/OIG.3wTpdoWiIHAn6C5yIuJ5?pid=ImgGn",
     "facts": {
-      "model year": "1996",
+      "modelyear": "1996",
       "material": "Leather",
       "gender": "Unisex",
       "colors": ["White", "Red", "Black"],
@@ -497,7 +497,7 @@ export default [
     "description": "Los Fila Disruptor son conocidos por su diseño audaz y su estilo retro. Estos zapatos son perfectos para aquellos que buscan destacar en la moda urbana. Construidos con materiales de alta calidad, brindan comodidad y durabilidad.",
     "imageUrl": "https://th.bing.com/th/id/OIG.MoYbGzcI5NV9Z._.ff1G?pid=ImgGn",
     "facts": {
-      "model year": "1996",
+      "modelyear": "1996",
       "material": "Cuero/Sintético",
       "gender": "Unisex",
       "colors": ["Blanco", "Negro", "Rosa"],
@@ -511,7 +511,7 @@ export default [
     "description": "Los Fila Ray son una reinterpretación moderna de los icónicos zapatos de los años 90. Con su diseño colorido y llamativo, son ideales para aquellos que aman el estilo retro con un toque contemporáneo.",
     "imageUrl": "https://th.bing.com/th/id/OIG.IJB6uKNRyzOszeL2prIy?pid=ImgGn",
     "facts": {
-      "model year": "2018",
+      "modelyear": "2018",
       "material": "Textil/Sintético",
       "gender": "Mujer",
       "colors": ["Blanco/Rosa", "Negro/Blanco", "Azul"],
@@ -525,7 +525,7 @@ export default [
     "description": "Los Fila Venom son un clásico de los años 90 que ha regresado con fuerza. Su diseño retro y su construcción de alta calidad los convierten en una opción elegante y cómoda para cualquier ocasión.",
     "imageUrl": "https://th.bing.com/th/id/OIG.U86x7yqafYLL0j52Srqv?pid=ImgGn",
     "facts": {
-      "model year": "1994",
+      "modelyear": "1994",
       "material": "Cuero/Sintético",
       "gender": "Hombre",
       "colors": ["Blanco/Negro", "Negro/Rojo", "Azul"],
@@ -539,7 +539,7 @@ export default [
     "description": "El Hoka One One Clifton 7 es conocido por su comodidad excepcional y su capacidad para brindar un alto rendimiento en la carrera. Con su diseño ligero y su amortiguación suave, es una elección popular entre los corredores de larga distancia.",
     "imageUrl": "https://th.bing.com/th/id/OIG.pfzbb.RTedASRo.Cq2iQ?pid=ImgGn",
     "facts": {
-      "model year": "2020",
+      "modelyear": "2020",
       "material": "Malla/Sintético",
       "gender": "Unisex",
       "colors": ["Gris", "Azul", "Negro"],
@@ -553,7 +553,7 @@ export default [
   "description": "El Hoka One One Bondi 7 es conocido por su máximo confort en cada paso. Con una suela gruesa y una amortiguación suave, es perfecto para quienes buscan una experiencia de carrera cómoda y de apoyo.",
   "imageUrl": "https://th.bing.com/th/id/OIG.rVsmN3yeop1Yp44egt9y?pid=ImgGn",
   "facts": {
-    "model year": "2020",
+    "modelyear": "2020",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Blanco", "Negro", "Azul"],
@@ -567,7 +567,7 @@ export default [
       "description": "El Hoka One One Speedgoat 4 es ideal para correr en terrenos difíciles y desafiantes. Con una suela exterior de gran tracción y una construcción resistente, es una elección sólida para trail running y aventuras al aire libre.",
       "imageUrl": "https://th.bing.com/th/id/OIG.0tglc.NuxOh4MRUMF93D?pid=ImgGn",
       "facts": {
-        "model year": "2020",
+        "modelyear": "2020",
         "material": "Malla/Sintético",
         "gender": "Unisex",
         "colors": ["Rojo", "Verde", "Negro"],
@@ -581,7 +581,7 @@ export default [
   "description": "El Salomon Speedcross 5 es un zapato de trail running diseñado para rendir en terrenos difíciles y desafiantes. Con su suela de gran tracción y su construcción resistente, es una elección sólida para aquellos que disfrutan de las aventuras al aire libre.",
   "imageUrl": "https://th.bing.com/th/id/OIG.CuvZEsfF6HndeIOTrmdl?pid=ImgGn",
   "facts": {
-    "model year": "2019",
+    "modelyear": "2019",
     "material": "Textil/Sintético",
     "gender": "Unisex",
     "colors": ["Negro", "Azul", "Verde"],
@@ -595,7 +595,7 @@ export default [
   "description": "El Salomon X Ultra 3 ofrece comodidad y versatilidad para el senderismo. Su diseño ligero y su suela exterior con buen agarre lo hacen adecuado para una variedad de condiciones de senderismo y actividades al aire libre.",
   "imageUrl": "https://th.bing.com/th/id/OIG.VpHKbIJVC1cq9icqGRSu?pid=ImgGn",
   "facts": {
-    "model year": "2018",
+    "modelyear": "2018",
     "material": "Cuero/Sintético",
     "gender": "Unisex",
     "colors": ["Gris", "Negro", "Verde"],
@@ -609,7 +609,7 @@ export default [
   "description": "El Salomon Sense Ride 4 es ideal para correr en senderos. Con una amortiguación suave y una parte superior transpirable, brinda comodidad en cada paso. Es una elección sólida para los entusiastas del trail running.",
   "imageUrl": "https://th.bing.com/th/id/OIG.37qeRWHp6I3ALp_Ub5R9?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Textil/Sintético",
     "gender": "Unisex",
     "colors": ["Azul", "Rojo", "Negro"],
@@ -623,7 +623,7 @@ export default [
   "description": "Los Altra Escalante son conocidos por su comodidad y estilo para corredores. Con su diseño ligero y su plataforma Zero Drop, proporcionan una experiencia de carrera natural. Son ideales para quienes buscan comodidad y rendimiento en sus carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.jFCnXMk_jXoRkJ3qGTKw?pid=ImgGnE",
   "facts": {
-    "model year": "2017",
+    "modelyear": "2017",
     "material": "Malla",
     "gender": "Unisex",
     "colors": ["Negro", "Azul", "Gris"],
@@ -637,7 +637,7 @@ export default [
   "description": "Los Altra Lone Peak son zapatos de trail versátiles conocidos por su tracción y comodidad en terrenos difíciles. Con su amplia puntera y su suela MaxTrac, son ideales para aventuras en senderos y actividades al aire libre.",
   "imageUrl": "https://th.bing.com/th/id/OIG.AiIgMQrETtaGsXi.u.4B?pid=ImgGn",
   "facts": {
-    "model year": "2019",
+    "modelyear": "2019",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Verde", "Gris", "Negro"],
@@ -651,7 +651,7 @@ export default [
   "description": "Los Altra Olympus ofrecen máxima amortiguación para trail running. Con su suela Vibram MegaGrip y su amplia puntera, brindan comodidad y agarre en terrenos difíciles. Son ideales para corredores de larga distancia en senderos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.a7pyuN94js0zZLrkyxTC?pid=ImgGn",
   "facts": {
-    "model year": "2020",
+    "modelyear": "2020",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Negro", "Rojo", "Azul"],
@@ -665,7 +665,7 @@ export default [
   "description": "Los Newton Running Gravity 10 son conocidos por proporcionar comodidad y velocidad a los corredores. Con su tecnología de plataforma POP 3 y su diseño ligero, son ideales para aquellos que buscan un rendimiento excepcional en sus carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.vC1vJ0QI4FSY.cBRfroe?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Rojo", "Azul", "Negro"],
@@ -679,7 +679,7 @@ export default [
   "description": "Los Newton Running Fate 7 ofrecen amortiguación y estabilidad a los corredores. Con su tecnología Action/Reaction y su diseño versátil, son ideales para quienes buscan una experiencia de carrera suave y apoyo.",
   "imageUrl": "https://th.bing.com/th/id/OIG.JzRNxr76TPNkdW24KUKW?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Blanco", "Negro", "Gris"],
@@ -693,7 +693,7 @@ export default [
   "description": "Los Newton Running Motion 10 brindan apoyo y comodidad en cada paso. Con su tecnología de estabilidad medial y su construcción de alta calidad, son ideales para corredores que buscan una experiencia de carrera equilibrada.",
   "imageUrl": "https://th.bing.com/th/id/OIG.RjJYDeyNoPKhwo6n.FZC?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Negro", "Azul", "Rojo"],
@@ -707,7 +707,7 @@ export default [
   "description": "Los Brooks Ghost 14 son conocidos por proporcionar comodidad y versatilidad a los corredores. Con su amortiguación suave y su diseño ligero, son ideales para quienes buscan un zapato versátil para entrenamiento y carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.q5TFGo1uOwLqszDmMkcu?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Azul", "Negro", "Gris"],
@@ -721,7 +721,7 @@ export default [
   "description": "Los Brooks Adrenaline GTS 22 ofrecen apoyo y estabilidad a los corredores. Con su tecnología GuideRails y su construcción de alta calidad, son ideales para quienes buscan control de pronación y comodidad en sus carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.T5NzMIDpTsYzOM9llJ9L?pid=ImgGn",
   "facts": {
-    "model year": "2022",
+    "modelyear": "2022",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Blanco", "Negro", "Verde"],
@@ -735,7 +735,7 @@ export default [
   "description": "Los Brooks Launch 8 son zapatos ligeros ideales para corredores neutros. Con su diseño rápido y su amortiguación energizante, son perfectos para carreras rápidas y entrenamientos intensivos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.hrDPq9CRqhhguvIPwcbZ?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Rojo", "Negro", "Amarillo"],
@@ -749,7 +749,7 @@ export default [
   "description": "Los Saucony Kinvara 12 son conocidos por ofrecer comodidad y velocidad a los corredores. Con su diseño ligero y su amortiguación reactiva, son ideales para aquellos que buscan un zapato versátil para entrenamiento y carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.qeS94GsD4i7ksGd56Kue?pid=ImgGn",
   "facts": {
-    "model year": "2022",
+    "modelyear": "2022",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Negro", "Azul", "Gris"],
@@ -763,7 +763,7 @@ export default [
   "description": "Los Saucony Guide 14 ofrecen apoyo y estabilidad a los corredores. Con su tecnología PWRRUN y su construcción de alta calidad, son ideales para quienes buscan control de pronación y comodidad en sus carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.z.a0evbvtr99zlngBbXa?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Blanco", "Negro", "Azul"],
@@ -777,7 +777,7 @@ export default [
   "description": "Los Saucony Peregrine 11 son zapatos de trail versátiles conocidos por su tracción y comodidad en terrenos difíciles. Con su suela PWRTRAC y su construcción resistente, son ideales para aventuras en senderos y actividades al aire libre.",
   "imageUrl": "https://th.bing.com/th/id/OIG.d9i97KpCcocXu.OoHnTE?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Rojo", "Negro", "Verde"],
@@ -791,7 +791,7 @@ export default [
   "description": "Los Mizuno Wave Rider 25 son conocidos por ofrecer comodidad y rendimiento a los corredores. Con su tecnología Wave y su diseño ligero, son ideales para aquellos que buscan un zapato versátil para entrenamiento y carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.BmXtTguShoqA.UN.Xlln?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Azul", "Negro", "Blanco"],
@@ -805,7 +805,7 @@ export default [
   "description": "Los Mizuno Wave Inspire 17 ofrecen apoyo y estabilidad a los corredores. Con su tecnología Mizuno Wave y su construcción de alta calidad, son ideales para quienes buscan control de pronación y comodidad en sus carreras.",
   "imageUrl": "https://th.bing.com/th/id/OIG.qXWyw6bHyzlWP3bPBLqu?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Blanco", "Negro", "Azul"],
@@ -819,7 +819,7 @@ export default [
   "description": "Los Mizuno Wave Hayate 7 son zapatos de trail versátiles conocidos por su tracción y comodidad en terrenos difíciles. Con su suela Michelin y su construcción resistente, son ideales para aventuras en senderos y actividades al aire libre.",
   "imageUrl": "https://th.bing.com/th/id/OIG.._7Z9osXCYjMA6.RaOpM?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Rojo", "Negro", "Verde"],
@@ -833,7 +833,7 @@ export default [
   "description": "Los Merrell Moab 2 Ventilator son conocidos por su versatilidad y comodidad en actividades al aire libre. Con su diseño transpirable y su suela Vibram, son ideales para caminatas y senderismo en terrenos variados.",
   "imageUrl": "https://th.bing.com/th/id/OIG..H7SnjoSQl2V4nzHX03w?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Cuero/Sintético",
     "gender": "Unisex",
     "colors": ["Gris", "Marrón", "Verde"],
@@ -847,7 +847,7 @@ export default [
   "description": "Los Merrell All Out Blaze Aero Sport son zapatos versátiles ideales para actividades acuáticas y senderismo. Con su diseño de secado rápido y su suela con tracción, son perfectos para aventuras en agua y terrenos húmedos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.bkE0QajWCsq5WtRParzr?pid=ImgGn",
   "facts": {
-    "model year": "2021",
+    "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
     "colors": ["Azul", "Negro", "Verde"],
@@ -861,7 +861,7 @@ export default [
   "description": "Los Merrell Jungle Moc ofrecen comodidad casual para uso en la ciudad o en la naturaleza. Con su diseño deslizable y su suela antideslizante, son ideales para el uso diario y actividades al aire libre.",
   "imageUrl": "https://th.bing.com/th/id/OIG.OHXYNdmsYSnqDq9..DsU?pid=ImgGn",
   "facts": {
-    "model year": "2020",
+    "modelyear": "2020",
     "material": "Cuero/Sintético",
     "gender": "Unisex",
     "colors": ["Negro", "Marrón", "Gris"],
