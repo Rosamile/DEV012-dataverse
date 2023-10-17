@@ -868,15 +868,6 @@ export default [
     "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
   }
 },
-
-
-
-
-
-
-
-
-
   //ejemplo
 /*  {
     "id": "ada-lovelace",
