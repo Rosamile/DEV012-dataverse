@@ -211,7 +211,7 @@ export default [
   },
   {
     "Id": "NewBalance001",
-    "name": "990v5",
+    "name": "New Balance 990v5",
     "shortDescription": "Heritage design meets modern comfort.",
     "description": "New Balance's 990v5 is a classic model that has become a staple for both sneakerheads and those looking for daily comfort. With its perfect blend of cushioning and style, it represents decades of innovation.",
     "imageUrl": "https://th.bing.com/th/id/OIG.NK0TfbqcRgMK3MWcALSU?pid=ImgGn",
@@ -225,7 +225,7 @@ export default [
   },
   {
     "Id": "NewBalance002",
-    "name": "574",
+    "name": "New Balance 574",
     "shortDescription": "Iconic and versatile.",
     "description": "The 574 model by New Balance is one of the brand's most recognizable and timeless designs, offering versatility for everyday wear with a blend of classic style and innovative materials.",
     "imageUrl": "https://th.bing.com/th/id/OIG.cSB8JsDYo.frHXNIRPX0?pid=ImgGn",
@@ -868,15 +868,6 @@ export default [
     "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
   }
 },
-
-
-
-
-
-
-
-
-
   //ejemplo
 /*  {
     "id": "ada-lovelace",
