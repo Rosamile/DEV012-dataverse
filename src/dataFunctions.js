@@ -1,7 +1,6 @@
 import "./data/dataset.js";
 
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-
 export const example = () => {
   return 'example';
 };
@@ -15,8 +14,6 @@ for (let i =0;i<data.length;i++){
 
 function tipodeZapatillas(zapatillas) {
 const zapatilla = document.createElement()
-}
+};
 
-//zapatillas.forEach(tipodeZapatillas => {
-  
-//});
+ 
