@@ -4,13 +4,13 @@ export const renderItems = (data) => {
   for (let i = 0; i < data.length; i++) {
     let htmlR = `
     <link rel="stylesheet" href="style.css">
-    <div class="Grilla" style='max-width:1200px; height:430px; style-display:flex; align-items:strech; flex-wrap: wrap;'>
-    <dl itemscope itemtype="Normcore Aesthetics" '>
-    <div style='width:100%; max-width:1200px; height:430px; display:flex; flex-wrap:wrap; justify-content:center; margin:auto;'>
-<div class= "Tarjeta" style='width: 330px; height: 430px; border-radius:8px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); overflow:hidden; margin:20px; text-align:center;'>
-<div class ="hover" style='box-shadow:0 1px 16px rgba(0,0,0,0.2);'></div>
-    <img src="${data[i].imageUrl}" alt="Nike Air Max 1"/ style='width:330px; height:220px;'>
-    <div class="Description" style='font-weight:100; font-size:10px; padding:0.1rem;'></div>
+    <div class="grilla">
+      <dl itemscope itemtype="Normcore Aesthetics" '>
+    <div class= "contenido">
+        <div class= "tarjeta">
+            <div class ="hover"></div>
+              <img src="${data[i].imageUrl}" alt="Nike Air Max 1"/'>
+                <div class="description"></div>
               <dt>Nombre:</dt>
                 <dd itemprop="name">${data[i].name}</dd>
                 <dt>Descripción:</dt>
