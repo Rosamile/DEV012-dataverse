@@ -1,4 +1,4 @@
-import { pintar } from './dataFunctions.js';
+import { pintar, filterAllBrands } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -18,3 +18,6 @@ const orderByAlphabetical = (data, getter, order = 'asc') => {
 const tarjetas = data;  // Suponiendo que data es un array
 const sortedTarjetas = orderByAlphabetical(tarjetas, card => card.name);
 console.log(sortedTarjetas);
+
+
+
