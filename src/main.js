@@ -1,8 +1,6 @@
-import { pintar } from './dataFunctions.js';
+import { pintar, filterAllBrands } from './dataFunctions.js';
 import { renderItems } from './view.js';
-
 import data from './data/dataset.js';
-
 //pintar (data)
 renderItems(data)
 const orderByAlphabetical = (data, getter, order = 'asc') => {
