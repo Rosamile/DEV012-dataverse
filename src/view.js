@@ -1,7 +1,6 @@
 import data from "./data/dataset.js";
 export const renderItems = (data) => {
   let cajadevariables = "";
-
   for (let i = 0; i < data.length; i++) {
     let htmlR = `
     <div class="Grilla" style='max-width:1200px; height:430px; style-display:flex; align-items:strech; flex-wrap: wrap;'>
@@ -35,7 +34,6 @@ export const renderItems = (data) => {
   document.getElementById("zapatillas").innerHTML = cajadevariables;
   console.log(data);
 };
-
 //Dataset
 // Aquí comienza
 // tu código y puedes retornar lo que tu necesites
