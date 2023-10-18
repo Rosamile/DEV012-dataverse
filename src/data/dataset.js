@@ -46,8 +46,8 @@ export default [
   },
   {
     "Id": "Nike004",
-    "brand": "Nike"
-    "name": "Nike React Element",
+    "brand": "Nike",
+    "name":"Nike React Element",
     "shortDescription": "Confort y estilo moderno.",
     "description": "El Nike React Element combina una estética futurista con la tecnología React de Nike para un confort inigualable.",
     "imageUrl": "https://th.bing.com/th/id/OIG.1EMC47gmrODKRgDr64er?pid=ImgGn",

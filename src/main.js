@@ -3,7 +3,7 @@ import { renderItems } from './view.js';
 import data from './data/dataset.js';
 //pintar (data)
 renderItems(data)
-const orderByAlphabetical = (data, getter, order = 'asc') => {
+let orderByAlphabetical = (data, getter, order = 'asc') => {
     data.sort((a, b) => {
         const first = getter(a);
         const second = getter(b);
