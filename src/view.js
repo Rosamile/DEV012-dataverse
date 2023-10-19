@@ -6,6 +6,15 @@ export const renderItems = (data) => {
     <dl itemscope itemtype="Estilo Athleisure">
     <img src="${data[i].imageUrl}" alt="Nike Air Max 1">
               <dt><strong>Nombre:</strong></dt>
+    <link rel="stylesheet" href="style.css">
+    <div class="grilla">
+      <dl itemscope itemtype="Normcore Aesthetics" '>
+    <div class= "contenido">
+        <div class= "tarjeta">
+            <div class ="hover"></div>
+              <img src="${data[i].imageUrl}" alt="Nike Air Max 1"/'>
+                <div class="description"></div>
+              <dt>Nombre:</dt>
                 <dd itemprop="name">${data[i].name}</dd>
                 <dt><strong>Descripción:</strong></dt>
                <dd itemprop="description">${data[i].description}</dd>
