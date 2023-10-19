@@ -13,7 +13,6 @@ function tipodeZapatillas(zapatillas) {
 const zapatilla = document.createElement()
 };
 
-
 export const filterShoesBrands = function(shoesBrands){
   const elements = data.brand.filter((brand) =>  {
     return brand.type.indexOf(shoesBrands) !== -1;
