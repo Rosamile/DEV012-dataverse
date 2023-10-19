@@ -3,45 +3,27 @@ export const renderItems = (data) => {
   let cajadevariables = "";
   for (let i = 0; i < data.length; i++) {
     let htmlR = `
-    <link rel="stylesheet" href="style.css">
-    <div class="Grilla" style='max-width:1200px; height:430px; style-display:flex; align-items:strech; flex-wrap: wrap;'>
-    <dl itemscope itemtype="Normcore Aesthetics" '>
-    <div style='width:100%; max-width:1200px; height:430px; display:flex; flex-wrap:wrap; justify-content:center; margin:auto;'>
-<div class= "Tarjeta" style='width: 330px; height: 430px; border-radius:8px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); overflow:hidden; margin:20px; text-align:center;'>
-<div class ="hover" style='box-shadow:0 1px 16px rgba(0,0,0,0.2);'></div>
-    <img src="${data[i].imageUrl}" alt="Nike Air Max 1"/ style='width:330px; height:220px;'>
-    <div class="Description" style='font-weight:100; font-size:10px; padding:0.1rem;'></div>
-              <dt>Nombre:</dt>
+    <dl itemscope itemtype="Estilo Athleisure">
+    <img src="${data[i].imageUrl}" alt="Nike Air Max 1">
+              <dt><strong>Nombre:</strong></dt>
                 <dd itemprop="name">${data[i].name}</dd>
-                <dt>Descripción:</dt>
+                <dt><strong>Descripción:</strong></dt>
                <dd itemprop="description">${data[i].description}</dd>
-              <dt>Año del modelo:</dt>
+              <dt><strong>Año del modelo:</strong></dt>
               <dd itemprop="modelyear">${data[i].facts.modelyear}</dd>
-             <dt>Material:</dt>
+             <dt><strong>Material:</strong></dt>
             <dd itemprop="material">${data[i].facts.material}</dd>
-         <dt>Género</dt>
+         <dt><strong>Género:</strong></dt>
          <dd itemprop="gender">${data[i].facts.gender}</dd>
-         <dt>Colores:</dt>
+         <dt><strong>Colores:</strong></dt>
          <dd itemprop="colors">${data[i].facts.colors}</dd>
-         <dt>Tallas:</dt>
-         <dd itemprop="sizes">${data[i].facts.sizes}</dd>
-          </div>  
-          </dl>
-    </div> 
-    </div>`;
+         <dt><strong>Tallas:</strong></dt>
+         <dd itemprop="sizes">${data[i].facts.sizes}</dd> 
+          </dl>`
+  
     cajadevariables += htmlR;
   }
 
-  document.getElementById("zapatillas").innerHTML = cajadevariables;
+  document.getElementById("zapatillas").innerHTML = cajadevariables; //ESTO VA EN MAIN.JS
   console.log(data);
 };
-//Dataset
-// Aquí comienza
-// tu código y puedes retornar lo que tu necesites
-/*const dataContenedor = document.getElementById('zapatillas');
-function crearZapatos() {
-
-  const marcaDeZapatos = document.createElement('article');
-  dataContenedor.appendChild(marcaDeZapatos);
-*/
-//return "name";

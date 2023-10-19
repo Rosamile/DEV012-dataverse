@@ -10,8 +10,9 @@
 
 <body>
   <header>
-    <h1>Conoce las marcas de zapatillas más Aesthetics dentro de este estilo Normcore</h1>
+    <h1>Conoce las Zapatillas en tendencia del Estilo Athleisure</h1>
   </header>
+  <label>Filtrar por Marca</label>
   <select data-testid="select-filter" name="brand">
   <option value="">--All Brands--</option>
   <option value="nike">Nike</option>
@@ -31,24 +32,15 @@
   <option value="mizuno">Mizuno</option>
   <option value="merrel">Merrel</option>
 </select>
-
-  <select data-testid="select-sort" name="num">
+<label>Ordenar por:</label>
+  <select data-testid="select-sort">
     <option value="asc">A - Z</option>
     <option value="desc">Z - A</option>
-    <option value="model">Modelo</option>
-
-    <select name="sort-order">
-      <radio value="asc">A - Z </radio>
-      <radio value="desc">Z - A</radio>
-      <radio value="model">Modelo</radio>
-    </select>
+    <option value="nameAscendente">Modelo Ascendente</option>
+    <option value="modelo">Modelo Descendiente</option>
   </select>
 
-  <button id="ord">Ordenar</button>
-  <button>Filtrar</button>
-  <a href="./index1.html">
-    <button>Volver</button>
-  </a>
+  <button id="button-clear">Limpiar</button>
   <div id="zapatillas" class="Box"></div>
   <script src="./main.js" type="module"></script>
 </body>
