@@ -13,8 +13,9 @@ function tipodeZapatillas(zapatillas) {
 const zapatilla = document.createElement()
 };
 
-/*export let filterShoesBrands = function(shoesBrands){
-  let elements = data.brand.filter((brand) =>  {
+
+export const filterShoesBrands = function(shoesBrands){
+  const elements = data.brand.filter((brand) =>  {
     return brand.type.indexOf(shoesBrands) !== -1;
   });
   
@@ -24,4 +25,4 @@ const zapatilla = document.createElement()
   console.log(elements);
   
   return elements; 
-} */
+} 
