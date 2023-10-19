@@ -12,5 +12,16 @@ export const pintar = (data) => {console.log(data)
 function tipodeZapatillas(zapatillas) {
 const zapatilla = document.createElement()
 };
-export const filterAllBrands = data.filter(data => data.brand);
-console.log(filterAllBrands)
+
+/*export let filterShoesBrands = function(shoesBrands){
+  let elements = data.brand.filter((brand) =>  {
+    return brand.type.indexOf(shoesBrands) !== -1;
+  });
+  
+  if (shoeBrands === "all") {
+    elements = data.brand
+  } 
+  console.log(elements);
+  
+  return elements; 
+} */

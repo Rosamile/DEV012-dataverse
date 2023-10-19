@@ -1,7 +1,7 @@
-import { pintar, filterAllBrands } from './dataFunctions.js';
+import { pintar} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
-//pintar (data)
+
 renderItems(data)
 let orderByAlphabetical = (data, getter, order = 'asc') => {
     data.sort((a, b) => {
@@ -14,6 +14,9 @@ let orderByAlphabetical = (data, getter, order = 'asc') => {
 }
 const ordenar = document.getElementById("ord");
 ordenar.addEventListener("click", () => {
-    const sortedData = orderByAlphabetical(data, item => item.name);
-    renderItems(sortedData); // Volver a renderizar con los datos ordenados
+  const sortedData = orderByAlphabetical(data, item => item.name);
+  renderItems(sortedData); // Volver a renderizar con los datos ordenados
 })
+
+
+
