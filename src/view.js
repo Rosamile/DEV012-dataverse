@@ -1,11 +1,9 @@
 import data from "./data/dataset.js";
 export const renderItems = (data) => {
-  let cajadevariables = "";
+  let cajadevariables = "<ul>";
   for (let i = 0; i < data.length; i++) {
     let htmlR = `
-    <dl itemscope itemtype="Estilo Athleisure">
-    <img src="${data[i].imageUrl}" alt="Nike Air Max 1">
-              <dt><strong>Nombre:</strong></dt>
+  <li><dl itemscope itemtype="Estilo Athleisure">
     <link rel="stylesheet" href="style.css">
     <div class="grilla">
       <dl itemscope itemtype="Normcore Aesthetics" '>
@@ -14,7 +12,9 @@ export const renderItems = (data) => {
             <div class ="hover"></div>
               <img src="${data[i].imageUrl}" alt="Nike Air Max 1"/'>
                 <div class="description"></div>
-              <dt>Nombre:</dt>
+              <dt><strong>Nombre:</strong></dt>
+                <dd itemprop="name">${data[i].brand}</dd>
+                <dt><strong>Modelo::</strong></dt>
                 <dd itemprop="name">${data[i].name}</dd>
                 <dt><strong>Descripción:</strong></dt>
                <dd itemprop="description">${data[i].description}</dd>
@@ -28,11 +28,10 @@ export const renderItems = (data) => {
          <dd itemprop="colors">${data[i].facts.colors}</dd>
          <dt><strong>Tallas:</strong></dt>
          <dd itemprop="sizes">${data[i].facts.sizes}</dd> 
-          </dl>`
+          </dl>
+          </li>`
   
     cajadevariables += htmlR;
   }
-
-  document.getElementById("zapatillas").innerHTML = cajadevariables; //ESTO VA EN MAIN.JS
-  console.log(data);
+   return cajadevariables +="</ul>"
 };
