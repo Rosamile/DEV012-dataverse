@@ -13,7 +13,6 @@ function tipodeZapatillas(zapatillas) {
 const zapatilla = document.createElement()
 };
 
-
 export const orderByAlphabetical = (data, getter, order = 'asc') => {
   data.sort((a, b) => {
       const first = getter(a);
