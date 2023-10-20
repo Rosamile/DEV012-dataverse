@@ -11,4 +11,5 @@ ordenar.addEventListener("change", () => {
 const zapatilla =  document.getElementById("zapatillas")
 zapatilla.innerHTML = renderItems(data); 
 
+
 //const datafiltrada = 
