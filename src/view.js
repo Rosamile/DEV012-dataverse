@@ -5,9 +5,8 @@ export const renderItems = (data) => {
     let htmlR = `
   <li><dl itemscope itemtype="Estilo Athleisure">
     <link rel="stylesheet" href="style.css">
-    <div class="grilla">
-      <dl itemscope itemtype="Normcore Aesthetics" '>
-    <div class= "contenido">
+      <dl class="grilla" itemscope itemtype="Normcore Aesthetics" '>
+    <dl class= "contenido">
         <div class= "tarjeta">
             <div class ="hover"></div>
               <img src="${data[i].imageUrl}" alt="Nike Air Max 1"/'>
