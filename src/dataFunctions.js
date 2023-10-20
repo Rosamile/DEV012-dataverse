@@ -13,6 +13,17 @@ function tipodeZapatillas(zapatillas) {
 const zapatilla = document.createElement()
 };
 
+
+export const orderByAlphabetical = (data, getter, order = 'asc') => {
+  data.sort((a, b) => {
+      const first = getter(a);
+      const second = getter(b);
+      const compare = first.localeCompare(second);
+      return order === 'asc' ? compare : -compare;
+  });
+  return data;
+};
+
 export const filterShoesBrands = function(shoesBrands){
   const elements = data.brand.filter((brand) =>  {
     return brand.type.indexOf(shoesBrands) !== -1;
