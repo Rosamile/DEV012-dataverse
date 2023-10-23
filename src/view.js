@@ -17,8 +17,8 @@ export const renderItems = (data) => {
                             <li class="description"></li>
                             <li>
                                 <dl>
-                                    <dt><strong>Nombre:</strong></dt>
-                                    <dd itemprop="name">${data[i].brand}</dd>
+                                    <dt><strong>Marca:</strong></dt>
+                                    <dd itemprop="brand">${data[i].brand}</dd>
                                     <dt><strong>Modelo:</strong></dt>
                                     <dd itemprop="name">${data[i].name}</dd>
                                     <dt><strong>Descripción:</strong></dt>

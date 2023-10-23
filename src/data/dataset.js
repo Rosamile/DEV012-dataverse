@@ -227,7 +227,7 @@ export default [
   {
     "id": "NewBalance001",
     "brand": "New Balance",
-    "name": " New Balance 990v5",
+    "name": "New Balance 990v5",
     "shortDescription": "Heritage design meets modern comfort.",
     "description": "New Balance's 990v5 is a classic model that has become a staple for both sneakerheads and those looking for daily comfort. With its perfect blend of cushioning and style, it represents decades of innovation.",
     "imageUrl": "https://th.bing.com/th/id/OIG.NK0TfbqcRgMK3MWcALSU?pid=ImgGn",
@@ -332,7 +332,7 @@ export default [
   {
     "id": "ASICS003",
     "brand": "Asics",
-    "name": " Asics GEL-Cumulus 22",
+    "name": "Asics GEL-Cumulus 22",
     "shortDescription": "Para corredores neutros.",
     "description": "El GEL-Cumulus 22 es perfecto para corredores neutros, ofreciendo un ajuste suave y una transición flexible, con la conocida amortiguación GEL de ASICS.",
     "imageUrl": "https://th.bing.com/th/id/OIG.oPRiQOAlDlXObCJF23on?pid=ImgGn",

@@ -10,7 +10,7 @@ export const pintar = (data) => {console.log(data)
   }
 }
 function tipodeZapatillas(zapatillas) {
-const zapatilla = document.createElement()
+const zapatilla = document.createElement(data)
 };
 
 export const orderByAlphabetical = (data, getter, order = 'asc') => {
@@ -18,7 +18,12 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
       const first = getter(a);
       const second = getter(b);
       const compare = first.localeCompare(second);
-      return order === 'asc' ? compare : -compare;
+
+      if (order === 'asc') {
+          return compare;
+      } else {
+          return -compare;
+      }
   });
   return data;
 };
