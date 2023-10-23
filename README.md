@@ -367,7 +367,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 * **Manipulación dinámica del DOM**
 
   - [ ] La aplicación actualiza el atributo [`innerHTML`](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML).
-  - [ ] La aplicación usa `createElement` y `appendChild`, o template strings
+  - [ ] L apalicación usa `createElement` y `appendChild`, o template strings
     para crear elementos
 
 #### JavaScript
