@@ -15,7 +15,7 @@ ordenar.addEventListener("change", () => {
 const limpiar = document.getElementById('button-clear');
 limpiar.addEventListener("click", () => {
     ordenar.value= "todos";
-    zapatilla.innerHTML = renderItems(data); 
+    zapatilla.innerHTML = renderItems(); 
 });
 
 
