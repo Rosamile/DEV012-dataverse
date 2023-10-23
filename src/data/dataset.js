@@ -45,17 +45,47 @@ export default [
     }
   },
   {
+    "id": "Nike004",
+    "brand": "Nike",
+    "name":"Nike React Element",
+    "shortDescription": "Confort y estilo moderno.",
+    "description": "Combina una estética futurista con la tecnología React de Nike para un confort inigualable.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.1EMC47gmrODKRgDr64er?pid=ImgGn",
+    "facts": {
+      "modelyear": "2018",
+      "material": "Synthetic and Mesh",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Blue", "Pink"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "Nike005",
+    "brand": "Brand",
+    "name": "Nike Air VaporMax",
+    "shortDescription": "Revolución Air al máximo.",
+    "description": "El Nike Air VaporMax lleva la tecnología Air Max al siguiente nivel.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.H8Z1HiXR820f7kWZR.QH?pid=ImgGn",
+    "facts": {
+      "modelyear": "2017",
+      "material": "Flyknit",
+      "gender": "Unisex",
+      "colors": ["Black", "Grey", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
     "id": "Adidas001",
     "brand": "Adidas",
-    "name": "Gazelle",
-    "shortDescription": "El toque retro del fútbol de los 60.",
-    "description": "El Adidas Gazelle captura la esencia del fútbol de los años 60 con una silueta sencilla y una variedad de colores vibrantes.",
-    "imageUrl": "https://th.bing.com/th/id/OIG.mHc2KlAu5JeXj2dXf74t?pid=ImgGn",
+    "name": "Superstar",
+    "shortDescription": "El ícono del estilo urbano.",
+    "description": "El Adidas Superstar ha sido un referente en la moda urbana, caracterizado por su puntera de goma y las tres rayas laterales.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.JzuIYBy0wD0h6CO9_ZHZ?pid=ImgGn",
     "facts": {
-      "modelyear": "1966",
-      "material": "Suede",
+      "modelyear": "1969",
+      "material": "Leather",
       "gender": "Unisex",
-      "colors": ["Black", "Red", "Blue", "Yellow"],
+      "colors": ["White", "Black", "Gold"],
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
@@ -77,6 +107,21 @@ export default [
   {
     "id": "Adidas003",
     "brand": "Adidas",
+    "name": "Adidas NMD",
+    "shortDescription": "Diseño urbano futurista.",
+    "description": "Inspirado en la herencia de Adidas, el NMD combina estilo y confort con un diseño minimalista y tecnología de punta.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.iydZa_zBDUwLPPG.yaGa?pid=ImgGn",
+    "facts": {
+      "modelyear": "2015",
+      "material": "Mesh and Primeknit",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red", "Green"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "Adidas004",
+    "brand": "Adidas",
     "name": "Adidas Stan Smith",
     "shortDescription": "El clásico tenis de Adidas.",
     "description": "Nombrado en honor al tenista Stan Smith, este name se ha convertido en un ícono de la moda y el diseño.",
@@ -89,7 +134,21 @@ export default [
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
-
+  {
+    "id": "Adidas005",
+    "brand": "Adidas",
+    "name": "Gazelle",
+    "shortDescription": "El toque retro del fútbol de los 60.",
+    "description": "El Adidas Gazelle captura la esencia del fútbol de los años 60 con una silueta sencilla y una variedad de colores vibrantes.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.mHc2KlAu5JeXj2dXf74t?pid=ImgGn",
+    "facts": {
+      "modelyear": "1966",
+      "material": "Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "Red", "Blue", "Yellow"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
   {
     "id": "Skechers001",
     "brand": "Skechers",
@@ -135,10 +194,39 @@ export default [
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
-  
+  {
+    "id": "Skechers004",
+    "brand": "Skechers",
+    "name": "Work Relaxed Fit",
+    "shortDescription": "Protección y comodidad en el trabajo.",
+    "description": "Proporcionan la combinación perfecta de seguridad y confort para el ámbito laboral.",
+    "imageUrl": "https://th.bing.com/th/id/OIG..KFhHV_CFVnD_fzBupIZ?pid=ImgGn",
+    "facts": {
+      "modelyear": "2014",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["Black", "Brown"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "Skechers005",
+    "brand": "Skechers",
+    "name": "Streetwear",
+    "shortDescription": "Tendencia urbana con confort.",
+    "description": "La colección Streetwear de Skechers ofrece diseños vanguardistas sin sacrificar la comodidad, ideal para aquellos que buscan un look contemporáneo en su día a día.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.x5a0FHfDFpsuZXXOoQ98?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+    "facts": {
+      "modelyear": "2018",
+      "material": "Leather and Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Gold"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
   {
     "id": "NewBalance001",
-    "brand": "NewBalance",
+    "brand": "New Balance",
     "name": " New Balance 990v5",
     "shortDescription": "Heritage design meets modern comfort.",
     "description": "New Balance's 990v5 is a classic model that has become a staple for both sneakerheads and those looking for daily comfort. With its perfect blend of cushioning and style, it represents decades of innovation.",
@@ -153,7 +241,7 @@ export default [
   },
   {
     "id": "NewBalance002",
-    "brand": "NewBalance",
+    "brand": "New Balance",
     "name": "New Balance 574",
     "shortDescription": "Iconic and versatile.",
     "description": "The 574 model by New Balance is one of the brand's most recognizable and timeless designs, offering versatility for everyday wear with a blend of classic style and innovative materials.",
@@ -168,7 +256,7 @@ export default [
   },
   {
     "id": "NewBalance003",
-    "brand": "NewBalance",
+    "brand": "New Balance",
     "name": "Fresh Foam 1080v11",
     "shortDescription": "Engineered for precision comfort.",
     "description": "The Fresh Foam 1080v11 offers luxurious cushioning and a soft ride, making it perfect for both runners and casual wearers. Its modern design and advanced cushioning technology make it stand out.",
@@ -181,7 +269,36 @@ export default [
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
- 
+  {
+    "id": "NewBalance004",
+    "brand": "New Balance",
+    "name": "FuelCell Echo",
+    "shortDescription": "Energized speed for the fast.",
+    "description": "New Balance's FuelCell Echo is built for speed, featuring the new and improved FuelCell foam, delivering a propulsive feel to help drive you forward with each step.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.fiqIszCstPZokEng6DFN?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+    "facts": {
+      "modelyear": "2020",
+      "material": "Knit",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "NewBalance005",
+    "brand": "New Balance",
+    "name": "New Balance X-90 Reconstructed",
+    "shortDescription": "Inspired by the 90s, built for today.",
+    "description": "The X-90 Reconstructed draws inspiration from the 90s New Balance series, providing a retro look combined with modern features and comfort.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.GcP3e1_yGs2wlXG1F8SY?pid=ImgGn",
+    "facts": {
+      "modelyear": "2019",
+      "material": "Suede and Mesh",
+      "gender": "Unisex",
+      "colors": ["Grey", "White", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
   {
     "id": "ASICS001",
     "brand": "Asics",
@@ -227,7 +344,36 @@ export default [
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
-  
+  {
+    "id": "ASICS004",
+    "brand": "Asics",
+    "name": "Asics GT-2000 9",
+    "shortDescription": "Estabilidad y sujeción en la carrera.",
+    "description": "El GT-2000 9 de ASICS es ideal para aquellos que necesitan estabilidad adicional cuando corren. Su diseño y tecnología ofrecen un apoyo superior sin sacrificar la comodidad.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.TwRDyWkWcmhKKN5n8r7F?pid=ImgGn",
+    "facts": {
+      "modelyear": "2020",
+      "material": "Mesh",
+      "gender": "Unisex",
+      "colors": ["Grey", "Green", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "ASICS005",
+    "brand": "Asics",
+    "name": "Asics GEL-Quantum 360 6",
+    "shortDescription": "Innovación en amortiguación.",
+    "description": "El GEL-Quantum 360 6 integra la tecnología GEL en toda la entresuela, ofreciendo una amortiguación 360 grados para una experiencia de carrera suave y resistente.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.Xt3AbSVHt7MCmyVo705T?pid=ImgGn",
+    "facts": {
+      "modelyear": "2021",
+      "material": "Mesh and Synthetic",
+      "gender": "Unisex",
+      "colors": ["Black", "White", "Red"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
   {
     "id": "PUMA001",
     "brand": "Puma",
@@ -273,7 +419,36 @@ export default [
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
-  
+  {
+    "id": "PUMA004",
+    "brand": "Puma",
+    "name": "Puma Thunder Spectra",
+    "shortDescription": "Silueta chunky y audaz.",
+    "description": "El Thunder Spectra toma inspiración de los archivos de running y lo lleva al límite con su diseño chunky y audaz, destacándose en cualquier multitud.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.6xRJBUNq6hPwnrPd3m2w?pid=ImgGn",
+    "facts": {
+      "modelyear": "2018",
+      "material": "Mesh and Leather",
+      "gender": "Unisex",
+      "colors": ["Grey", "Black", "Multicolor"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "PUMA005",
+    "brand": "Puma",
+    "name": "Puma Suede Classic",
+    "shortDescription": "El icono de PUMA.",
+    "description": "El Suede Classic ha sido un pilar en la cultura de las zapatillas desde los años 60. Su diseño sencillo y su construcción de gamuza de alta calidad lo han convertido en un favorito a lo largo de las décadas.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.xy0EpUxgdKF6ep4z7rwQ?pid=ImgGn",
+    "facts": {
+      "modelyear": "1968",
+      "material": "Suede",
+      "gender": "Unisex",
+      "colors": ["Black", "Red", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
   {
     "id": "Reebok001",
     "brand": "Reebok",
@@ -319,7 +494,36 @@ export default [
       "sizes": ["6", "7", "8", "9", "10", "11"]
     }
   },
- 
+  {
+    "id": "Reebok004",
+    "brand": "Reebok",
+    "name": "Reebok Zig Kinetica",
+    "shortDescription": "Innovación en amortiguación y estilo.",
+    "description": "El Zig Kinetica presenta una suela con diseño ZigTech, brindando una combinación de energía y estilo. Su diseño moderno y funcionalidades avanzadas lo hacen ideal para un rendimiento óptimo.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.laC_C7.qR0KPjPbj98GN?pid=ImgGn",
+    "facts": {
+      "modelyear": "2020",
+      "material": "Mesh and Synthetic",
+      "gender": "Unisex",
+      "colors": ["Black", "Red", "Blue"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
+  {
+    "id": "Reebok005",
+    "brand": "Reebok",
+    "name": "Reebok Question Mid",
+    "shortDescription": "El legado de Allen Iverson.",
+    "description": "El Question Mid es uno de los names más icónicos de baloncesto de Reebok, asociado con la leyenda de la NBA, Allen Iverson. Su diseño distintivo y su rendimiento en la cancha lo han hecho un favorito entre muchos.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.3wTpdoWiIHAn6C5yIuJ5?pid=ImgGn",
+    "facts": {
+      "modelyear": "1996",
+      "material": "Leather",
+      "gender": "Unisex",
+      "colors": ["White", "Red", "Black"],
+      "sizes": ["6", "7", "8", "9", "10", "11"]
+    }
+  },
   {
     "id": "Fila001",
     "brand": "Fila",
@@ -367,7 +571,7 @@ export default [
   },
   {
     "id": "HokaOneOne001",
-    "brand": "HokaOneOne",
+    "brand": "Hoka One One",
     "name": "Hoka One One Clifton 7",
     "shortDescription": "Comodidad y rendimiento excepcionales.",
     "description": "El Hoka One One Clifton 7 es conocido por su comodidad excepcional y su capacidad para brindar un alto rendimiento en la carrera. Con su diseño ligero y su amortiguación suave, es una elección popular entre los corredores de larga distancia.",
@@ -382,7 +586,7 @@ export default [
 },
 {
   "id": "HokaOneOne002",
-  "brand": "HokaOneOne",
+  "brand": "Hoka One One",
   "name": "Hoka One One Bondi 7",
   "shortDescription": "Máximo confort en cada paso.",
   "description": "El Hoka One One Bondi 7 es conocido por su máximo confort en cada paso. Con una suela gruesa y una amortiguación suave, es perfecto para quienes buscan una experiencia de carrera cómoda y de apoyo.",
@@ -397,7 +601,7 @@ export default [
 },
 {
   "id": "HokaOneOne003",
-  "brand": "HokaOneOne",
+  "brand": "Hoka One One",
       "name": "Hoka One One Speedgoat 4",
       "shortDescription": "Rendimiento en terrenos difíciles.",
       "description": "El Hoka One One Speedgoat 4 es ideal para correr en terrenos difíciles y desafiantes. Con una suela exterior de gran tracción y una construcción resistente, es una elección sólida para trail running y aventuras al aire libre.",
@@ -457,7 +661,7 @@ export default [
 },
 {
   "id": "AltraFootwear001",
-  "brand": "AltraFootwear",
+  "brand": "Altra Footwear",
   "name": "Altra Escalante",
   "shortDescription": "Comodidad y estilo para corredores.",
   "description": "Los Altra Escalante son conocidos por su comodidad y estilo para corredores. Con su diseño ligero y su plataforma Zero Drop, proporcionan una experiencia de carrera natural. Son ideales para quienes buscan comodidad y rendimiento en sus carreras.",
@@ -472,7 +676,7 @@ export default [
 },
 {
   "id": "AltraFootwear002",
-  "brand": "AltraFootwear",
+  "brand": "Altra Footwear",
   "name": "Altra Lone Peak",
   "shortDescription": "Zapato de trail versátil.",
   "description": "Los Altra Lone Peak son zapatos de trail versátiles conocidos por su tracción y comodidad en terrenos difíciles. Con su amplia puntera y su suela MaxTrac, son ideales para aventuras en senderos y actividades al aire libre.",
@@ -487,7 +691,7 @@ export default [
 },
 {
   "id": "AltraFootwear003",
-  "brand": "AltraFootwear",
+  "brand": "Altra Footwear",
   "name": "Altra Olympus",
   "shortDescription": "Máxima amortiguación en trail running.",
   "description": "Los Altra Olympus ofrecen máxima amortiguación para trail running. Con su suela Vibram MegaGrip y su amplia puntera, brindan comodidad y agarre en terrenos difíciles. Son ideales para corredores de larga distancia en senderos.",
@@ -502,7 +706,7 @@ export default [
 },
 {
   "id": "NewtonRunning001",
-  "brand": "NewtonRunning",
+  "brand": "Newton Running",
   "name": "Newton Running Gravity 10",
   "shortDescription": "Comodidad y velocidad para corredores.",
   "description": "Los Newton Running Gravity 10 son conocidos por proporcionar comodidad y velocidad a los corredores. Con su tecnología de plataforma POP 3 y su diseño ligero, son ideales para aquellos que buscan un rendimiento excepcional en sus carreras.",
@@ -517,7 +721,7 @@ export default [
 },
 {
   "id": "NewtonRunning002",
-  "brand": "NewtonRunning",
+  "brand": "Newton Running",
   "name": "Newton Running Fate 7",
   "shortDescription": "Amortiguación y estabilidad para corredores.",
   "description": "Los Newton Running Fate 7 ofrecen amortiguación y estabilidad a los corredores. Con su tecnología Action/Reaction y su diseño versátil, son ideales para quienes buscan una experiencia de carrera suave y apoyo.",
@@ -532,7 +736,7 @@ export default [
 },
 {
   "id": "NewtonRunning003",
-  "brand": "NewtonRunning",
+  "brand": "Newton Running",
   "name": "Newton Running Motion 10",
   "shortDescription": "Apoyo y comodidad en cada paso.",
   "description": "Los Newton Running Motion 10 brindan apoyo y comodidad en cada paso. Con su tecnología de estabilidad medial y su construcción de alta calidad, son ideales para corredores que buscan una experiencia de carrera equilibrada.",
