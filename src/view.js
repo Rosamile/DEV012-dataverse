@@ -15,14 +15,15 @@ export const renderItems = (data) => {
                                 <img src="${data[i].imageUrl}" alt="Nike Air Max 1" />
                             </li>
                             <li class="description"></li>
-                            <li>
+                            <li class = "front">
                                 <dl>
-                                    <dt><strong>Nombre:</strong></dt>
-                                    <dd itemprop="name">${data[i].brand}</dd>
+                                    <dt><strong>Marca:</strong></dt>
+                                    <dd itemprop="brand">${data[i].brand}</dd>
                                     <dt><strong>Modelo:</strong></dt>
                                     <dd itemprop="name">${data[i].name}</dd>
                                     <dt><strong>Descripción:</strong></dt>
                                     <dd itemprop="description">${data[i].description}</dd>
+                              <li class ="back" >      
                                     <dt><strong>Año del modelo:</strong></dt>
                                     <dd itemprop="modelyear">${data[i].facts.modelyear}</dd>
                                     <dt><strong>Material:</strong></dt>
@@ -33,7 +34,8 @@ export const renderItems = (data) => {
                                     <dd itemprop="colors">${data[i].facts.colors}</dd>
                                     <dt><strong>Tallas:</strong></dt>
                                     <dd itemprop="sizes">${data[i].facts.sizes}</dd>
-                                </dl>
+                               </li>
+                                    </dl>
                             </li>
                         </ul>
                     </li>
