@@ -17,6 +17,14 @@ const zapatilla = document.createElement()
 // Función para ordenar la data A-Z -- NO ESTÁ FUNCIONANDO BIEN ESTÁ ORDENANDO MAL
 /*export const orderByAlphabetical = (data, getter, order = 'asc') => {
   data.sort((a, b) => {
+      const first = getter(a);
+      const second = getter(b);
+      const compare = first.localeCompare(second);
+
+      if (order=== 'asc'){return compare;} else {
+        return -compare;
+      };
+ //     return order === 'asc' ? compare : -compare;
     const first = getter(a);
     const second = getter(b);
     const compare = first.localeCompare(second);
