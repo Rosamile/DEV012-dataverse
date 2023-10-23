@@ -16,11 +16,15 @@ h1{font-size:55px;
    margin-top: 100px;
 font-weight: 100;
 }
+
+/*formato de tarjeta*/
+
 .grilla {
    max-width:1200px; 
    height:430px; 
    display:flex; 
    justify-content: space-between;
+align-items: center;
 }
 .contenido {
    width:100%;
@@ -32,35 +36,27 @@ font-weight: 100;
       margin:auto;
 }
 .contenido .tarjeta{
-   width: 330px; 
-   height: 430px; 
-   border-radius:8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); 
-    overflow:hidden;
-    margin:20px;
-    text-align:center;
-   /* transition: all 0.25s;*/
+width: 330px; 
+height: 430px; 
+border-radius:8px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); 
+overflow:hidden;
+margin:20px;
+text-align:center;
 }
+
+.contenido .tarjeta img {
+width:330px;
+height:220px;
+display: flex;
+}
+
+   /* transition: all 0.25s;*/
+
 /*.contenido .tarjeta:hover {
    transform: translateY(-15px);
    box-shadow:0 12px 16px rgba(0,0,0,0.2);
 }*/
-[itemprop="descripion"]{
-font-weight:100; 
-font-size:10px; 
-padding:0.1rem;
-}
-
-.contenido .tarjeta img {
-   width:330px;
-    height:220px;
-   }
-
-[itemscope ="Normcore Aesthetics"]{
-      font-weight: 0.1rem;
-      font-size:16px;
-      font-weight:300;
-   }
 
    li {list-style: none;
    }
