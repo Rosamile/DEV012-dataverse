@@ -1,4 +1,4 @@
-import { pintar, orderByAlphabetical} from './dataFunctions.js';
+import { pintar, orderByAlphabetical,filterDataByBrand} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -11,4 +11,14 @@ ordenar.addEventListener("change", () => {
 const zapatilla =  document.getElementById("zapatillas")
 zapatilla.innerHTML = renderItems(data); 
 
-//const datafiltrada = 
+
+// Evento para invocar la data filtrada
+
+const filter = document.querySelector("select[name='brand']");
+filter.addEventListener("change", () => {
+  const selectedBrand = filter.value; // Obtener el valor seleccionado en el select
+  const filteredData = filterDataByBrand(data, 'brand', selectedBrand); // Pasa el valor seleccionado como tercer argumento
+  zapatilla.innerHTML = renderItems(filteredData);
+  
+})
+

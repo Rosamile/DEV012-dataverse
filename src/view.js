@@ -35,6 +35,7 @@ export const renderItems = (data) => {
                                     <dd itemprop="sizes">${data[i].facts.sizes}</dd>
                                 </dl>
                             </li>
+                            
                         </ul>
                     </li>
                 </ul>

@@ -23,15 +23,16 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
   return data;
 };
 
-export const filterShoesBrands = function(shoesBrands){
-  const elements = data.brand.filter((brand) =>  {
-    return brand.type.indexOf(shoesBrands) !== -1;
-  });
-  
-  if (shoeBrands === "all") {
-    elements = data.brand
-  } 
-  console.log(elements);
-  
-  return elements; 
+// Función Pura para filtrar por marca de zapatillas
+
+export const filterDataByBrand = (data, filterBy, value) => {
+  const filteredBrand = [];
+  for (const item of data) {
+    if (item[filterBy] === value) {
+      filteredBrand.push(item);
+    }
+  }
+  console.log(filteredBrand);
+
+  return filteredBrand;
 } 
