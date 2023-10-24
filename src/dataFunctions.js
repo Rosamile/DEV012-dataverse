@@ -1,29 +1,31 @@
 import data from "./data/dataset.js";
 
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-export const example = () => {
-  return 'example';
-}
-export const pintar = (data) => {console.log(data)
+// Función para mostrar la data renderizada
+
+export const pintar = (data) => {
   for (let i =0;i<data.length;i++){
     return 'pintar';
   }
 }
+// Función para crear los elementos de la data
+
 function tipodeZapatillas(zapatillas) {
-const zapatilla = document.createElement(data)
-};
+const zapatilla = document.createElement(data);
+}
+
+// Función para Ordenar Alfabeticamente el modelo de la marca filtrada
 
 export const orderByAlphabetical = (data, getter, order = 'asc') => {
   data.sort((a, b) => {
-      const first = getter(a);
-      const second = getter(b);
-      const compare = first.localeCompare(second);
+    const first = getter(a);
+    const second = getter(b);
+    const compare = first.localeCompare(second);
 
-      if (order === 'asc') {
-          return compare;
-      } else {
-          return -compare;
-      }
+    if (order === 'asc') {
+      return compare;
+    } else {
+      return -compare;
+    }
   });
   return data;
 };
@@ -37,7 +39,5 @@ export const filterDataByBrand = (data, filterBy, value) => {
       filteredBrand.push(item);
     }
   }
-  console.log(filteredBrand);
-
   return filteredBrand;
 } 
