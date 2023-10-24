@@ -21,14 +21,8 @@ ordenar.addEventListener("change", () => {
 
 const limpiar = document.getElementById('button-clear');
 limpiar.addEventListener("click", () => {
-<<<<<<< HEAD
     ordenar.value= "todos";
     zapatilla.innerHTML = renderItems(data); 
-=======
-  ordenar.value= "todos";
-  filter.value="allbrands";
-  zapatilla.innerHTML = renderItems(data); 
->>>>>>> d6d0633bc65ae9b0a3642791df59392c4c6275c3
 });
 
 // Evento para invocar la data filtrada
