@@ -9,14 +9,20 @@ export const pintar = (data) => {
 }
 // Función para crear los elementos de la data
 
-function tipodeZapatillas(zapatillas) {
-const zapatilla = document.createElement(data);
-}
+export const tipoDeZapatillas = ((zapatillaDiv) => {
+  const zapatillas = document.createElement(data);
+  zapatillaDiv.textContent = zapatillas.data;
+
+});
 
 // Función para Ordenar Alfabeticamente el modelo de la marca filtrada
 
 export const orderByAlphabetical = (data, getter, order = 'asc') => {
-  data.sort((a, b) => {
+  
+  // Creamos una copia del arreglo original
+  const dataCopy = [...data];
+  // Ordenamos la copia del arreglo
+  dataCopy.sort((a, b) => {
     const first = getter(a);
     const second = getter(b);
     const compare = first.localeCompare(second);
@@ -27,7 +33,8 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
       return -compare;
     }
   });
-  return data;
+
+  return dataCopy; // Devuelve la copia ordenada
 };
 
 // Función Pura para filtrar por marca de zapatillas
