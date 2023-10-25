@@ -32,6 +32,8 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
     } else {
       return -compare;
     }
+
+    return order === 'asc' ? compare : -compare;
   });
 
   return dataCopy; // Devuelve la copia ordenada
@@ -48,3 +50,10 @@ export const filterDataByBrand = (data, filterBy, value) => {
   }
   return filteredBrand;
 } 
+
+/*export const filter = (data, filterBy, value) => {
+  return data
+    .filter(element => element[filterBy] === value);
+
+    data.map(element => element[filterBy])
+}*/
