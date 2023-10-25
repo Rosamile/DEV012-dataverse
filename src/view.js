@@ -1,13 +1,16 @@
 import data from "./data/dataset.js";
 
 // Función para renderizar datos al HTML 
+
 export const renderItems = (data) => {
   let cajadevariables = "<ul>";
   for (let i = 0; i < data.length; i++) {
-    let htmlR = `
-                            <li class="description" itemscope itemtype="Estilo Athleisure"></li>
-                                <dl>
-                                <img src="${data[i].imageUrl}" alt=""/></dd>
+    const htmlR = `
+    <li class="description" itemscope itemtype="Estilo Athleisure"></li>
+                            <li class="contenedor">
+                                <dl class="tarjeta">
+                                <img src="${data[i].imageUrl}" alt="Imagenes de zapatos"/>
+>>>>>>> 76bf65db9b0cbc03263c03f07c2af21c7542c650
                                     <dt><strong>Marca:</strong></dt>
                                     <dd itemprop="brand">${data[i].brand}</dd>
                                     <dt><strong>Modelo:</strong></dt>
@@ -25,6 +28,7 @@ export const renderItems = (data) => {
                                     <dt><strong>Tallas:</strong></dt>
                                     <dd itemprop="sizes">${data[i].facts.sizes}</dd>
                                     </dl>
+                                    </li>
                                </li>`  
     cajadevariables += htmlR;
   }
