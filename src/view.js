@@ -5,12 +5,13 @@ import data from "./data/dataset.js";
 export const renderItems = (data) => {
   let cajadevariables = "<ul>";
   for (let i = 0; i < data.length; i++) {
+
     const htmlR = `
+     <li class="description" itemscope itemtype="Estilo Athleisure"></li>
     <li class="description" itemscope itemtype="Estilo Athleisure"></li>
                             <li class="contenedor">
                                 <dl class="tarjeta">
                                 <img src="${data[i].imageUrl}" alt="Imagenes de zapatos"/>
->>>>>>> 76bf65db9b0cbc03263c03f07c2af21c7542c650
                                     <dt><strong>Marca:</strong></dt>
                                     <dd itemprop="brand">${data[i].brand}</dd>
                                     <dt><strong>Modelo:</strong></dt>
