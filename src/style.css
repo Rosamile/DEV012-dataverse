@@ -56,14 +56,12 @@ font-size: 17px;
 font-family: Jomhuria;
 }
 
-.contenedor{
-width: 100%;
-max-width: 1200%;
-height: 430px;
-justify-content: space-around;
-flex-direction: row;
-flex-wrap: wrap;
-margin: auto;
+ul{
+display: grid;
+grid-template-columns: 33.3% 33.3% 33.3%;
+align-items: center;
+justify-content: center;
+
 }
 
 .contenedor .tarjeta{
