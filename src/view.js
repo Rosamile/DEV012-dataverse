@@ -5,7 +5,7 @@ export const renderItems = (data) => {
   let cajadevariables = "<ul>";
   for (let i = 0; i < data.length; i++) {
     let htmlR = `
-                            <li class="description"></li>
+                            <li class="description" itemscope itemtype="Estilo Athleisure"></li>
                                 <dl>
                                 <img src="${data[i].imageUrl}" alt=""/></dd>
                                     <dt><strong>Marca:</strong></dt>
