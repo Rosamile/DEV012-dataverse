@@ -1,4 +1,4 @@
- *{
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -45,15 +45,50 @@ padding: 0px 10px 0px;
 font-size: 23px;
 }
 
+#dato{
+   display: flexbox;
+   position: relative;
+}
 button {
-margin: 0px 10px 0px;
-padding: 0px 30px 0px;
-background-color:#0F2C59 ;
-border-radius: 1rem;
-color:#EADBC8;
-box-shadow: 0px 2px 8px rgba(80, 80, 80, 0.592);
-font-size: 17px;
-font-family: Jomhuria;
+background-color: #000;
+padding: 16px 32px;
+border: none;
+cursor: pointer;
+color: #fff;
+position: absolute;
+border-radius: 12px;
+font-size: 24px;
+transform: translate(-50%, -50%);
+margin-left: auto;
+transform: translateY(-50%); 
+right: 30px;
+top: 220px;
+
+}
+/*parte trasera del botón que hace el recorrido de los colores*/
+button ::before {
+content: "";
+position: relative;
+top: 20;
+left:20;
+z-index:-1;
+width: 100%;
+height: 100%;
+background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue );
+background-size: 800%;
+border-radius: 10px;
+filter: blur(8px);
+animation: glowing 20s linear infinite;
+margin-left: auto;
+}
+/*creación de la animación controla los pasos intermedios de la animación del borde del boton*/
+@keyframes glowing { 0% {
+   background-position: 0 0;
+}
+50% {
+   background-position: 400% 0;
+}
+100% {background-position: 0 0;}
 }
 
 ul{
