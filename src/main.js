@@ -6,8 +6,11 @@ import data from './data/dataset.js';
 
 const contenedorDeZapatillas = document.getElementById("root");
 const todasLasZapatillas = data;
+const campoContadorDeModelos=document.getElementById('dato')
 const htmlDeTodasLasZapatillas = renderItems(todasLasZapatillas);
 contenedorDeZapatillas.innerHTML = htmlDeTodasLasZapatillas;
+campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ data.length;
+
 
 // Evento para Ordenar la data por modelo
 
@@ -27,6 +30,8 @@ limpiar.addEventListener("click", () => {
   ordenar.value= "todos";
   filter.value="allbrands";
   filteryear.value="Seleccione un año";
+  campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ data.length;
+
   contenedorDeZapatillas.innerHTML = renderItems(data); 
 });
 
@@ -40,14 +45,16 @@ filter.addEventListener("change", (evento) => {
 });
 
 //imprimir en pantalla los reportes estadistico
-//me falta ponerle una condicional para que genere un repoorte estadistico cuanto seleccionen un año
+//me falta ponerle una condicional para que genere un reporte estadistico cuanto seleccionen un año
 //filtro por año
 const filteryear=document.getElementById ('yearinput')
+
+
 filteryear.addEventListener("change", (evento) => {
   const year = evento.target.value;
   const filteredByYear = filterByModelYear(data,year);  
   contenedorDeZapatillas.innerHTML = renderItems(filteredByYear); 
-
+ campoContadorDeModelos.innerHTML= "En este año se produjeron:" + filteredByYear.length +" "+ "modelos.";
 
 });
 

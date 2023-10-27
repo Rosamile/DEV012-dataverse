@@ -54,7 +54,7 @@ export const filterDataByBrand = (data, filterBy, value) => {
 
 // sacar estadistica por año con más modelos
  
-const getYearWithMaxModels = (data) => {
+export const getYearWithMaxModels = (data) => {
   const year = data.map(item => item.facts.modelyear);
   const frequency = year.reduce((acc, curr) => {
     if (curr in acc) {
@@ -79,7 +79,7 @@ const getYearWithMaxModels = (data) => {
 }
 
 // Uso:
-const yearWithMaxModels = getYearWithMaxModels(data);
+ export const yearWithMaxModels = getYearWithMaxModels(data);
 console.log(yearWithMaxModels);
 
 
@@ -88,3 +88,4 @@ console.log(yearWithMaxModels);
 export const filterByModelYear = (data,value) => {
   return data.filter(element => element.facts.modelyear === value);
 }
+
