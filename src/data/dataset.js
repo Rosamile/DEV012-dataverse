@@ -10,8 +10,7 @@ export default [
       "modelyear": "1987",
       "material": "Leather and Mesh",
       "gender": "Unisex",
-      "colors": ["White","Red","Blue"],
-      "sizes": ["6","7","8","9","10","11"]
+      "color": "multicolor"
     }
   },
   {
@@ -25,8 +24,7 @@ export default [
       "modelyear": "1982",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["White", "Black"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -40,8 +38,7 @@ export default [
       "modelyear": "2002",
       "material": "Leather and Suede",
       "gender": "Unisex",
-      "colors": ["Green", "Brown", "Yellow"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -55,8 +52,7 @@ export default [
       "modelyear": "2018",
       "material": "Synthetic and Mesh",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Blue", "Pink"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "blue"
     }
   },
   {
@@ -70,8 +66,7 @@ export default [
       "modelyear": "2017",
       "material": "Flyknit",
       "gender": "Unisex",
-      "colors": ["Black", "Grey", "Red"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -85,8 +80,7 @@ export default [
       "modelyear": "1969",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["White", "Black", "Gold"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -100,8 +94,7 @@ export default [
       "modelyear": "2015",
       "material": "Primeknit",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Blue", "Grey"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -115,8 +108,7 @@ export default [
       "modelyear": "2015",
       "material": "Mesh and Primeknit",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Red", "Green"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -130,8 +122,7 @@ export default [
       "modelyear": "1963",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["White", "Green", "Navy"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -145,8 +136,7 @@ export default [
       "modelyear": "1966",
       "material": "Suede",
       "gender": "Unisex",
-      "colors": ["Black", "Red", "Blue", "Yellow"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -160,8 +150,7 @@ export default [
       "modelyear": "2000",
       "material": "Leather and Mesh",
       "gender": "Unisex",
-      "colors": ["White", "Black", "Grey"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -175,8 +164,7 @@ export default [
       "modelyear": "2012",
       "material": "Mesh",
       "gender": "Unisex",
-      "colors": ["Black", "Blue", "Grey", "Pink"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "blue"
     }
   },
   {
@@ -190,8 +178,7 @@ export default [
       "modelyear": "2010",
       "material": "Canvas",
       "gender": "Women",
-      "colors": ["Black", "Navy", "Taupe"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -205,8 +192,7 @@ export default [
       "modelyear": "2014",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["Black", "Brown"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -220,8 +206,7 @@ export default [
       "modelyear": "2018",
       "material": "Leather and Suede",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Gold"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -235,8 +220,7 @@ export default [
       "modelyear": "1982",
       "material": "Suede and Mesh",
       "gender": "Unisex",
-      "colors": ["Grey", "Navy", "Black"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -250,8 +234,7 @@ export default [
       "modelyear": "1988",
       "material": "Suede and Mesh",
       "gender": "Unisex",
-      "colors": ["Grey", "Navy", "Red", "Black"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -265,8 +248,7 @@ export default [
       "modelyear": "2021",
       "material": "Mesh",
       "gender": "Unisex",
-      "colors": ["Black", "Silver", "Blue", "White"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -280,8 +262,7 @@ export default [
       "modelyear": "2020",
       "material": "Knit",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Red"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -295,8 +276,7 @@ export default [
       "modelyear": "2019",
       "material": "Suede and Mesh",
       "gender": "Unisex",
-      "colors": ["Grey", "White", "Blue"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -310,8 +290,7 @@ export default [
       "modelyear": "2020",
       "material": "Mesh",
       "gender": "Unisex",
-      "colors": ["Black", "Blue", "White"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -325,8 +304,7 @@ export default [
       "modelyear": "2021",
       "material": "Mesh",
       "gender": "Unisex",
-      "colors": ["Red", "Grey", "Green"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -340,8 +318,7 @@ export default [
       "modelyear": "2020",
       "material": "Mesh",
       "gender": "Unisex",
-      "colors": ["Blue", "White", "Black"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -355,23 +332,7 @@ export default [
       "modelyear": "2020",
       "material": "Mesh",
       "gender": "Unisex",
-      "colors": ["Grey", "Green", "Blue"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
-    }
-  },
-  {
-    "id": "ASICS005",
-    "brand": "Asics",
-    "name": "Asics GEL-Quantum 360 6",
-    "shortDescription": "Innovación en amortiguación.",
-    "description": "Ofrece una amortiguación 360 grados para una experiencia de carrera suave y resistente.",
-    "imageUrl": "https://th.bing.com/th/id/OIG.Xt3AbSVHt7MCmyVo705T?pid=ImgGn",
-    "facts": {
-      "modelyear": "2021",
-      "material": "Mesh and Synthetic",
-      "gender": "Unisex",
-      "colors": ["Black", "White", "Red"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -385,8 +346,7 @@ export default [
       "modelyear": "1973",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Red"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -400,8 +360,7 @@ export default [
       "modelyear": "2019",
       "material": "Mesh and Leather",
       "gender": "Unisex",
-      "colors": ["Blue", "White", "Pink"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "multicolor"
     }
   },
   {
@@ -415,8 +374,7 @@ export default [
       "modelyear": "2020",
       "material": "Nylon and Suede",
       "gender": "Unisex",
-      "colors": ["Black", "White", "Yellow"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "grey"
     }
   },
   {
@@ -430,8 +388,7 @@ export default [
       "modelyear": "2018",
       "material": "Mesh and Leather",
       "gender": "Unisex",
-      "colors": ["Grey", "Black", "Multicolor"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "blue"
     }
   },
   {
@@ -445,8 +402,7 @@ export default [
       "modelyear": "1968",
       "material": "Suede",
       "gender": "Unisex",
-      "colors": ["Black", "Red", "Blue"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "brown"
     }
   },
   {
@@ -460,8 +416,7 @@ export default [
       "modelyear": "1983",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["White", "Black", "Grey"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "brown"
     }
   },
   {
@@ -475,8 +430,7 @@ export default [
       "modelyear": "1994",
       "material": "Synthetic",
       "gender": "Unisex",
-      "colors": ["Black", "Yellow", "Red"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -490,8 +444,7 @@ export default [
       "modelyear": "1985",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["White", "Navy", "Green"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -505,8 +458,7 @@ export default [
       "modelyear": "2020",
       "material": "Mesh and Synthetic",
       "gender": "Unisex",
-      "colors": ["Black", "Red", "Blue"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "black"
     }
   },
   {
@@ -520,8 +472,7 @@ export default [
       "modelyear": "1996",
       "material": "Leather",
       "gender": "Unisex",
-      "colors": ["White", "Red", "Black"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "grey"
     }
   },
   {
@@ -535,8 +486,7 @@ export default [
       "modelyear": "1996",
       "material": "Cuero/Sintético",
       "gender": "Unisex",
-      "colors": ["Blanco", "Negro", "Rosa"],
-      "sizes": ["6", "7", "8", "9", "10", "11"]
+      "color": "white"
     }
   },
   {
@@ -550,8 +500,7 @@ export default [
       "modelyear": "2018",
       "material": "Textil/Sintético",
       "gender": "Mujer",
-      "colors": ["Blanco/Rosa", "Negro/Blanco", "Azul"],
-      "sizes": ["US 5", "US 6", "US 7", "US 8", "US 9"]
+      "color": "pink"
     }
   },
   {
@@ -565,8 +514,7 @@ export default [
       "modelyear": "1994",
       "material": "Cuero/Sintético",
       "gender": "Hombre",
-      "colors": ["Blanco/Negro", "Negro/Rojo", "Azul"],
-      "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11"]
+      "color": "black"
     }
   },
   {
@@ -580,8 +528,7 @@ export default [
       "modelyear": "2020",
       "material": "Malla/Sintético",
       "gender": "Unisex",
-      "colors": ["Gris", "Azul", "Negro"],
-      "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+      "color": "grey" 
   }
 },
 {
@@ -595,8 +542,7 @@ export default [
     "modelyear": "2020",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Blanco", "Negro", "Azul"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "multicolor"
 }
 },
 {
@@ -610,8 +556,7 @@ export default [
         "modelyear": "2020",
         "material": "Malla/Sintético",
         "gender": "Unisex",
-        "colors": ["Rojo", "Verde", "Negro"],
-        "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+        "color": "green"
       }
 },
 {
@@ -625,8 +570,7 @@ export default [
     "modelyear": "2019",
     "material": "Textil/Sintético",
     "gender": "Unisex",
-    "colors": ["Negro", "Azul", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "black"
   }
 },
 {
@@ -640,8 +584,7 @@ export default [
     "modelyear": "2018",
     "material": "Cuero/Sintético",
     "gender": "Unisex",
-    "colors": ["Gris", "Negro", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "grey"
   }
 },
 {
@@ -655,8 +598,7 @@ export default [
     "modelyear": "2021",
     "material": "Textil/Sintético",
     "gender": "Unisex",
-    "colors": ["Azul", "Rojo", "Negro"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "blue"
   }
 },
 {
@@ -670,8 +612,7 @@ export default [
     "modelyear": "2017",
     "material": "Malla",
     "gender": "Unisex",
-    "colors": ["Negro", "Azul", "Gris"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color":  "green"
   }
 },
 {
@@ -685,8 +626,7 @@ export default [
     "modelyear": "2019",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Verde", "Gris", "Negro"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "grey"
   }
 },
 {
@@ -700,8 +640,7 @@ export default [
     "modelyear": "2020",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Negro", "Rojo", "Azul"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color":"blue"
   }
 },
 {
@@ -715,8 +654,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Rojo", "Azul", "Negro"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "multicolor"
   }
 },
 {
@@ -730,8 +668,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Blanco", "Negro", "Gris"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "multicolor"
   }
 },
 {
@@ -745,8 +682,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Negro", "Azul", "Rojo"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "white"
   }
 },
 {
@@ -760,8 +696,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Azul", "Negro", "Gris"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color":"multicolor"
   }
 },
 {
@@ -775,8 +710,7 @@ export default [
     "modelyear": "2022",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Blanco", "Negro", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "multicolor"
   }
 },
 {
@@ -790,8 +724,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Rojo", "Negro", "Amarillo"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "black"
   }
 },
 {
@@ -805,8 +738,7 @@ export default [
     "modelyear": "2022",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Negro", "Azul", "Gris"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "multicolor"
   }
 },
 {
@@ -820,8 +752,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Blanco", "Negro", "Azul"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "black"
   }
 },
 {
@@ -834,8 +765,7 @@ export default [
   "facts": {
     "modelyear": "2021",
     "material": "Malla/Sintético",    "gender": "Unisex",
-    "colors": ["Rojo", "Negro", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "grey"
   }
 },
 {
@@ -849,8 +779,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Azul", "Negro", "Blanco"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "blue"
   }
 },
 {
@@ -864,8 +793,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Blanco", "Negro", "Azul"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "orange"
   }
 },
 {
@@ -879,8 +807,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Rojo", "Negro", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "multicolor"
   }
 },
 {
@@ -894,8 +821,7 @@ export default [
     "modelyear": "2021",
     "material": "Cuero/Sintético",
     "gender": "Unisex",
-    "colors": ["Gris", "Marrón", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "brown"
   }
 },
 {
@@ -909,8 +835,7 @@ export default [
     "modelyear": "2021",
     "material": "Malla/Sintético",
     "gender": "Unisex",
-    "colors": ["Azul", "Negro", "Verde"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "black"
   }
 },
 {
@@ -924,8 +849,7 @@ export default [
     "modelyear": "2020",
     "material": "Cuero/Sintético",
     "gender": "Unisex",
-    "colors": ["Negro", "Marrón", "Gris"],
-    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"]
+    "color": "brown"
   }
 },
 ];

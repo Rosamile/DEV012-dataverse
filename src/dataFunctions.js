@@ -33,7 +33,7 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
       return -compare;
     }
 
-    return order === 'asc' ? compare : -compare;
+    //return order === 'asc' ? compare : -compare;
   });
 
   return dataCopy; // Devuelve la copia ordenada
@@ -50,7 +50,11 @@ export const filterDataByBrand = (data, filterBy, value) => {
   }
   return filteredBrand;
 } 
+// Función para filtrar por color de zapatilla
 
+export const filterFactsByColor = (data,value) => {
+  return data.filter(element => element.facts.color === value);
+}
 
 // sacar estadistica por año con más modelos
  
@@ -79,7 +83,7 @@ export const getYearWithMaxModels = (data) => {
 }
 
 // Uso:
- export const yearWithMaxModels = getYearWithMaxModels(data);
+export const yearWithMaxModels = getYearWithMaxModels(data);
 console.log(yearWithMaxModels);
 
 
@@ -88,4 +92,5 @@ console.log(yearWithMaxModels);
 export const filterByModelYear = (data,value) => {
   return data.filter(element => element.facts.modelyear === value);
 }
+
 

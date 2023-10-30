@@ -11,9 +11,10 @@
 <body>
 
   <header>
-    <h1>Conoce las Zapatillas en tendencia del Estilo Athleisure</h1>
+    <h1> ATHLEISURE, <br>¡Estilo comodo y vanguardista!</h1> 
   </header>
-  <section> 
+
+  <section class="filtros"> 
   <label >Filtrar por Marca</label>
   <select data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
   <option value="allbrands">--All Brands--</option>
@@ -35,6 +36,19 @@
   <option value="Merrel">Merrel</option>
 </select>
 
+<label>Filtrar por Color:</label>
+<select data-testid="select-filter" name="color">
+<option value="allcolors">--All Colors--</option>
+<option value="white">white</option>
+<option value="black">black</option>
+<option value="green">green</option>
+<option value="multicolor">multicolor</option>
+<option value="blue">blue</option>
+<option value="grey">grey</option>
+<option value="brown">brown</option>
+<option value="pink">pink</option>
+</select>
+
 <label>Ordenar por:</label>
   <select name="ordenar" data-testid="select-sort" title="Desplegable de ordenado por modelo">
     <option value="todos">Todos</option>
@@ -50,7 +64,7 @@
 </section>
 <button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
   <div id="root" class="tarjeta"></div>
-  <footer></footer>
+  <footer> Desarrollado por Rosa & Emma</footer>
   <script src="./main.js" type="module"></script>
 </body>
 
