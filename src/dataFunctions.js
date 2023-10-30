@@ -52,7 +52,6 @@ export const filterDataByBrand = (data, filterBy, value) => {
 } 
 // Función para filtrar por color de zapatilla
 
-
 export const filterFactsByColor = (data,value) => {
   return data.filter(element => element.facts.color === value);
 }
@@ -84,7 +83,7 @@ export const getYearWithMaxModels = (data) => {
 }
 
 // Uso:
- export const yearWithMaxModels = getYearWithMaxModels(data);
+export const yearWithMaxModels = getYearWithMaxModels(data);
 console.log(yearWithMaxModels);
 
 
