@@ -52,6 +52,46 @@ export const filterDataByBrand = (data, filterBy, value) => {
 } 
 // Función para filtrar por color de zapatilla
 
+
 export const filterFactsByColor = (data,value) => {
   return data.filter(element => element.facts.color === value);
 }
+
+// sacar estadistica por año con más modelos
+ 
+export const getYearWithMaxModels = (data) => {
+  const year = data.map(item => item.facts.modelyear);
+  const frequency = year.reduce((acc, curr) => {
+    if (curr in acc) {
+      acc[curr]++;
+    } else {
+      acc[curr] = 1;
+    }
+    return acc;
+  }, {});
+
+  let maxYear = 0;
+  let maxCount = -Infinity;
+
+  Object.entries(frequency).forEach(([year, count]) => {
+    if (count > maxCount) {
+      maxCount = count;
+      maxYear = year;
+    }
+  });
+
+  return maxYear; // Devuelve el año con la máxima frecuencia
+}
+
+// Uso:
+ export const yearWithMaxModels = getYearWithMaxModels(data);
+console.log(yearWithMaxModels);
+
+
+// filtro por año para mostrar la estadistica por cada año seleccionado y los modelos de ese año
+
+export const filterByModelYear = (data,value) => {
+  return data.filter(element => element.facts.modelyear === value);
+}
+
+

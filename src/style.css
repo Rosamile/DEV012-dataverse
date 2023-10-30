@@ -1,6 +1,4 @@
- *{
-margin: 0;
-padding: 0;
+*{margin: 0;
 box-sizing: border-box;
 }
 
@@ -59,6 +57,7 @@ padding: 0px 10px 0px;
 font-size: 23px;
 }
 
+
 button {
 margin: 0px 10px 0px;
 padding: 0px 45px 0px;
@@ -73,7 +72,55 @@ font-weight: bold;
 
 button:hover{
    background-color: #0e1e35;
+
+#dato{
+   display: flexbox;
+   position: relative;
+
 }
+
+#button-clear {
+   background: black;
+   cursor: pointer;
+   border: none;
+   padding: 16px 32px;
+   color: azure;
+   font-size: 24px;
+   font-weight: bold;
+   position: relative;
+   border-radius: 12px;
+}
+
+/*parte trasera del botón que hace el recorrido de los colores*/
+#button-clear:hover::before{
+   content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+/*creación de la animación que va detras*/
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
 
 ul{
 display: grid;

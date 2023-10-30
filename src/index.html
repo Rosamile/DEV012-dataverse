@@ -9,12 +9,17 @@
 </head>
 
 <body>
+
   <header>
     <h1>¡Estilo comodo y vanguardista!</h1>
   </header>
+
   <section class="filtros"> 
   <label>Filtrar por Marca:</label>
   <select data-testid="select-filter" name="brand">
+  <section> 
+  <label >Filtrar por Marca</label>
+  <select data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
   <option value="allbrands">--All Brands--</option>
   <option value="Nike">Nike</option>
   <option value="Adidas">Adidas</option>
@@ -48,14 +53,19 @@
 </select>
 
 <label>Ordenar por:</label>
-  <select name="ordenar" data-testid="select-sort">
+  <select name="ordenar" data-testid="select-sort" title="Desplegable de ordenado por modelo">
     <option value="todos">Todos</option>
     <option value="asc">A - Z Modelo ascendente</option>
     <option value="desc">Z - A Modelo descendente</option>
   </select>
-  <button id="button-clear">Limpiar</button>
+
+
+  <label>Buscar por año</label>
+  <input type="number" name="year" id="yearinput" min="1987" max="2023" placeholder="Seleccione un año" title="Desplegable de filtrado por año de creación">
+  <section id="dato">En este año se produjeron:</section>
 
 </section>
+<button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
   <div id="root" class="tarjeta"></div>
   <footer> Desarrollado por Rosa & Emma</footer>
   <script src="./main.js" type="module"></script>
