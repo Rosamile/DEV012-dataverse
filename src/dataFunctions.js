@@ -33,7 +33,7 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
       return -compare;
     }
 
-    return order === 'asc' ? compare : -compare;
+    //return order === 'asc' ? compare : -compare;
   });
 
   return dataCopy; // Devuelve la copia ordenada
@@ -50,10 +50,8 @@ export const filterDataByBrand = (data, filterBy, value) => {
   }
   return filteredBrand;
 } 
+// Función para filtrar por color de zapatilla
 
-/*export const filter = (data, filterBy, value) => {
-  return data
-    .filter(element => element[filterBy] === value);
-
-    data.map(element => element[filterBy])
-}*/
+export const filterFactsByColor = (data,value) => {
+  return data.filter(element => element.facts.color === value);
+}
