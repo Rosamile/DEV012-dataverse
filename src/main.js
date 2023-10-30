@@ -1,7 +1,5 @@
 
-import { orderByAlphabetical,filterDataByBrand,filterFactsByColor} from './dataFunctions.js';
-
-import { orderByAlphabetical,filterDataByBrand, filterByModelYear} from './dataFunctions.js';
+import { orderByAlphabetical,filterDataByBrand, filterByModelYear,filterFactsByColor} from './dataFunctions.js';
 
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
@@ -32,14 +30,11 @@ ordenar.addEventListener("change", (evento) => {
 const limpiar = document.getElementById('button-clear');
 limpiar.addEventListener("click", () => {
   ordenar.value= "todos";
-
-  filter.value= "allbrands";
+  filter.value= "allcolors";
   filtroColores.value= "allcolors";
-
   filter.value="allbrands";
-  filteryear.value="Seleccione un año";
+  filterYear.value="Seleccione un año";
   campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ data.length;
-
   contenedorDeZapatillas.innerHTML = renderItems(data); 
 });
 
@@ -63,10 +58,10 @@ filtroColores.addEventListener("change", (evento) => {
 //imprimir en pantalla los reportes estadistico
 //me falta ponerle una condicional para que genere un reporte estadistico cuanto seleccionen un año
 //filtro por año
-const filteryear=document.getElementById ('yearinput')
+const filterYear=document.getElementById ('yearinput')
 
 
-filteryear.addEventListener("change", (evento) => {
+filterYear.addEventListener("change", (evento) => {
   const year = evento.target.value;
   const filteredByYear = filterByModelYear(data,year);  
   contenedorDeZapatillas.innerHTML = renderItems(filteredByYear); 
