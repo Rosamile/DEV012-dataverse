@@ -23,6 +23,7 @@ ordenar.addEventListener("change", (evento) => {
   const sortedData = orderByAlphabetical(data, item => item.name, selectedOrder);
   contenedorDeZapatillas.innerHTML = renderItems(sortedData);
   console.log(valorSeleccionado);
+
 });
 
 // Evento para limpiar los filtros
@@ -30,7 +31,6 @@ ordenar.addEventListener("change", (evento) => {
 const limpiar = document.getElementById('button-clear');
 limpiar.addEventListener("click", () => {
   ordenar.value= "todos";
-  filter.value= "allcolors";
   filtroColores.value= "allcolors";
   filter.value="allbrands";
   filterYear.value="Seleccione un año";
@@ -51,7 +51,7 @@ filter.addEventListener("change", (evento) => {
 const filtroColores = document.querySelector("select[name='color']");
 filtroColores.addEventListener("change", (evento) => {
   const selectedColor =  evento.currentTarget.value 
-  const ColorFiltrado = filterFactsByColor(data, 'color', selectedColor); // Pasa el valor seleccionado como tercer argumento
+  const ColorFiltrado = filterFactsByColor(data, selectedColor); // Pasa el valor seleccionado como tercer argumento
   contenedorDeZapatillas.innerHTML = renderItems(ColorFiltrado); 
 });
 
