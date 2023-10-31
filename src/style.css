@@ -6,7 +6,7 @@ box-sizing: border-box;
 body {
 width:100%;
 height: 100%;
-background-color:rgb(255, 229, 229);
+background-color:rgb(255, 246, 224);
 letter-spacing: 0.03em;
 line-height:1.6;
 font-family:Jomhuria;
@@ -16,8 +16,8 @@ flex-direction: column;
 
 header{
    width: 100%;
-   height: 15vh;
-   background-color: rgb(93, 18, 210);
+   height: 18vh;
+   background-color: rgb(39, 40, 41);
    align-items: center;
    display: flex;
    flex-direction: row;
@@ -25,66 +25,70 @@ header{
 }
 
 h1{
-font-size:30px;
+font-size:40px;
 text-align: center;
-color: rgb(255, 229, 229);
+color: rgb(216, 217, 218);
 margin: 0;
 padding-top: 0px;
 }
+
 nav{
 display: flex;
 width: 100%;
+height: 6vh;
 flex-direction: row;
-background-color:rgb(93, 18, 210);
+background-color:rgb(39, 40, 41);
 }
+
 .filtros {
-background-color:rgb(93, 18, 210);
 color:rgb(255, 229, 229);
 display: flex;
-font-size: 15px;
+font-size: 18px;
 justify-content: center;
 padding: 7px;
 }
 
 select {
-background-color:rgb(255, 229, 229);
-color:rgb(255, 106, 194);
+background-color:rgb(216, 217, 218);
+color:rgb(39, 40, 41);
 padding: 4px;
 font-size: 18px; 
 
 }
 
-input {
-   background-color:rgb(255, 229, 229);
-   color:rgb(255, 106, 194);
-   padding: 7px;
-   font-size: 18px;  
+#yearinput {
+background-color:rgb(216, 217, 218);
+color: rgb(39, 40, 41);
+padding: 4px;
+font-size: 18px;  
 }
 
 label {
-padding: 0px 10px 0px; 
-font-size: 18px;
-color: rgb(255, 229, 229);
+font-size: 23px;
+color: rgb(255, 246, 224);
+width: fit-content;
+margin-top: 20px;
+margin-right: 10px;
+margin-left: 20px;
 
 }
 
 #dato{
    display: flexbox;
-   position: center;
-   color:rgb(255, 229, 229);
-   font-size: 20px; 
-   margin-left: 10px;
+   text-align: center;
+   color:rgb(39, 40, 41);
+   font-size: 30px; 
+   
 }
 
 #button-clear {
-   background: rgb(255, 106, 194);
+   background: rgb(216, 217, 218);
    cursor: pointer;
    border: none;
-   width: 10%;
+   width: 8%;
    height: 70%;
-   margin: 0px 10px 0px;
-   padding: 0px 45px 0px;
-   color: azure;
+   margin: 0px 9px 0px;
+   color: rgb(39, 40, 41);
    font-size: 23px;
    font-weight: bold;
    border-radius: 7px;
@@ -99,8 +103,9 @@ color: rgb(255, 229, 229);
     top: 0;
     left: 0;
     z-index: -1;
-    width: 10%;
+    width: 8%;
     height: 70%;
+    margin: 0px 9px 0px;
     background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
     background-size: 800%;
     border-radius: 12px;
@@ -123,20 +128,23 @@ color: rgb(255, 229, 229);
 }
 
 ul{
-display: grid;
-grid-template-columns: 33.3% 33.3% 33.3%;
-align-items: center;
-justify-content: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
 
 }
 
 .contenedor .tarjeta{
+display: flex;
+flex-direction: column;
+align-items: center;
 width: 380px;
-height: 620px;
-border-radius: 8px;
-background:url('https://img.freepik.com/vector-gratis/conjunto-iconos-colores-calzado_98292-3308.jpg?w=740&t=st=1698766833~exp=1698767433~hmac=7abf14e9593ef720537ea70ace0815074199e4dc9422c130639acf45636a1b55');
-background-image: opacity 0.50;
-background-repeat:repeat;
+height: 720px;
+background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url(./media/Background-card.jpg);
+background-size: cover;
+border-radius: 20px;
 box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 overflow: hidden;
 margin: 30px;
@@ -144,22 +152,22 @@ text-align: center;
 transition: all 0.25s;
 font-weight: 400;
 padding: 0 1rem;
-font-size: 15.5px;
-color: rgb(0, 0, 0,);
+font-size: 20px;
+color: rgb(255, 246, 224);
 text-decoration: none;
+}
+
+.contenedor .tarjeta img{
+   width: 310px;
+   height: 235px;
+   border-radius: 0px 0px 10px 10px;
 }
 
 .contenedor .tarjeta:hover{
    transform: translateY(-15px);
-   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
 }
 
-.contenedor .tarjeta img{
-   width: 300px;
-   height: 220px;
-   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-   
-}
 li {
    list-style: none;
    }
@@ -168,7 +176,7 @@ footer{
    display: flex;
    justify-content: center;
    font-family: jomhuria;
-   color: rgb(255, 106, 194);
+   color: rgb(39, 40, 41);
    text-align: center;
    font-size: 25px;
    font-weight: bold;
