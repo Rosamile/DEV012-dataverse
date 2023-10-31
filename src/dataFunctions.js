@@ -32,8 +32,6 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
     } else {
       return -compare;
     }
-
-    //return order === 'asc' ? compare : -compare;
   });
 
   return dataCopy; // Devuelve la copia ordenada
@@ -53,8 +51,11 @@ export const filterDataByBrand = (data, filterBy, value) => {
 // Función para filtrar por color de zapatilla
 
 export const filterFactsByColor = (data,value) => {
+  console.log(data);
+  console.log(value);
   return data.filter(element => element.facts.color === value);
-}
+};
+console.log();
 
 // sacar estadistica por año con más modelos
  
