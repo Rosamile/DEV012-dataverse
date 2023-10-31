@@ -12,8 +12,9 @@
     <h1> ATHLEISURE, <br>¡Estilo cómodo y vanguardista!</h1> 
   </header>
   <nav> 
+    <div>
   <section> 
-  <label >Filtrar por Marca</label>
+  <label >Filtrar por Marca:</label>
   <select data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
   <option value="allbrands">--All Brands--</option>
   <option value="Nike">Nike</option>
@@ -52,12 +53,12 @@
     <option value="desc">Z - A Modelo descendente</option>
   </select>
   <label>Buscar por año:</label>
-  <input type="number" name="year" id="yearinput" min="1987" max="2023" placeholder="Seleccione un año" title="Desplegable de filtrado por año de creación">
-  <section id="dato">En este año se produjeron:</section>
+  <input type="number" name="year" id="yearinput" min="1987" max="2023" placeholder="Years" title="Desplegable de filtrado por año de creación">
 </section>
+</div>
 <button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
 </nav>
-
+<section id="dato">En este año se produjeron:</section>
   <div id="root" class="tarjeta"></div>
   <footer> Desarrollado por Rosa & Emma</footer>
   <script src="./main.js" type="module"></script>

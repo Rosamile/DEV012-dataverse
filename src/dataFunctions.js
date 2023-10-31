@@ -18,7 +18,6 @@ export const tipoDeZapatillas = ((zapatillaDiv) => {
 // Función para Ordenar Alfabeticamente el modelo de la marca filtrada
 
 export const orderByAlphabetical = (data, getter, order = 'asc') => {
-  
   // Creamos una copia del arreglo original
   const dataCopy = [...data];
   // Ordenamos la copia del arreglo
@@ -26,14 +25,12 @@ export const orderByAlphabetical = (data, getter, order = 'asc') => {
     const first = getter(a);
     const second = getter(b);
     const compare = first.localeCompare(second);
-
     if (order === 'asc') {
       return compare;
     } else {
       return -compare;
     }
   });
-
   return dataCopy; // Devuelve la copia ordenada
 };
 
@@ -51,11 +48,8 @@ export const filterDataByBrand = (data, filterBy, value) => {
 // Función para filtrar por color de zapatilla
 
 export const filterFactsByColor = (data,value) => {
-  console.log(data);
-  console.log(value);
   return data.filter(element => element.facts.color === value);
 };
-console.log();
 
 // sacar estadistica por año con más modelos
  
@@ -85,7 +79,7 @@ export const getYearWithMaxModels = (data) => {
 
 // Uso:
 export const yearWithMaxModels = getYearWithMaxModels(data);
-console.log(yearWithMaxModels);
+
 
 
 // filtro por año para mostrar la estadistica por cada año seleccionado y los modelos de ese año
