@@ -1,5 +1,5 @@
 
-import { orderByAlphabetical,filterDataByBrand, filterByModelYear,filterFactsByColor} from './dataFunctions.js';
+import { orderByAlphabetical,filterDataByBrand, filterByModelYear,filterFactsByColor, orderOfFilter} from './dataFunctions.js';
 
 import { renderItems } from './view.js';
 import data from './data/dataset.js';

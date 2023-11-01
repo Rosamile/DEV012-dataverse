@@ -94,4 +94,14 @@ export const filterByModelYear = (data,value) => {
   return data.filter(element => element.facts.modelyear === value);
 }
 
+export const orderOfFilter = (filteredBrand, getter, order = 'asc') => {
+  
+// Primero, filtra los datos
+const filteredData = filterDataByBrand(data, 'brand', 'Nike');
 
+// Luego, ordena los datos filtrados
+const orderedData = orderOfFilter(filteredData, (item) => item.facts.model, 'asc');
+
+return orderedData
+
+  }; console.log ()
