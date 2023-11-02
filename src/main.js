@@ -65,7 +65,7 @@ filterYear.addEventListener("change", (evento) => {
   const year = evento.target.value;
   const filteredByYear = filterByModelYear(data,year);  
   contenedorDeZapatillas.innerHTML = renderItems(filteredByYear); 
- campoContadorDeModelos.innerHTML= "En este año se produjeron:" + filteredByYear.length +" "+ "modelos.";
+  campoContadorDeModelos.innerHTML= "En este año se produjeron:" + filteredByYear.length +" "+ "modelos.";
 
 });
 
