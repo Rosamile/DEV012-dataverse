@@ -14,59 +14,59 @@
   <header>
     <h1> ATHLEISURE, <br>¡Estilo cómodo y vanguardista!</h1>
   </header>
-  <nav>
-    <section>
-      <label>Filtrar por Marca:</label>
-      <select data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
-        <option value="allbrands">--All Brands--</option>
-        <option value="Nike">Nike</option>
-        <option value="Adidas">Adidas</option>
-        <option value="Skechers">Skechers</option>
-        <option value="New Balance">New Balance</option>
-        <option value="Asics">Asics</option>
-        <option value="Puma">Puma</option>
-        <option value="Reebok">Reebok</option>
-        <option value="Fila">Fila</option>
-        <option value="Hoka One One">Hoka One One</option>
-        <option value="Salomon">Salomon</option>
-        <option value="Altra Footwear">Altra Footwear</option>
-        <option value="Newton Running">Newton Running</option>
-        <option value="Brooks">Brooks</option>
-        <option value="Salomon">Saucony</option>
-        <option value="Mizuno">Mizuno</option>
-        <option value="Merrel">Merrel</option>
-      </select>
-      <label>Filtrar por Color:</label>
-      <select name="color" data-testid="select-filter">
-        <option value="allcolors">--All Colors--</option>
-        <option value="white">white</option>
-        <option value="black">black</option>
-        <option value="green">green</option>
-        <option value="multicolor">multicolor</option>
-        <option value="blue">blue</option>
-        <option value="grey">grey</option>
-        <option value="brown">brown</option>
-        <option value="pink">pink</option>
-      </select>
-      <label>Ordenar por:</label>
-      <select name="ordenar" data-testid="select-sort" title="Desplegable de ordenado por modelo">
-        <option value="todos">All</option>
-        <option value="asc">A - Z Modelo ascendente</option>
-        <option value="desc">Z - A Modelo descendente</option>
-      </select>
-      <label>Buscar por año:</label>
-      <input type="number" name="year" id="yearinput" min="1987" max="2023" placeholder="Years"
-        title="Desplegable de filtrado por año de creación">
-    </section>
-    <button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
-  </nav>
-  <label>
-    <section id="dato">En este año se produjeron:</section>
-  </label>
+
+  <nav> 
+  <label for="menu">☰</label>
+  <input type="checkbox" id="menu">
+  <div>
+  <section> 
+  <label >Filtrar por Marca:</label>
+  <select data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
+  <option value="allbrands">All Brands</option>
+  <option value="Nike">Nike</option>
+  <option value="Adidas">Adidas</option>
+  <option value="Skechers">Skechers</option>
+  <option value="New Balance">New Balance</option>
+  <option value="Asics">Asics</option>
+  <option value="Puma">Puma</option>
+  <option value="Reebok">Reebok</option>
+  <option value="Fila">Fila</option>
+  <option value="Hoka One One">Hoka One One</option>
+  <option value="Salomon">Salomon</option>
+  <option value="Altra Footwear">Altra Footwear</option>
+  <option value="Newton Running">Newton Running</option>
+  <option value="Brooks">Brooks</option>
+  <option value="Salomon">Saucony</option>
+  <option value="Mizuno">Mizuno</option>
+  <option value="Merrel">Merrel</option>
+</select>
+<label>Filtrar por Color:</label>
+<select name="color" data-testid="select-filter" >
+<option value="allcolors">All Colors</option>
+<option value="white">white</option>
+<option value="black">black</option>
+<option value="green">green</option>
+<option value="multicolor">multicolor</option>
+<option value="blue">blue</option>
+<option value="grey">grey</option>
+<option value="brown">brown</option>
+<option value="pink">pink</option>
+</select>
+<label>Ordenar por:</label>
+  <select name="ordenar" data-testid="select-sort" title="Desplegable de ordenado por modelo">
+    <option value="todos">All</option>
+    <option value="asc">A - Z Modelo ascendente</option>
+    <option value="desc">Z - A Modelo descendente</option>
+  </select>
+  <label>Buscar por año:</label>
+  <input type="number" name="year" id="yearinput" min="1987" max="2023" placeholder="Years" title="Desplegable de filtrado por año de creación">
+</section>
+<button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
+</div>
+</nav>
+<section id="dato">En este año se produjeron:</section>
   <div id="root" class="tarjeta"></div>
-  <label>
-    <footer> Desarrollado por Rosa y Emma</footer>
-  </label>
+  <footer> Devs Rosa & Emma </footer>
   <script src="./main.js" type="module"></script>
 </body>
 

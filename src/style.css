@@ -2,7 +2,6 @@
 margin: 0;
 box-sizing: border-box;
 }
-
 body {
 width:100%;
 height: 100%;
@@ -13,7 +12,6 @@ font-family:Jomhuria;
 display: flex;
 flex-direction: column;
 }
-
 header{
    width: 100%;
    height: 18vh;
@@ -23,7 +21,10 @@ header{
    flex-direction: row;
    justify-content: center;
 }
-
+label[for="menu"],
+input {
+display: none;
+}
 h1{
 font-size:40px;
 text-align: center;
@@ -31,7 +32,6 @@ color: rgb(216, 217, 218);
 margin: 0;
 padding-top: 0px;
 }
-
 nav{
 display: flex;
 width: 100%;
@@ -39,30 +39,11 @@ height: 6vh;
 flex-direction: row;
 background-color:rgb(39, 40, 41);
 }
-
-.filtros {
-color:rgb(255, 229, 229);
+div {
 display: flex;
-font-size: 18px;
-justify-content: center;
-padding: 7px;
+flex-direction: row;
+width: 100%;
 }
-
-select {
-background-color:rgb(216, 217, 218);
-color:rgb(39, 40, 41);
-padding: 4px;
-font-size: 18px; 
-
-}
-
-#yearinput {
-background-color:rgb(216, 217, 218);
-color: rgb(39, 40, 41);
-padding: 4px;
-font-size: 18px;  
-}
-
 label {
 font-size: 23px;
 color: rgb(255, 246, 224);
@@ -70,18 +51,28 @@ width: fit-content;
 margin-top: 20px;
 margin-right: 10px;
 margin-left: 20px;
-
 }
-
-#dato{
-   display: flexbox;
-   text-align: center;
+select {
+   background-color:rgb(216, 217, 218);
    color:rgb(39, 40, 41);
-   font-size: 30px; 
-   
+   padding: 4px;
+   font-size: 18px;    
 }
-
-#button-clear {
+.filtros {
+   width: 100%;
+   color:rgb(255, 229, 229);
+   display: flex;
+   font-size: 18px;
+   justify-content: center;
+   padding: 7px;
+   }
+#yearinput {
+      background-color:rgb(216, 217, 218);
+      color: rgb(39, 40, 41);
+      padding: 4px;
+      font-size: 18px;  
+      }
+button {
    background: rgb(216, 217, 218);
    cursor: pointer;
    border: none;
@@ -95,38 +86,12 @@ margin-left: 20px;
    position: relative;
    align-items: center;
 }
-
-/*parte trasera del botón que hace el recorrido de los colores*/
-#button-clear:hover::before{
-   content: "";
-   position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 8%;
-    height: 70%;
-    margin: 0px 9px 0px;
-    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
-    background-size: 800%;
-    border-radius: 12px;
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-  
+#dato{
+   display: flexbox;
+   text-align: center;
+   color:rgb(39, 40, 41);
+   font-size: 30px;    
 }
-
-/*creación de la animación que va detras*/
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-    50% {
-        background-position: 400% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
-
 ul{
    display: flex;
    flex-direction: row;
@@ -134,14 +99,13 @@ ul{
    justify-content: center;
 
 }
-
 .contenedor .tarjeta{
 display: flex;
 flex-direction: column;
 align-items: center;
 width: 380px;
 height: 720px;
-background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+background-image:linear-gradient(0deg, rgba(0.5,0,0,0.7),rgba(0.5,0,0,0.7)),
 url(./media/Background-card.jpg);
 background-size: cover;
 border-radius: 20px;
@@ -160,7 +124,7 @@ text-decoration: none;
 .contenedor .tarjeta img{
    width: 310px;
    height: 235px;
-   border-radius: 0px 0px 10px 10px;
+   border-radius: 0px 0px 20px 20px;
 }
 
 .contenedor .tarjeta:hover{
@@ -173,13 +137,154 @@ li {
    }
    
 footer{
-   display: flex;
-   justify-content: center;
-   font-family: jomhuria;
-   color: rgb(39, 40, 41);
-   text-align: center;
-   font-size: 25px;
-   font-weight: bold;
-   margin: 40px 0px 40px;
+background-color: rgb(39, 40, 41);
+font-family: jomhuria;
+color: rgb(255, 246, 224);
+font-size: 20px;
+padding: 10px;
+margin-top: 30px;
+justify-content: center;
+align-items: center;
+display: flex;
+height: 100%;
+bottom: 0;
+width: 100%;
 }
 
+/* Responsive - Media Query for Mobile Only */ 
+
+@media(max-width: 425px){
+body {
+background-color:rgb(255, 246, 224);
+}   
+header{
+width: 100%;
+height: 26vh;
+background-color: rgb(39, 40, 41);
+align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+nav{
+display: flex;
+flex-direction: wrap;
+width: 100%;
+height: 50px;
+background-color:rgb(39, 40, 41);
+}
+h1{
+color: rgb(216, 217, 218);
+font-size:25px;
+margin: 0;
+padding-top: 30px;
+width: 245px;
+height: 105px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+div {
+display: none;
+}
+input[type="checkbox"] {
+display: none;
+}
+input:checked ~ div {
+display: block;
+width: 100%;
+height: 450px;
+background-color: rgb(39, 40, 41);
+margin-left: 39px;
+padding: 10px;
+position: relative;
+}
+label[for= "menu"] {
+display: inline-block;
+border: 2px;
+border-radius: 6px;
+width: 40px;
+height: 20px;
+margin-top: 12px;
+line-height: 30px;
+color: rgb(255, 229, 229);
+font-size: 40px;
+}
+select {
+background-color:rgb(216, 217, 218);
+color:rgb(39, 40, 41);
+font-size: 17px; 
+display: flex;
+flex-direction: column;
+width: 70%;
+height: 8%;
+}
+.filtros {
+color:rgb(255, 229, 229);
+display: flex;
+font-size: 17px;
+justify-content: center;
+padding: 7px;
+}
+#yearinput {
+display: flex;
+background-color:rgb(216, 217, 218);
+color: rgb(39, 40, 41);
+padding: 4px;
+font-size: 17px;  
+}      
+label {
+color: rgb(255, 246, 224);
+}      
+button {
+display: flex;
+flex-direction: column;
+font-size: 23px;
+font-weight: bold;
+width: 40%;
+height: 9%;
+padding: 6px 35px 6px 35px;
+margin-left: 20px;
+margin-top: 20px;
+}
+#dato{
+display: flexbox;
+justify-content: center;
+color:rgb(39, 40, 41);
+font-size: 23px; 
+}      
+ul{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contenedor .tarjeta{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 210px;
+height: 520px;
+background-image:linear-gradient(0deg, rgba(0.5,0.5,0,0.7),rgba(0.5,0.5,0,0.7)),
+url(./media/Background-card.jpg);
+background-size: cover;
+border-radius: 20px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+text-align: center;
+font-weight: 300;
+font-size: 15px;
+color: rgb(255, 246, 224);
+}     
+.contenedor .tarjeta img{
+width: 275px;
+height: 180px;
+padding: auto;
+border-radius: 0px 0px 20px 20px;
+}
+li {
+list-style: none;
+}        
+footer{
+margin-top: 30px;
+text-align: center;
+}
+}

@@ -22,8 +22,8 @@ campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ n > 0 ? n : data.len
 
 const ordenar = document.querySelector("select[name='ordenar']");
 ordenar.addEventListener("change", (evento) => {
-  const selectedOrder = evento.currentTarget.value
-  const sortedData = orderByAlphabetical(dataFilterResult || data, item => item.name, selectedOrder); 
+  const selectedOrder = evento.currentTarget.value;
+  const sortedData = orderByAlphabetical(data, item => item.name, selectedOrder);
   contenedorDeZapatillas.innerHTML = renderItems(sortedData);
 });
 

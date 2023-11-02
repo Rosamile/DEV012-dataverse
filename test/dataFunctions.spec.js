@@ -1,7 +1,7 @@
-import {  filterDataByBrand, orderByAlphabetical, filterFactsByColor } from '../src/dataFunctions.js';
-import {  data as fakeData } from './data.js';
 
-console.log(fakeData);
+import { example, anotherExample } from '../src/dataFunctions.js';
+import  data   from './data.js';
+
 
 // Prueba Unitaria Ordenamiento
 
