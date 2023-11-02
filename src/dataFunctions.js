@@ -1,26 +1,23 @@
 import data from "./data/dataset.js";
 
 // Función para mostrar la data renderizada
-
 export const pintar = (data) => {
   for (let i =0;i<data.length;i++){
     return 'pintar';
   }
 }
-// Función para crear los elementos de la data
+//Función para crear los elementos de la data
 
 export const tipoDeZapatillas = ((zapatillaDiv) => {
-  const zapatillas = document.createElement(data);
-  zapatillaDiv.textContent = zapatillas.data;
-
+  const zapatillas=document.createElement(data);
+  zapatillaDiv.textContent=zapatillas.data;
 });
 
-// Función para Ordenar Alfabeticamente el modelo de la marca filtrada
-
-export const orderByAlphabetical = (data, getter, order = 'asc') => {
-  // Creamos una copia del arreglo original
-  const dataCopy = [...data];
-  // Ordenamos la copia del arreglo
+//Función para Ordenar Alfabeticamente el modelo de la marca filtrada
+export const orderByAlphabetical=(data, getter,order='asc')=>{
+//Creamos una copia del arreglo original
+  const dataCopy=[...data];
+  //Ordenamos la copia del arreglo
   dataCopy.sort((a, b) => {
     const first = getter(a);
     const second = getter(b);
@@ -88,4 +85,12 @@ export const filterByModelYear = (data,value) => {
   return data.filter(element => element.facts.modelyear === value);
 }
 
+// export const orderOfFilter = (filteredBrand, getter, order = 'asc') => {
+//   // Primero, filtra los datos
+//   const filteredData = filterDataByBrand(filteredBrand, 'brand', 'Nike');
 
+//   // Luego, ordena los datos filtrados
+//   const orderedData = orderOfFilter(filteredData, (item) => item.facts.model, 'asc');
+
+//   return orderedData;
+// };
