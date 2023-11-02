@@ -18,12 +18,9 @@ campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ data.length;
 
 const ordenar = document.querySelector("select[name='ordenar']");
 ordenar.addEventListener("change", (evento) => {
-  const valorSeleccionado = evento.currentTarget.value;
-  const selectedOrder = evento.currentTarget.value
+  const selectedOrder = evento.currentTarget.value;
   const sortedData = orderByAlphabetical(data, item => item.name, selectedOrder);
   contenedorDeZapatillas.innerHTML = renderItems(sortedData);
-  console.log(valorSeleccionado);
-
 });
 
 // Evento para limpiar los filtros

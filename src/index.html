@@ -12,10 +12,13 @@
     <h1> ATHLEISURE, <br>¡Estilo cómodo y vanguardista!</h1> 
   </header>
   <nav> 
+  <label for="menu">☰</label>
+  <input type="checkbox" id="menu">
+  <div>
   <section> 
   <label >Filtrar por Marca:</label>
   <select data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
-  <option value="allbrands">--All Brands--</option>
+  <option value="allbrands">All Brands</option>
   <option value="Nike">Nike</option>
   <option value="Adidas">Adidas</option>
   <option value="Skechers">Skechers</option>
@@ -35,7 +38,7 @@
 </select>
 <label>Filtrar por Color:</label>
 <select name="color" data-testid="select-filter" >
-<option value="allcolors">--All Colors--</option>
+<option value="allcolors">All Colors</option>
 <option value="white">white</option>
 <option value="black">black</option>
 <option value="green">green</option>
@@ -55,10 +58,11 @@
   <input type="number" name="year" id="yearinput" min="1987" max="2023" placeholder="Years" title="Desplegable de filtrado por año de creación">
 </section>
 <button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
+</div>
 </nav>
 <section id="dato">En este año se produjeron:</section>
   <div id="root" class="tarjeta"></div>
-  <footer> Desarrollado por Rosa & Emma</footer>
+  <footer> Devs Rosa & Emma </footer>
   <script src="./main.js" type="module"></script>
 </body>
 </html>

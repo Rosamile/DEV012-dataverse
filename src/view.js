@@ -1,4 +1,4 @@
-import data from "./data/dataset.js";
+import data from './data/dataset.js';
 
 // Función para renderizar datos al HTML 
 
