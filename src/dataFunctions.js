@@ -1,39 +1,33 @@
 import data from "./data/dataset.js";
 
 // Función para mostrar la data renderizada
-
 export const pintar = (data) => {
   for (let i =0;i<data.length;i++){
     return 'pintar';
   }
 }
-// Función para crear los elementos de la data
+//Función para crear los elementos de la data
 
 export const tipoDeZapatillas = ((zapatillaDiv) => {
-  const zapatillas = document.createElement(data);
-  zapatillaDiv.textContent = zapatillas.data;
-
+  const zapatillas=document.createElement(data);
+  zapatillaDiv.textContent=zapatillas.data;
 });
 
-// Función para Ordenar Alfabeticamente el modelo de la marca filtrada
-
-export const orderByAlphabetical = (data, getter, order = 'asc') => {
-  
-  // Creamos una copia del arreglo original
-  const dataCopy = [...data];
-  // Ordenamos la copia del arreglo
+//Función para Ordenar Alfabeticamente el modelo de la marca filtrada
+export const orderByAlphabetical=(data, getter,order='asc')=>{
+//Creamos una copia del arreglo original
+  const dataCopy=[...data];
+  //Ordenamos la copia del arreglo
   dataCopy.sort((a, b) => {
     const first = getter(a);
     const second = getter(b);
     const compare = first.localeCompare(second);
-
     if (order === 'asc') {
       return compare;
     } else {
       return -compare;
     }
   });
-
   return dataCopy; // Devuelve la copia ordenada
 };
 
@@ -51,11 +45,8 @@ export const filterDataByBrand = (data, filterBy, value) => {
 // Función para filtrar por color de zapatilla
 
 export const filterFactsByColor = (data,value) => {
-  console.log(data);
-  console.log(value);
   return data.filter(element => element.facts.color === value);
 };
-console.log();
 
 // sacar estadistica por año con más modelos
  
@@ -85,7 +76,7 @@ export const getYearWithMaxModels = (data) => {
 
 // Uso:
 export const yearWithMaxModels = getYearWithMaxModels(data);
-console.log(yearWithMaxModels);
+
 
 
 // filtro por año para mostrar la estadistica por cada año seleccionado y los modelos de ese año
@@ -94,14 +85,12 @@ export const filterByModelYear = (data,value) => {
   return data.filter(element => element.facts.modelyear === value);
 }
 
-export const orderOfFilter = (filteredBrand, getter, order = 'asc') => {
-  
-// Primero, filtra los datos
-const filteredData = filterDataByBrand(data, 'brand', 'Nike');
+// export const orderOfFilter = (filteredBrand, getter, order = 'asc') => {
+//   // Primero, filtra los datos
+//   const filteredData = filterDataByBrand(filteredBrand, 'brand', 'Nike');
 
-// Luego, ordena los datos filtrados
-const orderedData = orderOfFilter(filteredData, (item) => item.facts.model, 'asc');
+//   // Luego, ordena los datos filtrados
+//   const orderedData = orderOfFilter(filteredData, (item) => item.facts.model, 'asc');
 
-return orderedData
-
-  }; console.log ()
+//   return orderedData;
+// };
