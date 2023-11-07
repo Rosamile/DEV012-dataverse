@@ -1,6 +1,3 @@
-import data from './data/dataset.js';
-
-
 // Función para renderizar datos al HTML 
 
 export const renderItems = (data) => {

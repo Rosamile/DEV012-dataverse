@@ -10,7 +10,7 @@ let dataFilterResult = null;
 // Evento recibe la data y la muestra en HTML
 
 const contenedorDeZapatillas = document.getElementById("root");
-const todasLasZapatillas =[ ...data];
+const todasLasZapatillas =[...data];
 const campoContadorDeModelos=document.getElementById('dato')
 const htmlDeTodasLasZapatillas = renderItems(todasLasZapatillas);
 contenedorDeZapatillas.innerHTML = htmlDeTodasLasZapatillas;
