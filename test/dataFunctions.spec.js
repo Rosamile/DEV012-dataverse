@@ -1,6 +1,6 @@
 
-import { example, anotherExample } from '../src/dataFunctions.js';
-import  data   from './data.js';
+import {orderByAlphabetical, filterDataByBrand, filterFactsByColor} from '../src/dataFunctions.js';
+import  { data as fakeData } from './data.js';
 
 
 // Prueba Unitaria Ordenamiento
@@ -61,4 +61,5 @@ describe('filterFactsByColor', () => {
     expect(resultadoFiltroPorColor).toEqual(dataFiltradaPorColor);
   });
 });
+
 
