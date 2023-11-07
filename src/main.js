@@ -14,8 +14,8 @@ const todasLasZapatillas =[...data];
 const campoContadorDeModelos=document.getElementById('dato')
 const htmlDeTodasLasZapatillas = renderItems(todasLasZapatillas);
 contenedorDeZapatillas.innerHTML = htmlDeTodasLasZapatillas;
-const n = dataFilterResult ? dataFilterResult.length : 0
-campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ n > 0 ? n : data.length;
+const datoEstadistico = dataFilterResult ? dataFilterResult.length : 0
+campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ datoEstadistico > 0 ? datoEstadistico : data.length;
 
 
 // Evento para Ordenar la data por modelo
@@ -23,7 +23,7 @@ campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ n > 0 ? n : data.len
 const ordenar = document.querySelector("select[name='ordenar']");
 ordenar.addEventListener("change", (evento) => {
   const selectedOrder = evento.currentTarget.value;
-  const sortedData = orderByAlphabetical(data, item => item.name, selectedOrder);
+  const sortedData = orderByAlphabetical(dataFilterResult || data, item => item.name, selectedOrder);
   contenedorDeZapatillas.innerHTML = renderItems(sortedData);
 });
 
@@ -34,7 +34,6 @@ limpiar.addEventListener("click", () => {
   ordenar.value= "todos";
   filtroColores.value= "allcolors";
   filter.value="allbrands";
-  filterYear.value="Seleccione un año";
   dataFilterResult = null;
   campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ data.length;
   contenedorDeZapatillas.innerHTML = renderItems(data); 
@@ -46,7 +45,7 @@ const filter = document.querySelector("select[name='brand']");
 filter.addEventListener("change", (evento) => {
   const selectedBrand =  evento.currentTarget.value 
   const filteredData = filterDataByBrand(dataFilterResult || data, 'brand', selectedBrand); // Pasa el valor seleccionado como tercer argumento
-  dataFilterResult = [...filteredData]
+  //dataFilterResult = [...filteredData] //copia de la data
   contenedorDeZapatillas.innerHTML = renderItems(filteredData); 
 });
 // Evento para invocar la data filtrada por Color
@@ -55,7 +54,7 @@ const filtroColores = document.querySelector("select[name='color']");
 filtroColores.addEventListener("change", (evento) => {
   const selectedColor =  evento.currentTarget.value 
   const ColorFiltrado = filterFactsByColor(dataFilterResult || data, selectedColor); // Pasa el valor seleccionado como tercer argumento
-  dataFilterResult = [...ColorFiltrado]
+ // dataFilterResult = [...ColorFiltrado]
   contenedorDeZapatillas.innerHTML = renderItems(ColorFiltrado); 
 });
 
