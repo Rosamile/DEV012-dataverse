@@ -16,7 +16,7 @@ describe('orderByAlphabetical', () => {
     //Guarda el ordenamiento
     const resultadoOrdenado = orderByAlphabetical (dataDesordenada, item => item.name, 'asc');
     //Devuelve el resultado ordenado y lo compara con el ejemplo
-    expect(resultadoOrdenado).toStrictEqual(dataOrdenada);
+    expect(resultadoOrdenado).toBe(dataOrdenada);
   });
 });
 
@@ -32,9 +32,9 @@ describe('filterDataByBrand', () => {
     const dataFiltradaPorBrand = [{brand:"Nike"},
     ];
     //Guarda el filtro
-    const resultadoFiltroPorBrand = filterDataByBrand(dataParaFiltrarPorBrand);
+    const resultadoFiltroPorBrand = filterDataByBrand(fakeData,dataParaFiltrarPorBrand);
     //Devuelve el resultado filtrado y lo compara con el ejemplo
-    expect(resultadoFiltroPorBrand).toStrictEqual(dataFiltradaPorBrand);
+    expect(resultadoFiltroPorBrand).toEqual(dataFiltradaPorBrand);
   });
 });
 
@@ -53,9 +53,9 @@ describe('filterFactsByColor', () => {
     const dataFiltradaPorColor = [ 
       {color: "blue"}];
     //Guarda el filtro
-    const resultadoFiltroPorColor = filterFactsByColor(dataParaFiltrarPorColor);
+    const resultadoFiltroPorColor = filterFactsByColor(fakeData,dataParaFiltrarPorColor);
     //Devuelve el resultado filtrado y lo compara con el ejemplo
-    expect(resultadoFiltroPorColor).toEqual(dataFiltradaPorColor);
+    expect(resultadoFiltroPorColor).toBe(dataFiltradaPorColor);
   });
 });
 
