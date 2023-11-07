@@ -1,7 +1,7 @@
-import {  filterDataByBrand, orderByAlphabetical, filterFactsByColor } from '../src/dataFunctions.js';
-import {  data as fakeData } from './data.js';
 
-console.log(fakeData);
+import {orderByAlphabetical, filterDataByBrand, filterFactsByColor} from '../src/dataFunctions.js';
+import  { data as fakeData } from './data.js';
+
 
 // Prueba Unitaria Ordenamiento
 
@@ -61,4 +61,5 @@ describe('filterFactsByColor', () => {
     expect(resultadoFiltroPorColor).toEqual(dataFiltradaPorColor);
   });
 });
+
 

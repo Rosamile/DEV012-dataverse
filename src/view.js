@@ -1,5 +1,3 @@
-
-
 // Función para renderizar datos al HTML 
 
 export const renderItems = (data) => {
