@@ -1,6 +1,6 @@
 
 import {orderByAlphabetical, filterDataByBrand, filterFactsByColor} from '../src/dataFunctions.js';
-
+import {data as fakeData} from "./data.js";
 // Prueba Unitaria Ordenamiento
 describe('orderByAlphabetical', () => {
 
@@ -35,15 +35,9 @@ describe('filterDataByBrand', () => {
 // Prueba Unitaria Filtro Color
 describe('filterFactsByColor', () => {
 
-  it('Debe filtrar un arreglo por color', () => {
-
-    //Trae la data que vamos a probar
-    const dataParaFiltrarPorColor = [{color:"black"},{color:"pink"},{color:"grey"}];
-    //Ejemlo de como debe quedar la data
-    const dataFiltradaPorColor = [{color:"black"},{color:"pink"},{color:"grey"}];
-    //Guarda el filtro
-    const resultadoFiltroPorColor = filterFactsByColor(dataParaFiltrarPorColor);
+  it('Debe filtrar un arreglo por color pink', () => {
+    const resultadoFiltroPorColor = filterFactsByColor(fakeData, 'pink');
     //Devuelve el resultado filtrado y lo compara con el ejemplo
-    expect(resultadoFiltroPorColor).toContain(dataFiltradaPorColor);
+    expect (resultadoFiltroPorColor.length).toEqual(1);
   });
 });
