@@ -13,7 +13,7 @@ export const renderItems = (data) => {
                                     <dt><strong>Descripción:</strong></dt><dd itemprop="description">${data[i].description}</dd>
                                     <dt><strong>Año del modelo:</strong></dt><dd itemprop="modelyear">${data[i].facts.modelyear}</dd>
                                     <dt><strong>Material:</strong></dt><dd itemprop="material">${data[i].facts.material}</dd>
-                                    <dt><strong>Colores:</strong></dt><dd itemprop="color">${data[i].facts.color}</dd>
+                                    <dt><strong>Color:</strong></dt><dd itemprop="color">${data[i].facts.color}</dd>
                                     </dl>
                   </li>
                                </li>`
