@@ -1,5 +1,5 @@
 
-import { orderByAlphabetical,filterDataByBrand,filterFactsByColor,} from './dataFunctions.js';
+import { orderByAlphabetical,filterDataByBrand,filterFactsByColor,getYearWithMaxModels} from './dataFunctions.js';
 
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
@@ -13,8 +13,10 @@ const contenedorDeZapatillas = document.getElementById("root");
 const todasLasZapatillas =[...data];
 const campoContadorDeModelos=document.getElementById('dato')
 const htmlDeTodasLasZapatillas = renderItems(todasLasZapatillas);
+const contenedorAñoConMasModelos = document.querySelector ('#año')
+contenedorAñoConMasModelos.innerHTML = ' '+ getYearWithMaxModels(data);
 contenedorDeZapatillas.innerHTML = htmlDeTodasLasZapatillas;
-campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ dataFilterResult.length;
+campoContadorDeModelos.innerHTML = "cantidad de modelos: "+ parseInt(dataFilterResult.length);
 
 
 // Evento para Ordenar la data por modelo

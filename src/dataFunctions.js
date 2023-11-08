@@ -1,11 +1,5 @@
 import data from "./data/dataset.js";
 
-// Función para mostrar la data renderizada
-export const pintar = (data) => {
-  for (let i =0;i<data.length;i++){
-    return 'pintar';
-  }
-}
 //Función para crear los elementos de la data
 
 export const tipoDeZapatillas = ((zapatillaDiv) => {
@@ -53,3 +47,31 @@ export const filterFactsByColor = (data,value) => {
   return copyOfData.filter(element => element.facts.color === value);
 };
 
+//función de estadistica
+
+export const getYearWithMaxModels = (data) => {
+  const year = data.map(item => item.facts.modelyear);
+  const frequency = year.reduce((acc, curr) => 
+  // recorre la data encontrando los model year guardando en la variable frecuency el acumulador y el iterador
+  {
+    if (curr in acc) {
+      acc[curr]++;
+    } else {
+      acc[curr] = 1;
+    }
+    return acc;
+  }, {});
+  //se esablecen dos variables para guardar el iterador y la frecuencia obtenida
+  let maxYear = 0;
+  let maxCount = 0;
+  Object.entries(frequency).forEach(([year, count]) => { 
+  // el es un metodo object.entries va a tomar la clave (año) y el valor (frecuencia)
+    if (count > maxCount) {
+      maxCount = count;
+      maxYear = year;
+     
+    }
+  //entra al objeto y con esa frecuencia iterada va a contar por cada año cuantas veces se repite, si no se repite es 1 si se repite va guardando esa frecuencia y retoornaria el año que más se repita
+  })
+  return parseInt(maxYear);
+}
