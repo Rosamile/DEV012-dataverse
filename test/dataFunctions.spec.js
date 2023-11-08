@@ -1,7 +1,7 @@
 
 import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels} from '../src/dataFunctions.js';
 import {data as fakeData} from "./data.js";
-// Prueba Unitaria Ordenamiento
+// Prueba Unitaria Ordenamiento ASC
 describe('orderByAlphabetical', () => {
 
   it('Debe ordenar un arreglo', () => {
@@ -15,6 +15,17 @@ describe('orderByAlphabetical', () => {
     expect(resultadoOrdenado).toStrictEqual(dataOrdenada);
   });
 });
+
+// Prueba Unitaria Ordenamiento DESC
+describe('orderByAlphabetical', () => {
+  it('Debe ordenar de forma descendente', () => {
+    const dataAscendente = [{name:'Air Max 1'},{name:'Go Walk'},{name:'Superstar'}];
+    const dataDescentente = [{name:'Superstar'},{name:'Go Walk'},{name:'Air Max 1'}];
+    const resultadoOrdenado = orderByAlphabetical (dataAscendente, item => item.name, 'desc');
+    expect(resultadoOrdenado).toStrictEqual(dataDescentente);
+  });
+});
+
 
 // Prueba Unitaria Filtro Marca
 describe('filterDataByBrand', () => {
@@ -30,9 +41,15 @@ describe('filterDataByBrand', () => {
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect(resultadoFiltroPorBrand).toStrictEqual(dataFiltradaPorBrand);
   });
+  // Prueba Unitaria Filtro por marca  No existente
+  it('Debe filtrar un arreglo no existente por brand', () => {
+    const resultadoBrandNoExistente = filterDataByBrand (fakeData,'converse');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (resultadoBrandNoExistente.length).toStrictEqual(0);
+  });
 });
 
-// Prueba Unitaria Filtro Color
+// Prueba Unitaria Filtro Color existente
 describe('filterFactsByColor', () => {
 
   it('Debe filtrar un arreglo por color pink', () => {
@@ -41,6 +58,18 @@ describe('filterFactsByColor', () => {
     expect (resultadoFiltroPorColor.length).toEqual(1);
   });
 });
+
+
+// Prueba Unitaria Filtro Color No existente
+describe('filterFactsByColor', () => {
+
+  it('Debe filtrar un arreglo no existente en la data', () => {
+    const resultadoColorNoExistente = filterFactsByColor(fakeData, 'gold');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (resultadoColorNoExistente.length).toEqual(0);
+  });
+});
+
 //prueba unitaria estadistica
 describe('getYearWithMaxModels', () => {
 
@@ -50,3 +79,4 @@ describe('getYearWithMaxModels', () => {
     expect (resultadoEstadisticaPorAño).toBe(2002);
   });
 });
+
