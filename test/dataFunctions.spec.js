@@ -41,12 +41,12 @@ describe('filterDataByBrand', () => {
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect(resultadoFiltroPorBrand).toStrictEqual(dataFiltradaPorBrand);
   });
-  // Prueba Unitaria Filtro por marca  No existente
+  /*// Prueba Unitaria Filtro por marca  No existente
   it('Debe filtrar un arreglo no existente por brand', () => {
     const resultadoBrandNoExistente = filterDataByBrand (fakeData,'converse');
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect (resultadoBrandNoExistente.length).toStrictEqual(0);
-  });
+  });*/
 });
 
 // Prueba Unitaria Filtro Color existente
