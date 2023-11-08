@@ -1,5 +1,5 @@
 
-import {orderByAlphabetical, filterDataByBrand, filterFactsByColor} from '../src/dataFunctions.js';
+import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels} from '../src/dataFunctions.js';
 import {data as fakeData} from "./data.js";
 // Prueba Unitaria Ordenamiento
 describe('orderByAlphabetical', () => {
@@ -39,5 +39,14 @@ describe('filterFactsByColor', () => {
     const resultadoFiltroPorColor = filterFactsByColor(fakeData, 'pink');
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect (resultadoFiltroPorColor.length).toEqual(1);
+  });
+});
+//prueba unitaria estadistica
+describe('getYearWithMaxModels', () => {
+
+  it('Debe generar un dato tipo número', () => {
+    const resultadoEstadisticaPorAño = getYearWithMaxModels(fakeData, 'modelYear');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (resultadoEstadisticaPorAño).toBe(2002);
   });
 });
