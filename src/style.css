@@ -50,13 +50,14 @@ color: rgb(255, 246, 224);
 width: fit-content;
 margin-top: 20px;
 margin-right: 10px;
-margin-left: 20px;
+margin-left: 80px;
 }
 select {
    background-color:rgb(216, 217, 218);
    color:rgb(39, 40, 41);
    padding: 4px;
-   font-size: 18px;    
+   font-size: 18px; 
+   margin: 0px 3px 0px;   
 }
 .filtros {
    width: 100%;
@@ -64,21 +65,14 @@ select {
    display: flex;
    font-size: 18px;
    justify-content: center;
-   padding: 7px;
    }
-#yearinput {
-      background-color:rgb(216, 217, 218);
-      color: rgb(39, 40, 41);
-      padding: 4px;
-      font-size: 18px;  
-      }
 button {
    background: rgb(216, 217, 218);
    cursor: pointer;
    border: none;
    width: 8%;
    height: 70%;
-   margin: 0px 9px 0px;
+   margin: 0px 50px 0px;
    color: rgb(39, 40, 41);
    font-size: 23px;
    font-weight: bold;
@@ -170,7 +164,7 @@ nav{
 display: flex;
 flex-direction: wrap;
 width: 100%;
-height: 50px;
+height: 30px;
 background-color:rgb(39, 40, 41);
 }
 h1{
@@ -225,14 +219,7 @@ display: flex;
 font-size: 17px;
 justify-content: center;
 padding: 7px;
-}
-#yearinput {
-display: flex;
-background-color:rgb(216, 217, 218);
-color: rgb(39, 40, 41);
-padding: 4px;
-font-size: 17px;  
-}      
+}     
 label {
 color: rgb(255, 246, 224);
 }      
@@ -243,15 +230,15 @@ font-size: 23px;
 font-weight: bold;
 width: 40%;
 height: 9%;
-padding: 6px 35px 6px 35px;
-margin-left: 20px;
+padding: 10px 40px 6px 35px;
+margin-left: 30px;
 margin-top: 20px;
 }
 #dato{
 display: flexbox;
 justify-content: center;
 color:rgb(39, 40, 41);
-font-size: 23px; 
+font-size: 20px; 
 }      
 ul{
 display: flex;
