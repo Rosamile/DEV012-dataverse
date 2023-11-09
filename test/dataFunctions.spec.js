@@ -104,12 +104,18 @@ describe('getYearWithMaxModels', () => {
 // test crear elementos
 
 describe('tipoDeZapatillas', () => {
-  it('Debe crear un elemento en el contenedor', () => {
+  it('Debe cambiar el texto del contenedor', () => {
     // Crear un elemento div para actuar como contenedor
     const zapatillaDiv = document.createElement('div');
-    const resultadoTipoDeZapatilla = tipoDeZapatillas (fakeData, zapatillaDiv)
+    // Llamar a tipoDeZapatillas con el contenedor
+    tipoDeZapatillas(zapatillaDiv);
     
-    // Verificar que el texto del elemento sea el mismo que el valor de 'data'
-    expect(resultadoTipoDeZapatilla.length).toBe(1);
+    // Verificar que el texto del contenedor ha cambiado
+    expect(zapatillaDiv.textContent).not.toBe('');
   });
 });
+
+
+
+
+
