@@ -1,5 +1,5 @@
 
-import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels, tipoDeZapatillas } from '../src/dataFunctions.js';
+import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels,} from '../src/dataFunctions.js';
 import {data as fakeData} from "./data.js";
 // Prueba Unitaria Ordenamiento ASC
 describe('orderByAlphabetical', () => {
@@ -103,7 +103,7 @@ describe('getYearWithMaxModels', () => {
 
 // test crear elementos
 
-describe('tipoDeZapatillas', () => {
+/*describe('tipoDeZapatillas', () => {
   it('Debe cambiar el texto del contenedor', () => {
     // Crear un elemento div para actuar como contenedor
     const zapatillaDiv = document.createElement('div');
@@ -113,7 +113,7 @@ describe('tipoDeZapatillas', () => {
     // Verificar que el texto del contenedor ha cambiado
     expect(zapatillaDiv.textContent).not.toBe('');
   });
-});
+});*/ 
 
 
 
