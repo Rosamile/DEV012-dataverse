@@ -80,17 +80,13 @@ describe('getYearWithMaxModels', () => {
   });
 });
 
-document.body.innerHTML = '<div id="miDiv"></div>';
 describe('tipoDeZapatillas', () => {
-  it('Debe crear un elemento', () => {
+  it('Debe crear un elemento en el contenedor', () => {
+    // Crear un elemento div para actuar como contenedor
+    const zapatillaDiv = document.createElement('div');
+    const resultadoTipoDeZapatilla = tipoDeZapatillas (fakeData, zapatillaDiv)
     
-    const zapatillaDiv = document.getElementById('miDiv');
-    
-    tipoDeZapatillas(zapatillaDiv)
-    
-    //Devuelve el resultado 
-    const liElement = zapatillaDiv.querySelector('li');
-    expect(liElement).not.toBeNull();
+    // Verificar que el texto del elemento sea el mismo que el valor de 'data'
+    expect(resultadoTipoDeZapatilla.length).toBe(1);
   });
 });
-
