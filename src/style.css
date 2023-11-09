@@ -80,11 +80,24 @@ button {
    position: relative;
    align-items: center;
 }
+#year{
+   display: flexbox;
+   margin: 10px 640px 0px;
+   text-align: center;
+   color:rgb(39, 40, 41);
+   font-size: 28px; 
+}
+p {
+   display: flexbox;
+   text-align: center;
+   color:rgb(39, 40, 41);
+   font-size: 28px;   
+}
 #dato{
    display: flexbox;
    text-align: center;
    color:rgb(39, 40, 41);
-   font-size: 30px;    
+   font-size: 28px;    
 }
 ul{
    display: flex;

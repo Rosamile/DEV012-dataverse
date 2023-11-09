@@ -60,7 +60,7 @@ describe('filterFactsByColor', () => {
 });
 
 
-// Prueba Unitaria Filtro Color No existente
+// Prueba Unitaria Filtro por Colores No existentes
 describe('filterFactsByColor', () => {
 
   it('Debe filtrar un arreglo no existente en la data', () => {
@@ -68,9 +68,19 @@ describe('filterFactsByColor', () => {
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect (resultadoColorNoExistente.length).toEqual(0);
   });
+  it('Debe filtrar otro color no existente en la data', () => {
+    const colorNoExistente1 = filterFactsByColor(fakeData, 'rosegold');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (colorNoExistente1.length).toEqual(0);
+  });
+  it('Debe filtrar otro color no existente en la data', () => {
+    const colorNoExistente2 = filterFactsByColor(fakeData, 'purple');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (colorNoExistente2.length).toBe(0);
+  });
 });
 
-//prueba unitaria estadistica
+//prueba unitaria estadistica por año en data
 describe('getYearWithMaxModels', () => {
 
   it('Debe generar un dato tipo número', () => {
@@ -80,17 +90,26 @@ describe('getYearWithMaxModels', () => {
   });
 });
 
-document.body.innerHTML = '<div id="miDiv"></div>';
-describe('tipoDeZapatillas', () => {
-  it('Debe crear un elemento', () => {
-    
-    const zapatillaDiv = document.getElementById('miDiv');
-    
-    tipoDeZapatillas(zapatillaDiv)
-    
-    //Devuelve el resultado 
-    const liElement = zapatillaDiv.querySelector('li');
-    expect(liElement).not.toBeNull();
+
+//prueba unitaria estadistica por año en data no existente
+describe('getYearWithMaxModels', () => {
+
+  it('Debe generar un dato tipo número', () => {
+    const resultadoAñoNoExistente = getYearWithMaxModels(fakeData, 'modelYear');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect(resultadoAñoNoExistente).not.toBe("0");
   });
 });
 
+// test crear elementos
+
+describe('tipoDeZapatillas', () => {
+  it('Debe crear un elemento en el contenedor', () => {
+    // Crear un elemento div para actuar como contenedor
+    const zapatillaDiv = document.createElement('div');
+    const resultadoTipoDeZapatilla = tipoDeZapatillas (fakeData, zapatillaDiv)
+    
+    // Verificar que el texto del elemento sea el mismo que el valor de 'data'
+    expect(resultadoTipoDeZapatilla.length).toBe(1);
+  });
+});
