@@ -7,6 +7,7 @@ export const tipoDeZapatillas = ((zapatillaDiv) => {
   zapatillaDiv.textContent=zapatillas.data;
 });
 
+
 //Función para Ordenar Alfabeticamente el modelo de la marca filtrada
 
 // data, ¨valueOfOrder, order
