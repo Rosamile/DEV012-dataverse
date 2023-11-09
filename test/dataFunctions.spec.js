@@ -1,5 +1,5 @@
 
-import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels} from '../src/dataFunctions.js';
+import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels, tipoDeZapatillas } from '../src/dataFunctions.js';
 import {data as fakeData} from "./data.js";
 // Prueba Unitaria Ordenamiento ASC
 describe('orderByAlphabetical', () => {
@@ -99,3 +99,18 @@ describe('getYearWithMaxModels', () => {
     expect(resultadoAñoNoExistente).not.toBe("0");
   });
 });
+
+document.body.innerHTML = '<div id="miDiv"></div>';
+describe('tipoDeZapatillas', () => {
+  it('Debe crear un elemento', () => {
+    
+    const zapatillaDiv = document.getElementById('miDiv');
+    
+    tipoDeZapatillas(zapatillaDiv)
+    
+    //Devuelve el resultado 
+    const liElement = zapatillaDiv.querySelector('li');
+    expect(liElement).not.toBeNull();
+  });
+});
+
