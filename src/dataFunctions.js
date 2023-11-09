@@ -52,12 +52,8 @@ export const getYearWithMaxModels = (data) => {
   const year = data.map(item => item.facts.modelyear);
   const frequency = year.reduce((acc, curr) => 
   // recorre la data encontrando los model year guardando en la variable frecuency el acumulador y el iterador
-  {
-    if (curr in acc) {
-      acc[curr]++;
-    } else {
-      acc[curr] = 1;
-    }
+  { acc[curr] = (acc[curr] || 0) + 1;
+    
     return acc;
   }, {});
   //se esablecen dos variables para guardar el iterador y la frecuencia obtenida
