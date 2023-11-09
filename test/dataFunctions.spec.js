@@ -60,7 +60,7 @@ describe('filterFactsByColor', () => {
 });
 
 
-// Prueba Unitaria Filtro Color No existente
+// Prueba Unitaria Filtro por Colores No existentes
 describe('filterFactsByColor', () => {
 
   it('Debe filtrar un arreglo no existente en la data', () => {
@@ -68,15 +68,35 @@ describe('filterFactsByColor', () => {
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect (resultadoColorNoExistente.length).toEqual(0);
   });
+  it('Debe filtrar otro color no existente en la data', () => {
+    const colorNoExistente1 = filterFactsByColor(fakeData, 'rosegold');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (colorNoExistente1.length).toEqual(0);
+  });
+  it('Debe filtrar otro color no existente en la data', () => {
+    const colorNoExistente2 = filterFactsByColor(fakeData, 'purple');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect (colorNoExistente2.length).toBe(0);
+  });
 });
 
-//prueba unitaria estadistica
+//prueba unitaria estadistica por año en data
 describe('getYearWithMaxModels', () => {
 
   it('Debe generar un dato tipo número', () => {
     const resultadoEstadisticaPorAño = getYearWithMaxModels(fakeData, 'modelYear');
     //Devuelve el resultado filtrado y lo compara con el ejemplo
     expect (resultadoEstadisticaPorAño).toBe(2002);
+  });
+});
+
+//prueba unitaria estadistica por año en data no existente
+describe('getYearWithMaxModels', () => {
+
+  it('Debe generar un dato tipo número', () => {
+    const resultadoAñoNoExistente = getYearWithMaxModels(fakeData, 'modelYear');
+    //Devuelve el resultado filtrado y lo compara con el ejemplo
+    expect(resultadoAñoNoExistente).not.toBe("0");
   });
 });
 
