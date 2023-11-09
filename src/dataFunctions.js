@@ -9,8 +9,6 @@ export const tipoDeZapatillas = ((zapatillaDiv) => {
 
 //Función para Ordenar Alfabeticamente el modelo de la marca filtrada
 
-// data, ¨valueOfOrder, order
-//
 export const orderByAlphabetical=(data, getter,order='asc')=>{
 //Creamos una copia del arreglo original
   const dataCopy=[...data];
