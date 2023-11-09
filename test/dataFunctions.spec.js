@@ -1,5 +1,5 @@
 
-import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels,} from '../src/dataFunctions.js';
+import {orderByAlphabetical, filterDataByBrand, filterFactsByColor, getYearWithMaxModels, } from '../src/dataFunctions.js';
 import {data as fakeData} from "./data.js";
 // Prueba Unitaria Ordenamiento ASC
 describe('orderByAlphabetical', () => {
@@ -113,7 +113,7 @@ describe('getYearWithMaxModels', () => {
     // Verificar que el texto del contenedor ha cambiado
     expect(zapatillaDiv.textContent).not.toBe('');
   });
-});*/ 
+});*/
 
 
 
