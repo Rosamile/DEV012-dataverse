@@ -1,91 +1,78 @@
-# README #
- - Página Web de Tendencia en Zapatillas Deportivas
+# Dataverse
 
-Bienvenido al repositorio de la Página Web de Tendencia en Zapatillas Deportivas. Este proyecto tiene como objetivo mostrar diferentes tipos de zapatillas deportivas que están en tendencia, permitiendo a los usuarios ordenar de forma ascendente o descendente, filtrar por marca y filtrar por color. El proyecto se ha desarrollado utilizando HTML semántico, CSS y JavaScript (vanilla).
+# Preámbulo del desarrollo
 
-El objetivo es mostrar una selección de zapatillas en tendencia que permiten ver los diferentes modelos que se usan en el estilo atlehisure.
+Este proyecto ha sido desarrollado bajo el marco de aprendizaje del bootcamp de Laboratoria. Como segundo proyecto en duplas, tiene la finalidad de enzeñarnos a cómo manipular de manera más dinámica el DOM mediante la **creación de elementos HTML mediante el uso de Javascript**. También, a trabajar con una **base de datos** y aprender a **filtrar y arreglar** elementos de esa BBDD para poder disponer de su información en la manera en la que se necesite. 
 
-- Prototipo de baja fidelidad
+***
 
-![Alt text](./media/image.png) versión mobile
-![Alt text](./media/image-1.png) versión web
+# Creación de la data mediante uso de IA
 
-- Prototipo de alta fidelidad
+El proyecto también incluye una parte muy escencial para el futuro del desarrollo de páginas web mediante la introducción de **Inteligencias Artificiales** que nos ayudaron a crear la base de datos con la cual estaríamos trabajando mediante el **prompting**. 
 
-- Uso
-Modelos de zapatos: La página muestra una lista de modelos de zapatos disponibles para los usuarios.
+Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente: 
 
-Filtro por marca: Los usuarios pueden filtrar los modelos por marca de zapatos. Esto significa que pueden seleccionar una o varias marcas de una lista desplegable o una interfaz de selección múltiple para reducir los resultados a modelos de una marca específica o varias marcas al mismo tiempo.
+![prompting](./prompting-1.png)
 
-Filtro por color: Los usuarios pueden filtrar los modelos por color. Esto permite a los usuarios seleccionar uno o varios colores para ver modelos de zapatos en esos colores.
+Se le dio una serie de instrucciones teniendo en cuenta la estructura que queríamos que tuviera la base de datos. Era un arreglo de ojetos con diferentes valores, que adicionalmente, tendría otro objeto con más parámetros dentro. Al ver que no nos dio toda la data solicitada, pasamos a pedirle que nos diera 16 elementos adicionales.
 
-Filtros agrupables: Los filtros por marca y color son agrupables, lo que significa que los usuarios pueden aplicar múltiples filtros al mismo tiempo para refinar su búsqueda.
+![prompting-2](./prompting-2.png)
 
-Ordenamiento ascendente y descendente: Los usuarios pueden ordenar la lista de modelos en orden ascendente o descendente según un criterio, como el nombre del modelo, el precio, la fecha de lanzamiento, etc. Esto les permite ver los modelos de zapatos en el orden que deseen.
+La data que nos pasó la IA quedó dispuesta de esta manera: 
 
-Botón de limpiar los datos: Hay un botón que permite a los usuarios eliminar todos los filtros aplicados y restaurar la lista completa de modelos de zapatos sin necesidad de actualizar la página.
+![prompting-2](./prompting-3-png.png)
 
-Contador de modelos filtrados: Muestra el número de modelos de zapatos que coinciden con los filtros seleccionados. A medida que los usuarios aplican o quitan filtros, el contador se actualiza en tiempo real.
+***
 
-- Tecnologías Utilizadas
+# Historias de usuario
 
-HTML Semántico: Utilizamos HTML5 con marcado semántico para estructurar el contenido de la página de manera clara y accesible. Esto facilita la comprensión de la información y mejora la optimización para motores de búsqueda.
+Se generaron las siguientes historias de usuario dentro de la EPICA del proyecto
 
-CSS: Hemos aplicado estilos CSS para diseñar una interfaz atractiva y receptiva. El diseño es responsivo y se adapta a diferentes tamaños de pantalla, lo que garantiza una experiencia de usuario óptima en dispositivos móviles y de escritorio.
+Como usuario quiero  poder ver los modelos  de zapatos pertenecientes al estilo Altheisure en forma de tarjetas.
 
-JavaScript (Vanilla): Hemos utilizado JavaScript puro (sin frameworks o bibliotecas) para implementar la funcionalidad de filtrado y ordenamiento de la lista de zapatillas. Esto proporciona una experiencia interactiva y dinámica al usuario.
+Como usuario quiero poder filtrar los modelos de la marca de zapatos por medio de un desplegable.
 
-- Pruebas aplicadas
+Como usuario quiero poder filtrar los  zapatos teniendo en cuenta su color  por medio de un desplegable.
 
- Unitarias
+Como usuario quiero filtrar y ordenar la información de los zapatos de forma simultánea para tener una vista de los modelos y colores que quiero.
 
-Utilizandoo jest y JavaScript vanilla hemos creado un conjunto de pruebas unitarias para garantizar la caidad del codigo, estás pueden ser encontradas en la carpeta  \Dataverse\DEV012-dataverse\test\dataFunctions.spec.js
-Pruebas funcionales
-
-Pruebas de integración
-
-- Estructura del Repositorio
-
-.
-├── README.md
-├── package.json
-├── src
-|  ├── data 
-|  |  └── dataset.js 
-|  ├── dataFunctions.js
-|  ├── view.js
-|  ├── index.html
-|  ├── main.
-|  ├── Readme.md
-|  └── style.css
-└── test
-   └── data.js
-   └── dataFunctions.spec.js
-   └── tests-read-only
-
-- Objetivos de aprendizaje alcanzados
+Como usuario quiero tener un contador que indique cuantos modelos están en pantalla
 
 
-#### HTML
+Como usuario quiero poder tener un desplegable que me permita ordenar  los modelos de la marca de zapatos de forma ascendente y descendente.
 
-* **Uso de HTML semántico**
+Como usuario registrado quiero tener una página responsive para poder interactuar desde cualquier dispositivo.
 
-#### CSS
+Como usuario registrado quiero tener un botón que me permita restablecer la información sin actualizar la página.
 
-* **Uso de selectores de CSS**
+***
 
-#### Web APIs
 
-* **Uso de selectores del DOM**
-* **Manejo de eventos del DOM (listeners, propagación, delegación)**
-* **Manipulación dinámica del DOM**
+# Diseño de la página
 
-#### JavaScript
 
-* **Variables (declaración, asignación, ámbito)**
-* **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-* **Uso de bucles/ciclos (while, for, for..of)**
-* **Funciones (params, args, return)**
-* **Arrays (arreglos)**
-* **Objetos**
-* **Módulos de ECMAScript (ES Modules)**
+Para el diseño, nos enfocamos en trabajar con un modelo de baja fidelidad el cual se fue construyendo con un esquema inicial que fue modificado al pedir feedback a nuestras compañeras.
+
+![baja-fide](./baja-fide.png)
+
+En el diseño de alta fidelidad, se siguió el mismo principio. Decidimos trabajar con un esquema de colores que se ajustara a los que se utilizan en las portadas del manga de *One Piece** y, siguiendo esta filosofía para el diseño, las tarjetas que muestran la información se parecen a los **Bounty** posters del mismo anime dando el resultado final de la página.
+
+![alta-fide-desktop](./alta-fide-desktop.png)
+
+El diseño que se planificó para la versión de teléfonos, por diversos motivos, no quedó con relación 1:1 a lo detallado en figma ya que presentamos algunos problemas con el menú de hamburguesa.
+
+
+![alta-fide-mobile](./alta-fide-mobile.png)
+
+
+***
+
+# Problemas detectados en tests de usabilidad
+
+Durante uno de los deploy que realizamos para ir buscando feedback de usuarias, se nos hizo ver la falta de claridad al momento de seleccionar las opciones de los filtros/sort. 
+
+![feedback-usabilidad](./feedback-usabilidad.png)
+
+Otro de los problemas encontrados durante las pruebas con usuarios del producto casi terminado fue el limpiar el resto de los filtros y dejar solo el seleccionado para dar claridad sobre cuál era el filtro que está en uso.
+
+***
