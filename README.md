@@ -1,87 +1,79 @@
-# README #
 
 # Dataverse
 
-## Índice
+# Preámbulo del desarrollo
 
-* [1. Resumen del proyecto](#1-resumen-del-proyecto)
-* [2. Historia de usuario](#2-historia-de-usuario)
-* [3. Creación del (Dataset) mediante el uso del prompting y la IA](#3-Creación-del-(Dataset)-mediante-el-uso-del-prompting-y-la-IA)
-* [4. Funcionalidad](#4-Funcionalidad)
-* [5. Prototipo de baja fidelidad](#5-Prototipo-de-baja-fidelidad)
-* [6. Proyecto Final](#6-Proyecto-Final)
-* [7. Desarrollado por](#7-Desarrollado-por)
+Este proyecto ha sido desarrollado bajo el marco de aprendizaje del bootcamp de Laboratoria. Como segundo proyecto en duplas, tiene la finalidad de enzeñarnos a cómo manipular de manera más dinámica el DOM mediante la **creación de elementos HTML mediante el uso de Javascript**. También, a trabajar con una **base de datos** y aprender a **filtrar y arreglar** elementos de esa BBDD para poder disponer de su información en la manera en la que se necesite. 
 
-## 1. Resumen del proyecto
+***
 
-En este proyecto se construyó una páginaweb para visualizar un conjunto (set) de datos generados con un prompting, 
-utilizando herramientas de inteligencia artificial como ChatGPT, ExplainDev, entre otras para generar un set de datos en un archivo javascript.
+# Creación de la data mediante uso de IA
 
-Este proyecto tiene como objetivo mostrar a la usuaria diferentes tipos de zapatillas y modelos
-modelos que se usan en el estilo atlehisure un nuevo estilo lleno de cómodidad y elegancia a la vez, 
-permitiendo tambien el ordenamiento de esa data mostrada de forma ascendente o descendente, filtrar por marca y filtrar por color. 
-El proyecto se ha desarrollado utilizando HTML semántico, CSS y JavaScript (vanilla).
+El proyecto también incluye una parte muy escencial para el futuro del desarrollo de páginas web mediante la introducción de **Inteligencias Artificiales** que nos ayudaron a crear la base de datos con la cual estaríamos trabajando mediante el **prompting**. 
 
-## 2. Historia de usuario
+Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente: 
 
-Nos enfocamos en las necesidades de nuestra usuaria y de allí partimos con las siguientes tareas:
+![prompting](./prompting-1.png)
 
-1-**Como usuario quiero  poder ver los modelos  de zapatos pertenecientes al estilo Altheisure en forma de tarjetas.**
-2-**Como usuario quiero poder filtrar los modelos de la marca de zapatos por medio de un desplegable.**
-3-**Como usuario quiero poder filtrar los  zapatos teniendo en cuenta su color  por medio de un desplegable.**
-4-**Como usuario quiero filtrar y ordenar la información de los zapatos de forma simultánea para tener una vista de los modelos y colores que quiero.**
-5-**Como usuario quiero tener un contador que indique cuantos modelos están en pantalla.**
-6-**Como usuario quiero poder tener un desplegable que me permita ordenar  los modelos de la marca de zapatos de forma ascendente y descendente.**
-7-**Como usuario registrado quiero tener una página responsive para poder interactuar desde cualquier dispositivo.**
-8-**Como usuario registrado quiero tener un botón que me permita restablecer la información sin actualizar la página.**
+Se le dio una serie de instrucciones teniendo en cuenta la estructura que queríamos que tuviera la base de datos. Era un arreglo de ojetos con diferentes valores, que adicionalmente, tendría otro objeto con más parámetros dentro. Al ver que no nos dio toda la data solicitada, pasamos a pedirle que nos diera 16 elementos adicionales.
 
-## 3. Creación del (Dataset) mediante el uso del prompting y la IA
+![prompting-2](./prompting-2.png)
 
-Para este proyecto en especifico se hizo uso de herramientas que estan cambiando el futuro del desarrollo web actualmente. Nos referimos, a La Inteligencia Artificial, la cual nos ayudó no solo en la generación de datos mediante un prompt, sino que también a la generación de imágenes de igual forma mediante un prompt, lo cual reforzó nuestras habilidades para las creaciones de los mismos y comprender que mientras más especifico se sea, mayor eficacia se obtiene de parte de estas IAs.
+La data que nos pasó la IA quedó dispuesta de esta manera: 
 
-**Ejemplo de prompting para la generación del (DataSet):**
+![prompting-2](./prompting-3-png.png)
 
-![Screen Shot 2023-11-10 at 11 57 09](https://github.com/Misswtson/DEV012-dataverse/assets/76451432/b8a0dfa7-61cf-4383-8b9c-1a2082715c77)
+***
 
-**Ejemplo del (DataSet) generado por la IA:**
+# Historias de usuario
 
-![Screen Shot 2023-11-10 at 11 59 03](https://github.com/Misswtson/DEV012-dataverse/assets/76451432/4b55cbb9-1732-434d-93da-49d29212de75)
+Se generaron las siguientes historias de usuario dentro de la EPICA del proyecto
+
+Como usuario quiero  poder ver los modelos  de zapatos pertenecientes al estilo Altheisure en forma de tarjetas.
+
+Como usuario quiero poder filtrar los modelos de la marca de zapatos por medio de un desplegable.
+
+Como usuario quiero poder filtrar los  zapatos teniendo en cuenta su color  por medio de un desplegable.
+
+Como usuario quiero filtrar y ordenar la información de los zapatos de forma simultánea para tener una vista de los modelos y colores que quiero.
+
+Como usuario quiero tener un contador que indique cuantos modelos están en pantalla
 
 
-## 4. Funcionalidades
+Como usuario quiero poder tener un desplegable que me permita ordenar  los modelos de la marca de zapatos de forma ascendente y descendente.
 
-La aplicación permite a la usuaria filtar y ordenar distintos datos como:
+Como usuario registrado quiero tener una página responsive para poder interactuar desde cualquier dispositivo.
 
-1. Filtro por marca: Los usuarios pueden filtrar los modelos por marca de zapatos. Esto significa que pueden seleccionar una o varias marcas de una lista desplegable o una interfaz de selección múltiple para reducir los resultados a modelos de una marca específica o varias marcas al mismo tiempo.
-   
-2. Modelos de zapatos: La página muestra una lista de modelos de zapatos disponibles para los usuarios.
+Como usuario registrado quiero tener un botón que me permita restablecer la información sin actualizar la página.
 
-3. Filtro por color: Los usuarios pueden filtrar los modelos por color. Esto permite a los usuarios seleccionar uno o varios colores para ver modelos de zapatos en esos colores.
-   
-4. Ordenamiento ascendente y descendente: Los usuarios pueden ordenar la lista de modelos en orden ascendente o descendente según un criterio, como el nombre del modelo, el precio, la fecha de lanzamiento, etc. Esto les permite ver los modelos de zapatos en el orden que deseen.
+***
 
-5. Botón de limpiar los datos: Hay un botón que permite a los usuarios eliminar todos los filtros aplicados y restaurar la lista completa de modelos de zapatos sin necesidad de actualizar la página.
 
-6. Filtros agrupables: Los filtros por marca y color son agrupables, lo que significa que los usuarios pueden aplicar múltiples filtros al mismo tiempo para refinar su búsqueda.
+# Diseño de la página
 
-7. Contador de modelos filtrados: Muestra el número de modelos de zapatos que coinciden con los filtros seleccionados. A medida que los usuarios aplican o quitan filtros, el contador se actualiza en tiempo real.
 
- ## 5. Prototipo de baja fidelidad
- 
-**Versión Desktop:**
+Para el diseño, nos enfocamos en trabajar con un modelo de baja fidelidad el cual se fue construyendo con un esquema inicial que fue modificado al pedir feedback a nuestras compañeras.
 
-![Screen Shot 2023-11-10 at 12 11 12](https://github.com/Misswtson/DEV012-dataverse/assets/76451432/cb13a7c3-e27f-42d9-847d-079faec7540e)
+![baja-fide](./baja-fide.png)
 
-**Versión Mobile:**
+En el diseño de alta fidelidad, se siguió el mismo principio. Decidimos trabajar con un esquema de colores que se ajustara a los que se utilizan en las portadas del manga de *One Piece** y, siguiendo esta filosofía para el diseño, las tarjetas que muestran la información se parecen a los **Bounty** posters del mismo anime dando el resultado final de la página.
 
-![Screen Shot 2023-11-10 at 12 11 48](https://github.com/Misswtson/DEV012-dataverse/assets/76451432/694f1874-3153-44d6-a4ca-e1ee09347476)
+![alta-fide-desktop](./alta-fide-desktop.png)
 
-![Screen Shot 2023-11-10 at 12 12 04](https://github.com/Misswtson/DEV012-dataverse/assets/76451432/7b464d0b-575c-4225-948b-5e16272f5ba4)
-Creado en la Herramienta de edición Figma.
+El diseño que se planificó para la versión de teléfonos, por diversos motivos, no quedó con relación 1:1 a lo detallado en figma ya que presentamos algunos problemas con el menú de hamburguesa.
 
-## 5. Proyecto Final
-![Screen Shot 2023-11-10 at 12 25 58](https://github.com/Misswtson/DEV012-dataverse/assets/76451432/986899e4-d9f9-4cf8-916b-3d76656217a7)
 
-# 6. Desarrollado por
+![alta-fide-mobile](./alta-fide-mobile.png)
 
-Rosa Sarmiento y Emma Linares estudiantes del Bootcamp Laboratoria-clase 2023.
+
+***
+
+# Problemas detectados en tests de usabilidad
+
+Durante uno de los deploy que realizamos para ir buscando feedback de usuarias, se nos hizo ver la falta de claridad al momento de seleccionar las opciones de los filtros/sort. 
+
+![feedback-usabilidad](./feedback-usabilidad.png)
+
+Otro de los problemas encontrados durante las pruebas con usuarios del producto casi terminado fue el limpiar el resto de los filtros y dejar solo el seleccionado para dar claridad sobre cuál era el filtro que está en uso.
+
+***
