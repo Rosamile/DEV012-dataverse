@@ -58,12 +58,14 @@ Para el diseño, nos enfocamos en trabajar con un modelo de baja fidelidad el cu
 
 En el diseño de alta fidelidad, se siguió el mismo principio. Decidimos trabajar con un esquema de colores que se ajustara a los que se utilizan en las portadas del manga de *One Piece** y, siguiendo esta filosofía para el diseño, las tarjetas que muestran la información se parecen a los **Bounty** posters del mismo anime dando el resultado final de la página.
 
-![alta-fide-desktop](./alta-fide-desktop.png)
+![alta-fide-desktop](![image](https://github.com/Rosamile/DEV012-dataverse/assets/138530369/071fc29f-f632-4e75-af4b-fa95182f494b)
+)
 
 El diseño que se planificó para la versión de teléfonos, por diversos motivos, no quedó con relación 1:1 a lo detallado en figma ya que presentamos algunos problemas con el menú de hamburguesa.
 
 
-![alta-fide-mobile](./alta-fide-mobile.png)
+![alta-fide-mobile](![image](https://github.com/Rosamile/DEV012-dataverse/assets/138530369/3e8188db-cccb-44d0-b57f-60592bb84d94)
+)
 
 
 ***
@@ -72,7 +74,7 @@ El diseño que se planificó para la versión de teléfonos, por diversos motivo
 
 Durante uno de los deploy que realizamos para ir buscando feedback de usuarias, se nos hizo ver la falta de claridad al momento de seleccionar las opciones de los filtros/sort. 
 
-![feedback-usabilidad](./feedback-usabilidad.png)
+![feedback-usabilidad]()
 
 Otro de los problemas encontrados durante las pruebas con usuarios del producto casi terminado fue el limpiar el resto de los filtros y dejar solo el seleccionado para dar claridad sobre cuál era el filtro que está en uso.
 
