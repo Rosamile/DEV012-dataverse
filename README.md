@@ -54,7 +54,7 @@ Como usuario registrado quiero tener un botón que me permita restablecer la inf
 
 Para el diseño, nos enfocamos en trabajar con un modelo de baja fidelidad el cual se fue construyendo con un esquema inicial que fue modificado al pedir feedback a nuestras compañeras.
 
-![baja-fide](./baja-fide.png)
+![baja-fide](src/media/image-1.png)
 
 En el diseño de alta fidelidad, se siguió el mismo principio. Decidimos trabajar con un esquema de colores que se ajustara a los que se utilizan en las portadas del manga de *One Piece** y, siguiendo esta filosofía para el diseño, las tarjetas que muestran la información se parecen a los **Bounty** posters del mismo anime dando el resultado final de la página.
 
