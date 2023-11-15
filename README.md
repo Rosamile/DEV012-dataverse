@@ -58,7 +58,7 @@ Para el diseño, nos enfocamos en trabajar con un modelo de baja fidelidad el cu
 
 En el diseño de alta fidelidad, se siguió el mismo principio. Decidimos trabajar con un esquema de colores que se ajustara a los que se utilizan en las portadas del manga de *One Piece** y, siguiendo esta filosofía para el diseño, las tarjetas que muestran la información se parecen a los **Bounty** posters del mismo anime dando el resultado final de la página.
 
-![alta-fide-desktop](![image](https://github.com/Rosamile/DEV012-dataverse/assets/138530369/071fc29f-f632-4e75-af4b-fa95182f494b)
+![alta-fide-desktop](https://www.figma.com/file/OeRuh58gXg7qh5x2BgK8F7/Data-Verse?type=design&node-id=0%3A1&mode=design&t=BbYLw3d9capczZq1-1)
 )
 
 El diseño que se planificó para la versión de teléfonos, por diversos motivos, no quedó con relación 1:1 a lo detallado en figma ya que presentamos algunos problemas con el menú de hamburguesa.
