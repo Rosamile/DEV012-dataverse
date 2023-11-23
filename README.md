@@ -13,7 +13,7 @@ El proyecto también incluye una parte muy escencial para el futuro del desarrol
 
 Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente: 
 
-![prompting](./prompting-1.png)
+ src/media/prompting.PNG
 
 Se le dio una serie de instrucciones teniendo en cuenta la estructura que queríamos que tuviera la base de datos. Era un arreglo de ojetos con diferentes valores, que adicionalmente, tendría otro objeto con más parámetros dentro. Al ver que no nos dio toda la data solicitada, pasamos a pedirle que nos diera 16 elementos adicionales.
 
