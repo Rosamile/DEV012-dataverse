@@ -1,11 +1,30 @@
 
 # Dataverse
 
-# Preámbulo del desarrollo
+## Preámbulo
 
-Este proyecto ha sido desarrollado bajo el marco de aprendizaje del bootcamp de Laboratoria. Como segundo proyecto en duplas, tiene la finalidad de enzeñarnos a cómo manipular de manera más dinámica el DOM mediante la **creación de elementos HTML mediante el uso de Javascript**. También, a trabajar con una **base de datos** y aprender a **filtrar y arreglar** elementos de esa BBDD para poder disponer de su información en la manera en la que se necesite. 
-
+Bienvenido al repositorio de la página web dedicada a mostrar una selección única de zapatillas de marcas reconocidas, destacando el estilo street leisure. Nuestro objetivo principal es proporcionar a los visitantes una experiencia visualmente atractiva y fácil de navegar, presentando una cuidadosa curaduría de calzado que encapsula la esencia del estilo urbano y relajado.
 ***
+
+## Características Principales:
+
+### Diversidad de Marcas Reconocidas: 
+Ofrecemos una amplia gama de zapatillas de marcas renombradas, asegurando calidad y autenticidad en cada par.
+
+### Enfoque en Street Leisure: 
+Cada selección de zapatillas refleja la fusión perfecta entre la moda urbana y la comodidad casual, permitiendo a los usuarios adoptar un estilo de vida versátil.
+
+### Interfaz Intuitiva: 
+Nuestra página web se ha diseñado pensando en la facilidad de uso. La interfaz intuitiva permite a los usuarios explorar y descubrir diferentes estilos de zapatillas de manera eficiente.
+
+### Información Detallada: 
+Proporcionamos descripciones detalladas de cada par, incluyendo características clave, materiales y detalles de diseño, para que los usuarios puedan tomar decisiones informadas.
+
+### Actualizaciones Frecuentes: 
+Nos comprometemos a mantener nuestra colección actualizada con las últimas tendencias y lanzamientos de las marcas más populares, asegurando que los amantes del street leisure siempre encuentren opciones frescas.
+
+### Comunidad Activa: 
+Fomentamos la participación de la comunidad a través de comentarios y reseñas, creando un espacio interactivo donde los usuarios pueden compartir sus experiencias y recomendaciones.
 
 # Creación de la data mediante uso de IA
 
@@ -13,69 +32,83 @@ El proyecto también incluye una parte muy escencial para el futuro del desarrol
 
 Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente: 
 
-![prompting](./prompting-1.png)
+![prompting]( src/media/prompting.PNG)
 
 Se le dio una serie de instrucciones teniendo en cuenta la estructura que queríamos que tuviera la base de datos. Era un arreglo de ojetos con diferentes valores, que adicionalmente, tendría otro objeto con más parámetros dentro. Al ver que no nos dio toda la data solicitada, pasamos a pedirle que nos diera 16 elementos adicionales.
 
-![prompting-2](./prompting-2.png)
-
 La data que nos pasó la IA quedó dispuesta de esta manera: 
 
-![prompting-2](./prompting-3-png.png)
+![prompting-2](src/media/datagenerada.PNG)
 
 ***
 
-# Historias de usuario
+## Acá te mostramos como usarla
 
-Se generaron las siguientes historias de usuario dentro de la EPICA del proyecto
+### Explorando la Colección: 
+Al acceder a la página, serás recibido con una vista general de nuestra selección de zapatillas. Desplázate hacia abajo para explorar la diversidad de marcas y estilos disponibles.
 
-Como usuario quiero  poder ver los modelos  de zapatos pertenecientes al estilo Altheisure en forma de tarjetas.
+### Filtros: 
+Facilitamos la búsqueda con potentes filtros:
 
-Como usuario quiero poder filtrar los modelos de la marca de zapatos por medio de un desplegable.
+   -Color: Utiliza el filtro de color para encontrar zapatillas que se adapten a tu estilo o preferencia.
+   -Marca: Filtra las opciones según tus marcas favoritas para una experiencia de compra más personalizada.
 
-Como usuario quiero poder filtrar los  zapatos teniendo en cuenta su color  por medio de un desplegable.
+### Ordenamiento: 
+Personaliza tu experiencia de visualización con las opciones de ordenamiento. Organiza la colección alfabéticamente por modelo para una búsqueda rápida y eficiente.
 
-Como usuario quiero filtrar y ordenar la información de los zapatos de forma simultánea para tener una vista de los modelos y colores que quiero.
+### Filtrado Avanzado: 
+Combina varios filtros para refinar tu búsqueda. ¿Buscas zapatillas rojas de una marca específica? ¡Utiliza los filtros de color y marca simultáneamente!
 
-Como usuario quiero tener un contador que indique cuantos modelos están en pantalla
+### Interfaz Responsive: 
+Nuestra página web se adapta a diferentes dispositivos, desde computadoras de escritorio hasta dispositivos móviles. Disfruta de la misma experiencia visualmente atractiva sin importar el dispositivo que utilices.
 
+### Sin Instalación de Dependencias:
+No es necesario instalar ninguna aplicación o dependencia para utilizar la página. Simplemente accede a través de tu navegador web favorito y comienza a explorar.
 
-Como usuario quiero poder tener un desplegable que me permita ordenar  los modelos de la marca de zapatos de forma ascendente y descendente.
+***
+# Te contamos sobre el proceso de construcción
 
-Como usuario registrado quiero tener una página responsive para poder interactuar desde cualquier dispositivo.
+## Historias de usuario
 
-Como usuario registrado quiero tener un botón que me permita restablecer la información sin actualizar la página.
+Para garantizar un desarrollo eficiente y centrado en las necesidades de nuestros usuarios, hemos incorporado los principios y prácticas de la metodología ágil Scrum en el ciclo de vida de nuestro proyecto, estableciendo las siguientes UH.
+
+*Como usuario quiero  poder ver los modelos  de zapatos pertenecientes al estilo Altheisure en forma de tarjetas.*
+
+*Como usuario quiero poder filtrar los modelos de la marca de zapatos por medio de un desplegable.*
+
+*Como usuario quiero poder filtrar los  zapatos teniendo en cuenta su color  por medio de un desplegable.*
+
+*Como usuario quiero filtrar y ordenar la información de los zapatos de forma simultánea para tener una vista de los modelos y colores que quiero.*
+
+*Como usuario quiero tener un contador que indique cuantos modelos están en pantalla.*
+
+*Como usuario quiero poder tener un desplegable que me permita ordenar  los modelos de la marca de zapatos de forma ascendente y descendente.*
+
+*Como usuario registrado quiero tener una página responsive para poder interactuar desde cualquier dispositivo.*
+
+*Como usuario registrado quiero tener un botón que me permita restablecer la información sin actualizar la página.*
 
 ***
 
-
-# Diseño de la página
-
+## Diseño de la página
 
 Para el diseño, nos enfocamos en trabajar con un modelo de baja fidelidad el cual se fue construyendo con un esquema inicial que fue modificado al pedir feedback a nuestras compañeras.
 
 ![baja-fide](src/media/image-1.png)
 
-En el diseño de alta fidelidad, se siguió el mismo principio. Decidimos trabajar con un esquema de colores que se ajustara a los que se utilizan en las portadas del manga de *One Piece** y, siguiendo esta filosofía para el diseño, las tarjetas que muestran la información se parecen a los **Bounty** posters del mismo anime dando el resultado final de la página.
+En el diseño de alta fidelidad, se utilizaron colores en tendencia que transmitan una visión clara de los elementos.
 
-![alta-fide-desktop](https://www.figma.com/file/OeRuh58gXg7qh5x2BgK8F7/Data-Verse?type=design&node-id=0%3A1&mode=design&t=BbYLw3d9capczZq1-1)
-)
+![Alta fidelidad](src/media/vista desk.png)
 
-El diseño que se planificó para la versión de teléfonos, por diversos motivos, no quedó con relación 1:1 a lo detallado en figma ya que presentamos algunos problemas con el menú de hamburguesa.
-
-
-![alta-fide-mobile](![image](https://github.com/Rosamile/DEV012-dataverse/assets/138530369/3e8188db-cccb-44d0-b57f-60592bb84d94)
-)
+![altafidelidad mobile](src/media/mobilefirst.PNG)
 
 
 ***
 
-# Problemas detectados en tests de usabilidad
+## Problemas detectados en tests de usabilidad
 
-Durante uno de los deploy que realizamos para ir buscando feedback de usuarias, se nos hizo ver la falta de claridad al momento de seleccionar las opciones de los filtros/sort. 
+Para una experiencia aún más intuitiva, debemos incorporar retroalimentación visual, como cambios de color y resaltado, para indicar claramente los elementos seleccionados.
+Con estas consideraciones, esperamos que la experiencia de filtrado sea transparente y que puedas disfrutar de la exploración de nuestra colección de zapatillas Street Leisure de manera sencilla y personalizada (muy pronto verás estos ajustes).
 
-![feedback-usabilidad]()
-
-Otro de los problemas encontrados durante las pruebas con usuarios del producto casi terminado fue el limpiar el resto de los filtros y dejar solo el seleccionado para dar claridad sobre cuál era el filtro que está en uso.
-
+¡Apreciamos tu retroalimentación continua para mejorar constantemente!
 ***
